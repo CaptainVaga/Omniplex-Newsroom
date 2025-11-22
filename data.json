@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-11-22T21:41:42.104539",
+  "timestamp": "2025-11-22T23:19:54.089948",
   "parliament": {
     "bills": [
       {
@@ -587,7 +587,1342 @@
         }
       }
     ],
-    "commons_divisions": [],
+    "commons_divisions": [
+      {
+        "DivisionId": 2190,
+        "Date": "2025-11-19T14:01:00",
+        "PublicationUpdated": "2025-11-19T14:19:18",
+        "Number": 361,
+        "IsDeferred": false,
+        "EVELType": "",
+        "EVELCountry": "",
+        "Title": "Border Security, Asylum and Immigration Bill: motion to disagree with Lords Amendment 37",
+        "AyeCount": 326,
+        "NoCount": 92,
+        "DoubleMajorityAyeCount": null,
+        "DoubleMajorityNoCount": null,
+        "AyeTellers": [
+          {
+            "MemberId": 5180,
+            "Name": "Nesil Caliskan",
+            "Party": "Labour",
+            "SubParty": null,
+            "PartyColour": "d50000",
+            "PartyAbbreviation": "Lab",
+            "MemberFrom": "Barking",
+            "ListAs": "Caliskan, Nesil",
+            "ProxyName": null
+          },
+          {
+            "MemberId": 4653,
+            "Name": "Stephen Morgan",
+            "Party": "Labour",
+            "SubParty": null,
+            "PartyColour": "d50000",
+            "PartyAbbreviation": "Lab",
+            "MemberFrom": "Portsmouth South",
+            "ListAs": "Morgan, Stephen",
+            "ProxyName": null
+          }
+        ],
+        "NoTellers": [
+          {
+            "MemberId": 4739,
+            "Name": "Jerome Mayhew",
+            "Party": "Conservative",
+            "SubParty": null,
+            "PartyColour": "0063ba",
+            "PartyAbbreviation": "Con",
+            "MemberFrom": "Broadland and Fakenham",
+            "ListAs": "Mayhew, Jerome",
+            "ProxyName": null
+          },
+          {
+            "MemberId": 4872,
+            "Name": "David Simmonds",
+            "Party": "Conservative",
+            "SubParty": null,
+            "PartyColour": "0063ba",
+            "PartyAbbreviation": "Con",
+            "MemberFrom": "Ruislip, Northwood and Pinner",
+            "ListAs": "Simmonds, David",
+            "ProxyName": null
+          }
+        ],
+        "Ayes": [],
+        "Noes": [],
+        "FriendlyDescription": null,
+        "FriendlyTitle": null,
+        "NoVoteRecorded": [],
+        "RemoteVotingStart": null,
+        "RemoteVotingEnd": null
+      },
+      {
+        "DivisionId": 2189,
+        "Date": "2025-11-19T00:00:00",
+        "PublicationUpdated": "2025-11-20T11:13:17",
+        "Number": 360,
+        "IsDeferred": true,
+        "EVELType": "",
+        "EVELCountry": "",
+        "Title": "Draft Radio Equipment (Amendment) (Northern Ireland) Regulations 2025",
+        "AyeCount": 376,
+        "NoCount": 16,
+        "DoubleMajorityAyeCount": null,
+        "DoubleMajorityNoCount": null,
+        "AyeTellers": null,
+        "NoTellers": null,
+        "Ayes": [],
+        "Noes": [],
+        "FriendlyDescription": null,
+        "FriendlyTitle": null,
+        "NoVoteRecorded": [],
+        "RemoteVotingStart": null,
+        "RemoteVotingEnd": null
+      },
+      {
+        "DivisionId": 2188,
+        "Date": "2025-11-18T19:12:00",
+        "PublicationUpdated": "2025-11-19T10:51:20",
+        "Number": 359,
+        "IsDeferred": false,
+        "EVELType": "",
+        "EVELCountry": "",
+        "Title": "Northern Ireland Troubles Bill: Second Reading",
+        "AyeCount": 320,
+        "NoCount": 105,
+        "DoubleMajorityAyeCount": null,
+        "DoubleMajorityNoCount": null,
+        "AyeTellers": [
+          {
+            "MemberId": 5136,
+            "Name": "Imogen Walker",
+            "Party": "Labour",
+            "SubParty": null,
+            "PartyColour": "d50000",
+            "PartyAbbreviation": "Lab",
+            "MemberFrom": "Hamilton and Clyde Valley",
+            "ListAs": "Walker, Imogen",
+            "ProxyName": null
+          },
+          {
+            "MemberId": 5236,
+            "Name": "Jade Botterill",
+            "Party": "Labour",
+            "SubParty": null,
+            "PartyColour": "d50000",
+            "PartyAbbreviation": "Lab",
+            "MemberFrom": "Ossett and Denby Dale",
+            "ListAs": "Botterill, Jade",
+            "ProxyName": null
+          }
+        ],
+        "NoTellers": [
+          {
+            "MemberId": 5062,
+            "Name": "Nick Timothy",
+            "Party": "Conservative",
+            "SubParty": null,
+            "PartyColour": "0063ba",
+            "PartyAbbreviation": "Con",
+            "MemberFrom": "West Suffolk",
+            "ListAs": "Timothy, Nick",
+            "ProxyName": null
+          },
+          {
+            "MemberId": 4872,
+            "Name": "David Simmonds",
+            "Party": "Conservative",
+            "SubParty": null,
+            "PartyColour": "0063ba",
+            "PartyAbbreviation": "Con",
+            "MemberFrom": "Ruislip, Northwood and Pinner",
+            "ListAs": "Simmonds, David",
+            "ProxyName": null
+          }
+        ],
+        "Ayes": [],
+        "Noes": [],
+        "FriendlyDescription": null,
+        "FriendlyTitle": null,
+        "NoVoteRecorded": [],
+        "RemoteVotingStart": null,
+        "RemoteVotingEnd": null
+      },
+      {
+        "DivisionId": 2187,
+        "Date": "2025-11-18T18:58:00",
+        "PublicationUpdated": "2025-11-19T12:05:51",
+        "Number": 358,
+        "IsDeferred": false,
+        "EVELType": "",
+        "EVELCountry": "",
+        "Title": "Northern Ireland Troubles Bill: Opposition Reasoned Amendment",
+        "AyeCount": 165,
+        "NoCount": 327,
+        "DoubleMajorityAyeCount": null,
+        "DoubleMajorityNoCount": null,
+        "AyeTellers": [
+          {
+            "MemberId": 5062,
+            "Name": "Nick Timothy",
+            "Party": "Conservative",
+            "SubParty": null,
+            "PartyColour": "0063ba",
+            "PartyAbbreviation": "Con",
+            "MemberFrom": "West Suffolk",
+            "ListAs": "Timothy, Nick",
+            "ProxyName": null
+          },
+          {
+            "MemberId": 4872,
+            "Name": "David Simmonds",
+            "Party": "Conservative",
+            "SubParty": null,
+            "PartyColour": "0063ba",
+            "PartyAbbreviation": "Con",
+            "MemberFrom": "Ruislip, Northwood and Pinner",
+            "ListAs": "Simmonds, David",
+            "ProxyName": null
+          }
+        ],
+        "NoTellers": [
+          {
+            "MemberId": 5136,
+            "Name": "Imogen Walker",
+            "Party": "Labour",
+            "SubParty": null,
+            "PartyColour": "d50000",
+            "PartyAbbreviation": "Lab",
+            "MemberFrom": "Hamilton and Clyde Valley",
+            "ListAs": "Walker, Imogen",
+            "ProxyName": null
+          },
+          {
+            "MemberId": 5236,
+            "Name": "Jade Botterill",
+            "Party": "Labour",
+            "SubParty": null,
+            "PartyColour": "d50000",
+            "PartyAbbreviation": "Lab",
+            "MemberFrom": "Ossett and Denby Dale",
+            "ListAs": "Botterill, Jade",
+            "ProxyName": null
+          }
+        ],
+        "Ayes": [],
+        "Noes": [],
+        "FriendlyDescription": null,
+        "FriendlyTitle": null,
+        "NoVoteRecorded": [],
+        "RemoteVotingStart": null,
+        "RemoteVotingEnd": null
+      },
+      {
+        "DivisionId": 2185,
+        "Date": "2025-11-17T21:20:00",
+        "PublicationUpdated": "2025-11-18T18:20:31",
+        "Number": 357,
+        "IsDeferred": false,
+        "EVELType": "",
+        "EVELCountry": "",
+        "Title": "Biodiversity Beyond National Jurisdiction Bill: Committee: Amendment 5",
+        "AyeCount": 147,
+        "NoCount": 318,
+        "DoubleMajorityAyeCount": null,
+        "DoubleMajorityNoCount": null,
+        "AyeTellers": [
+          {
+            "MemberId": 5062,
+            "Name": "Nick Timothy",
+            "Party": "Conservative",
+            "SubParty": null,
+            "PartyColour": "0063ba",
+            "PartyAbbreviation": "Con",
+            "MemberFrom": "West Suffolk",
+            "ListAs": "Timothy, Nick",
+            "ProxyName": null
+          },
+          {
+            "MemberId": 4872,
+            "Name": "David Simmonds",
+            "Party": "Conservative",
+            "SubParty": null,
+            "PartyColour": "0063ba",
+            "PartyAbbreviation": "Con",
+            "MemberFrom": "Ruislip, Northwood and Pinner",
+            "ListAs": "Simmonds, David",
+            "ProxyName": null
+          }
+        ],
+        "NoTellers": [
+          {
+            "MemberId": 5167,
+            "Name": "Gregor Poynton",
+            "Party": "Labour",
+            "SubParty": null,
+            "PartyColour": "d50000",
+            "PartyAbbreviation": "Lab",
+            "MemberFrom": "Livingston",
+            "ListAs": "Poynton, Gregor",
+            "ProxyName": null
+          },
+          {
+            "MemberId": 5075,
+            "Name": "Deirdre Costigan",
+            "Party": "Labour",
+            "SubParty": null,
+            "PartyColour": "d50000",
+            "PartyAbbreviation": "Lab",
+            "MemberFrom": "Ealing Southall",
+            "ListAs": "Costigan, Deirdre",
+            "ProxyName": null
+          }
+        ],
+        "Ayes": [],
+        "Noes": [],
+        "FriendlyDescription": null,
+        "FriendlyTitle": null,
+        "NoVoteRecorded": [],
+        "RemoteVotingStart": null,
+        "RemoteVotingEnd": null
+      },
+      {
+        "DivisionId": 2184,
+        "Date": "2025-11-17T21:07:00",
+        "PublicationUpdated": "2025-11-18T11:05:16",
+        "Number": 356,
+        "IsDeferred": false,
+        "EVELType": "",
+        "EVELCountry": "",
+        "Title": "Biodiversity Beyond National Jurisdiction Bill: Committee: Amendment 4",
+        "AyeCount": 143,
+        "NoCount": 318,
+        "DoubleMajorityAyeCount": null,
+        "DoubleMajorityNoCount": null,
+        "AyeTellers": [
+          {
+            "MemberId": 5062,
+            "Name": "Nick Timothy",
+            "Party": "Conservative",
+            "SubParty": null,
+            "PartyColour": "0063ba",
+            "PartyAbbreviation": "Con",
+            "MemberFrom": "West Suffolk",
+            "ListAs": "Timothy, Nick",
+            "ProxyName": null
+          },
+          {
+            "MemberId": 4872,
+            "Name": "David Simmonds",
+            "Party": "Conservative",
+            "SubParty": null,
+            "PartyColour": "0063ba",
+            "PartyAbbreviation": "Con",
+            "MemberFrom": "Ruislip, Northwood and Pinner",
+            "ListAs": "Simmonds, David",
+            "ProxyName": null
+          }
+        ],
+        "NoTellers": [
+          {
+            "MemberId": 5167,
+            "Name": "Gregor Poynton",
+            "Party": "Labour",
+            "SubParty": null,
+            "PartyColour": "d50000",
+            "PartyAbbreviation": "Lab",
+            "MemberFrom": "Livingston",
+            "ListAs": "Poynton, Gregor",
+            "ProxyName": null
+          },
+          {
+            "MemberId": 5075,
+            "Name": "Deirdre Costigan",
+            "Party": "Labour",
+            "SubParty": null,
+            "PartyColour": "d50000",
+            "PartyAbbreviation": "Lab",
+            "MemberFrom": "Ealing Southall",
+            "ListAs": "Costigan, Deirdre",
+            "ProxyName": null
+          }
+        ],
+        "Ayes": [],
+        "Noes": [],
+        "FriendlyDescription": null,
+        "FriendlyTitle": null,
+        "NoVoteRecorded": [],
+        "RemoteVotingStart": null,
+        "RemoteVotingEnd": null
+      },
+      {
+        "DivisionId": 2183,
+        "Date": "2025-11-13T17:41:00",
+        "PublicationUpdated": "2025-11-13T17:56:02",
+        "Number": 355,
+        "IsDeferred": false,
+        "EVELType": "",
+        "EVELCountry": "",
+        "Title": "Planning and Infrastructure Bill: motion to disagree with Lords Amendment 40",
+        "AyeCount": 244,
+        "NoCount": 132,
+        "DoubleMajorityAyeCount": null,
+        "DoubleMajorityNoCount": null,
+        "AyeTellers": [
+          {
+            "MemberId": 4653,
+            "Name": "Stephen Morgan",
+            "Party": "Labour",
+            "SubParty": null,
+            "PartyColour": "d50000",
+            "PartyAbbreviation": "Lab",
+            "MemberFrom": "Portsmouth South",
+            "ListAs": "Morgan, Stephen",
+            "ProxyName": null
+          },
+          {
+            "MemberId": 5167,
+            "Name": "Gregor Poynton",
+            "Party": "Labour",
+            "SubParty": null,
+            "PartyColour": "d50000",
+            "PartyAbbreviation": "Lab",
+            "MemberFrom": "Livingston",
+            "ListAs": "Poynton, Gregor",
+            "ProxyName": null
+          }
+        ],
+        "NoTellers": [
+          {
+            "MemberId": 5297,
+            "Name": "Rebecca Paul",
+            "Party": "Conservative",
+            "SubParty": null,
+            "PartyColour": "0063ba",
+            "PartyAbbreviation": "Con",
+            "MemberFrom": "Reigate",
+            "ListAs": "Paul, Rebecca",
+            "ProxyName": null
+          },
+          {
+            "MemberId": 5101,
+            "Name": "Ashley Fox",
+            "Party": "Conservative",
+            "SubParty": null,
+            "PartyColour": "0063ba",
+            "PartyAbbreviation": "Con",
+            "MemberFrom": "Bridgwater",
+            "ListAs": "Fox, Sir Ashley",
+            "ProxyName": null
+          }
+        ],
+        "Ayes": [],
+        "Noes": [],
+        "FriendlyDescription": null,
+        "FriendlyTitle": null,
+        "NoVoteRecorded": [],
+        "RemoteVotingStart": null,
+        "RemoteVotingEnd": null
+      },
+      {
+        "DivisionId": 2182,
+        "Date": "2025-11-13T17:30:00",
+        "PublicationUpdated": "2025-11-19T12:31:50",
+        "Number": 354,
+        "IsDeferred": false,
+        "EVELType": "",
+        "EVELCountry": "",
+        "Title": "Planning and Infrastructure Bill: motion to disagree with Lords Amendment 39",
+        "AyeCount": 250,
+        "NoCount": 133,
+        "DoubleMajorityAyeCount": null,
+        "DoubleMajorityNoCount": null,
+        "AyeTellers": [
+          {
+            "MemberId": 4653,
+            "Name": "Stephen Morgan",
+            "Party": "Labour",
+            "SubParty": null,
+            "PartyColour": "d50000",
+            "PartyAbbreviation": "Lab",
+            "MemberFrom": "Portsmouth South",
+            "ListAs": "Morgan, Stephen",
+            "ProxyName": null
+          },
+          {
+            "MemberId": 5167,
+            "Name": "Gregor Poynton",
+            "Party": "Labour",
+            "SubParty": null,
+            "PartyColour": "d50000",
+            "PartyAbbreviation": "Lab",
+            "MemberFrom": "Livingston",
+            "ListAs": "Poynton, Gregor",
+            "ProxyName": null
+          }
+        ],
+        "NoTellers": [
+          {
+            "MemberId": 5101,
+            "Name": "Ashley Fox",
+            "Party": "Conservative",
+            "SubParty": null,
+            "PartyColour": "0063ba",
+            "PartyAbbreviation": "Con",
+            "MemberFrom": "Bridgwater",
+            "ListAs": "Fox, Sir Ashley",
+            "ProxyName": null
+          },
+          {
+            "MemberId": 5311,
+            "Name": "Harriet Cross",
+            "Party": "Conservative",
+            "SubParty": null,
+            "PartyColour": "0063ba",
+            "PartyAbbreviation": "Con",
+            "MemberFrom": "Gordon and Buchan",
+            "ListAs": "Cross, Harriet",
+            "ProxyName": null
+          }
+        ],
+        "Ayes": [],
+        "Noes": [],
+        "FriendlyDescription": null,
+        "FriendlyTitle": null,
+        "NoVoteRecorded": [],
+        "RemoteVotingStart": null,
+        "RemoteVotingEnd": null
+      },
+      {
+        "DivisionId": 2181,
+        "Date": "2025-11-13T17:19:00",
+        "PublicationUpdated": "2025-11-14T15:13:06",
+        "Number": 353,
+        "IsDeferred": false,
+        "EVELType": "",
+        "EVELCountry": "",
+        "Title": "Planning and Infrastructure Bill: motion to disagree with Lords Amendment 38",
+        "AyeCount": 252,
+        "NoCount": 130,
+        "DoubleMajorityAyeCount": null,
+        "DoubleMajorityNoCount": null,
+        "AyeTellers": [
+          {
+            "MemberId": 4653,
+            "Name": "Stephen Morgan",
+            "Party": "Labour",
+            "SubParty": null,
+            "PartyColour": "d50000",
+            "PartyAbbreviation": "Lab",
+            "MemberFrom": "Portsmouth South",
+            "ListAs": "Morgan, Stephen",
+            "ProxyName": null
+          },
+          {
+            "MemberId": 5167,
+            "Name": "Gregor Poynton",
+            "Party": "Labour",
+            "SubParty": null,
+            "PartyColour": "d50000",
+            "PartyAbbreviation": "Lab",
+            "MemberFrom": "Livingston",
+            "ListAs": "Poynton, Gregor",
+            "ProxyName": null
+          }
+        ],
+        "NoTellers": [
+          {
+            "MemberId": 5101,
+            "Name": "Ashley Fox",
+            "Party": "Conservative",
+            "SubParty": null,
+            "PartyColour": "0063ba",
+            "PartyAbbreviation": "Con",
+            "MemberFrom": "Bridgwater",
+            "ListAs": "Fox, Sir Ashley",
+            "ProxyName": null
+          },
+          {
+            "MemberId": 5311,
+            "Name": "Harriet Cross",
+            "Party": "Conservative",
+            "SubParty": null,
+            "PartyColour": "0063ba",
+            "PartyAbbreviation": "Con",
+            "MemberFrom": "Gordon and Buchan",
+            "ListAs": "Cross, Harriet",
+            "ProxyName": null
+          }
+        ],
+        "Ayes": [],
+        "Noes": [],
+        "FriendlyDescription": null,
+        "FriendlyTitle": null,
+        "NoVoteRecorded": [],
+        "RemoteVotingStart": null,
+        "RemoteVotingEnd": null
+      },
+      {
+        "DivisionId": 2180,
+        "Date": "2025-11-13T17:08:00",
+        "PublicationUpdated": "2025-11-18T10:47:02",
+        "Number": 352,
+        "IsDeferred": false,
+        "EVELType": "",
+        "EVELCountry": "",
+        "Title": "Planning and Infrastructure Bill: motion to disagree with Lords Amendment 37",
+        "AyeCount": 254,
+        "NoCount": 129,
+        "DoubleMajorityAyeCount": null,
+        "DoubleMajorityNoCount": null,
+        "AyeTellers": [
+          {
+            "MemberId": 4653,
+            "Name": "Stephen Morgan",
+            "Party": "Labour",
+            "SubParty": null,
+            "PartyColour": "d50000",
+            "PartyAbbreviation": "Lab",
+            "MemberFrom": "Portsmouth South",
+            "ListAs": "Morgan, Stephen",
+            "ProxyName": null
+          },
+          {
+            "MemberId": 5167,
+            "Name": "Gregor Poynton",
+            "Party": "Labour",
+            "SubParty": null,
+            "PartyColour": "d50000",
+            "PartyAbbreviation": "Lab",
+            "MemberFrom": "Livingston",
+            "ListAs": "Poynton, Gregor",
+            "ProxyName": null
+          }
+        ],
+        "NoTellers": [
+          {
+            "MemberId": 5297,
+            "Name": "Rebecca Paul",
+            "Party": "Conservative",
+            "SubParty": null,
+            "PartyColour": "0063ba",
+            "PartyAbbreviation": "Con",
+            "MemberFrom": "Reigate",
+            "ListAs": "Paul, Rebecca",
+            "ProxyName": null
+          },
+          {
+            "MemberId": 4739,
+            "Name": "Jerome Mayhew",
+            "Party": "Conservative",
+            "SubParty": null,
+            "PartyColour": "0063ba",
+            "PartyAbbreviation": "Con",
+            "MemberFrom": "Broadland and Fakenham",
+            "ListAs": "Mayhew, Jerome",
+            "ProxyName": null
+          }
+        ],
+        "Ayes": [],
+        "Noes": [],
+        "FriendlyDescription": null,
+        "FriendlyTitle": null,
+        "NoVoteRecorded": [],
+        "RemoteVotingStart": null,
+        "RemoteVotingEnd": null
+      },
+      {
+        "DivisionId": 2179,
+        "Date": "2025-11-13T16:57:00",
+        "PublicationUpdated": "2025-11-13T18:44:30",
+        "Number": 351,
+        "IsDeferred": false,
+        "EVELType": "",
+        "EVELCountry": "",
+        "Title": "Planning and Infrastructure Bill: motion to disagree with Lords Amendment 33",
+        "AyeCount": 257,
+        "NoCount": 128,
+        "DoubleMajorityAyeCount": null,
+        "DoubleMajorityNoCount": null,
+        "AyeTellers": [
+          {
+            "MemberId": 4779,
+            "Name": "Taiwo Owatemi",
+            "Party": "Labour",
+            "SubParty": null,
+            "PartyColour": "d50000",
+            "PartyAbbreviation": "Lab",
+            "MemberFrom": "Coventry North West",
+            "ListAs": "Owatemi, Taiwo",
+            "ProxyName": null
+          },
+          {
+            "MemberId": 5031,
+            "Name": "Mark Ferguson",
+            "Party": "Labour",
+            "SubParty": null,
+            "PartyColour": "d50000",
+            "PartyAbbreviation": "Lab",
+            "MemberFrom": "Gateshead Central and Whickham",
+            "ListAs": "Ferguson, Mark",
+            "ProxyName": null
+          }
+        ],
+        "NoTellers": [
+          {
+            "MemberId": 5297,
+            "Name": "Rebecca Paul",
+            "Party": "Conservative",
+            "SubParty": null,
+            "PartyColour": "0063ba",
+            "PartyAbbreviation": "Con",
+            "MemberFrom": "Reigate",
+            "ListAs": "Paul, Rebecca",
+            "ProxyName": null
+          },
+          {
+            "MemberId": 4739,
+            "Name": "Jerome Mayhew",
+            "Party": "Conservative",
+            "SubParty": null,
+            "PartyColour": "0063ba",
+            "PartyAbbreviation": "Con",
+            "MemberFrom": "Broadland and Fakenham",
+            "ListAs": "Mayhew, Jerome",
+            "ProxyName": null
+          }
+        ],
+        "Ayes": [],
+        "Noes": [],
+        "FriendlyDescription": null,
+        "FriendlyTitle": null,
+        "NoVoteRecorded": [],
+        "RemoteVotingStart": null,
+        "RemoteVotingEnd": null
+      },
+      {
+        "DivisionId": 2178,
+        "Date": "2025-11-13T16:46:00",
+        "PublicationUpdated": "2025-11-13T17:15:07",
+        "Number": 350,
+        "IsDeferred": false,
+        "EVELType": "",
+        "EVELCountry": "",
+        "Title": "Planning and Infrastructure Bill: motion to disagree with Lords Amendment 32",
+        "AyeCount": 268,
+        "NoCount": 78,
+        "DoubleMajorityAyeCount": null,
+        "DoubleMajorityNoCount": null,
+        "AyeTellers": [
+          {
+            "MemberId": 4779,
+            "Name": "Taiwo Owatemi",
+            "Party": "Labour",
+            "SubParty": null,
+            "PartyColour": "d50000",
+            "PartyAbbreviation": "Lab",
+            "MemberFrom": "Coventry North West",
+            "ListAs": "Owatemi, Taiwo",
+            "ProxyName": null
+          },
+          {
+            "MemberId": 5031,
+            "Name": "Mark Ferguson",
+            "Party": "Labour",
+            "SubParty": null,
+            "PartyColour": "d50000",
+            "PartyAbbreviation": "Lab",
+            "MemberFrom": "Gateshead Central and Whickham",
+            "ListAs": "Ferguson, Mark",
+            "ProxyName": null
+          }
+        ],
+        "NoTellers": [
+          {
+            "MemberId": 5297,
+            "Name": "Rebecca Paul",
+            "Party": "Conservative",
+            "SubParty": null,
+            "PartyColour": "0063ba",
+            "PartyAbbreviation": "Con",
+            "MemberFrom": "Reigate",
+            "ListAs": "Paul, Rebecca",
+            "ProxyName": null
+          },
+          {
+            "MemberId": 4739,
+            "Name": "Jerome Mayhew",
+            "Party": "Conservative",
+            "SubParty": null,
+            "PartyColour": "0063ba",
+            "PartyAbbreviation": "Con",
+            "MemberFrom": "Broadland and Fakenham",
+            "ListAs": "Mayhew, Jerome",
+            "ProxyName": null
+          }
+        ],
+        "Ayes": [],
+        "Noes": [],
+        "FriendlyDescription": null,
+        "FriendlyTitle": null,
+        "NoVoteRecorded": [],
+        "RemoteVotingStart": null,
+        "RemoteVotingEnd": null
+      },
+      {
+        "DivisionId": 2177,
+        "Date": "2025-11-13T16:34:00",
+        "PublicationUpdated": "2025-11-17T20:25:25",
+        "Number": 349,
+        "IsDeferred": false,
+        "EVELType": "",
+        "EVELCountry": "",
+        "Title": "Planning and Infrastructure Bill: motion to disagree with Lords Amendment 3",
+        "AyeCount": 255,
+        "NoCount": 128,
+        "DoubleMajorityAyeCount": null,
+        "DoubleMajorityNoCount": null,
+        "AyeTellers": [
+          {
+            "MemberId": 4779,
+            "Name": "Taiwo Owatemi",
+            "Party": "Labour",
+            "SubParty": null,
+            "PartyColour": "d50000",
+            "PartyAbbreviation": "Lab",
+            "MemberFrom": "Coventry North West",
+            "ListAs": "Owatemi, Taiwo",
+            "ProxyName": null
+          },
+          {
+            "MemberId": 5031,
+            "Name": "Mark Ferguson",
+            "Party": "Labour",
+            "SubParty": null,
+            "PartyColour": "d50000",
+            "PartyAbbreviation": "Lab",
+            "MemberFrom": "Gateshead Central and Whickham",
+            "ListAs": "Ferguson, Mark",
+            "ProxyName": null
+          }
+        ],
+        "NoTellers": [
+          {
+            "MemberId": 5311,
+            "Name": "Harriet Cross",
+            "Party": "Conservative",
+            "SubParty": null,
+            "PartyColour": "0063ba",
+            "PartyAbbreviation": "Con",
+            "MemberFrom": "Gordon and Buchan",
+            "ListAs": "Cross, Harriet",
+            "ProxyName": null
+          },
+          {
+            "MemberId": 5101,
+            "Name": "Ashley Fox",
+            "Party": "Conservative",
+            "SubParty": null,
+            "PartyColour": "0063ba",
+            "PartyAbbreviation": "Con",
+            "MemberFrom": "Bridgwater",
+            "ListAs": "Fox, Sir Ashley",
+            "ProxyName": null
+          }
+        ],
+        "Ayes": [],
+        "Noes": [],
+        "FriendlyDescription": null,
+        "FriendlyTitle": null,
+        "NoVoteRecorded": [],
+        "RemoteVotingStart": null,
+        "RemoteVotingEnd": null
+      },
+      {
+        "DivisionId": 2176,
+        "Date": "2025-11-13T16:22:00",
+        "PublicationUpdated": "2025-11-20T17:37:19",
+        "Number": 348,
+        "IsDeferred": false,
+        "EVELType": "",
+        "EVELCountry": "",
+        "Title": "Planning and Infrastructure Bill: Government amendment (a) to Lords Amendment 2",
+        "AyeCount": 264,
+        "NoCount": 125,
+        "DoubleMajorityAyeCount": null,
+        "DoubleMajorityNoCount": null,
+        "AyeTellers": [
+          {
+            "MemberId": 4779,
+            "Name": "Taiwo Owatemi",
+            "Party": "Labour",
+            "SubParty": null,
+            "PartyColour": "d50000",
+            "PartyAbbreviation": "Lab",
+            "MemberFrom": "Coventry North West",
+            "ListAs": "Owatemi, Taiwo",
+            "ProxyName": null
+          },
+          {
+            "MemberId": 5031,
+            "Name": "Mark Ferguson",
+            "Party": "Labour",
+            "SubParty": null,
+            "PartyColour": "d50000",
+            "PartyAbbreviation": "Lab",
+            "MemberFrom": "Gateshead Central and Whickham",
+            "ListAs": "Ferguson, Mark",
+            "ProxyName": null
+          }
+        ],
+        "NoTellers": [
+          {
+            "MemberId": 5311,
+            "Name": "Harriet Cross",
+            "Party": "Conservative",
+            "SubParty": null,
+            "PartyColour": "0063ba",
+            "PartyAbbreviation": "Con",
+            "MemberFrom": "Gordon and Buchan",
+            "ListAs": "Cross, Harriet",
+            "ProxyName": null
+          },
+          {
+            "MemberId": 5101,
+            "Name": "Ashley Fox",
+            "Party": "Conservative",
+            "SubParty": null,
+            "PartyColour": "0063ba",
+            "PartyAbbreviation": "Con",
+            "MemberFrom": "Bridgwater",
+            "ListAs": "Fox, Sir Ashley",
+            "ProxyName": null
+          }
+        ],
+        "Ayes": [],
+        "Noes": [],
+        "FriendlyDescription": null,
+        "FriendlyTitle": null,
+        "NoVoteRecorded": [],
+        "RemoteVotingStart": null,
+        "RemoteVotingEnd": null
+      },
+      {
+        "DivisionId": 2175,
+        "Date": "2025-11-13T16:08:00",
+        "PublicationUpdated": "2025-11-13T16:25:27",
+        "Number": 347,
+        "IsDeferred": false,
+        "EVELType": "",
+        "EVELCountry": "",
+        "Title": "Planning and Infrastructure Bill: motion to disagree with Lords Amendment 1",
+        "AyeCount": 254,
+        "NoCount": 135,
+        "DoubleMajorityAyeCount": null,
+        "DoubleMajorityNoCount": null,
+        "AyeTellers": [
+          {
+            "MemberId": 5031,
+            "Name": "Mark Ferguson",
+            "Party": "Labour",
+            "SubParty": null,
+            "PartyColour": "d50000",
+            "PartyAbbreviation": "Lab",
+            "MemberFrom": "Gateshead Central and Whickham",
+            "ListAs": "Ferguson, Mark",
+            "ProxyName": null
+          },
+          {
+            "MemberId": 4779,
+            "Name": "Taiwo Owatemi",
+            "Party": "Labour",
+            "SubParty": null,
+            "PartyColour": "d50000",
+            "PartyAbbreviation": "Lab",
+            "MemberFrom": "Coventry North West",
+            "ListAs": "Owatemi, Taiwo",
+            "ProxyName": null
+          }
+        ],
+        "NoTellers": [
+          {
+            "MemberId": 5311,
+            "Name": "Harriet Cross",
+            "Party": "Conservative",
+            "SubParty": null,
+            "PartyColour": "0063ba",
+            "PartyAbbreviation": "Con",
+            "MemberFrom": "Gordon and Buchan",
+            "ListAs": "Cross, Harriet",
+            "ProxyName": null
+          },
+          {
+            "MemberId": 5101,
+            "Name": "Ashley Fox",
+            "Party": "Conservative",
+            "SubParty": null,
+            "PartyColour": "0063ba",
+            "PartyAbbreviation": "Con",
+            "MemberFrom": "Bridgwater",
+            "ListAs": "Fox, Sir Ashley",
+            "ProxyName": null
+          }
+        ],
+        "Ayes": [],
+        "Noes": [],
+        "FriendlyDescription": null,
+        "FriendlyTitle": null,
+        "NoVoteRecorded": [],
+        "RemoteVotingStart": null,
+        "RemoteVotingEnd": null
+      },
+      {
+        "DivisionId": 2174,
+        "Date": "2025-11-12T18:59:00",
+        "PublicationUpdated": "2025-11-13T16:22:40",
+        "Number": 346,
+        "IsDeferred": false,
+        "EVELType": "",
+        "EVELCountry": "",
+        "Title": "Opposition Day: Energy: original words stand part",
+        "AyeCount": 97,
+        "NoCount": 336,
+        "DoubleMajorityAyeCount": null,
+        "DoubleMajorityNoCount": null,
+        "AyeTellers": [
+          {
+            "MemberId": 5351,
+            "Name": "Gregory Stafford",
+            "Party": "Conservative",
+            "SubParty": null,
+            "PartyColour": "0063ba",
+            "PartyAbbreviation": "Con",
+            "MemberFrom": "Farnham and Bordon",
+            "ListAs": "Stafford, Gregory",
+            "ProxyName": null
+          },
+          {
+            "MemberId": 5072,
+            "Name": "Andrew Snowden",
+            "Party": "Conservative",
+            "SubParty": null,
+            "PartyColour": "0063ba",
+            "PartyAbbreviation": "Con",
+            "MemberFrom": "Fylde",
+            "ListAs": "Snowden, Mr Andrew",
+            "ProxyName": null
+          }
+        ],
+        "NoTellers": [
+          {
+            "MemberId": 4029,
+            "Name": "Lilian Greenwood",
+            "Party": "Labour",
+            "SubParty": null,
+            "PartyColour": "d50000",
+            "PartyAbbreviation": "Lab",
+            "MemberFrom": "Nottingham South",
+            "ListAs": "Greenwood, Lilian",
+            "ProxyName": null
+          },
+          {
+            "MemberId": 5075,
+            "Name": "Deirdre Costigan",
+            "Party": "Labour",
+            "SubParty": null,
+            "PartyColour": "d50000",
+            "PartyAbbreviation": "Lab",
+            "MemberFrom": "Ealing Southall",
+            "ListAs": "Costigan, Deirdre",
+            "ProxyName": null
+          }
+        ],
+        "Ayes": [],
+        "Noes": [],
+        "FriendlyDescription": null,
+        "FriendlyTitle": null,
+        "NoVoteRecorded": [],
+        "RemoteVotingStart": null,
+        "RemoteVotingEnd": null
+      },
+      {
+        "DivisionId": 2173,
+        "Date": "2025-11-12T16:45:00",
+        "PublicationUpdated": "2025-11-17T17:10:38",
+        "Number": 345,
+        "IsDeferred": false,
+        "EVELType": "",
+        "EVELCountry": "",
+        "Title": "Opposition Day: Taxes",
+        "AyeCount": 101,
+        "NoCount": 316,
+        "DoubleMajorityAyeCount": null,
+        "DoubleMajorityNoCount": null,
+        "AyeTellers": [
+          {
+            "MemberId": 5351,
+            "Name": "Gregory Stafford",
+            "Party": "Conservative",
+            "SubParty": null,
+            "PartyColour": "0063ba",
+            "PartyAbbreviation": "Con",
+            "MemberFrom": "Farnham and Bordon",
+            "ListAs": "Stafford, Gregory",
+            "ProxyName": null
+          },
+          {
+            "MemberId": 5301,
+            "Name": "Rebecca Smith",
+            "Party": "Conservative",
+            "SubParty": null,
+            "PartyColour": "0063ba",
+            "PartyAbbreviation": "Con",
+            "MemberFrom": "South West Devon",
+            "ListAs": "Smith, Rebecca",
+            "ProxyName": null
+          }
+        ],
+        "NoTellers": [
+          {
+            "MemberId": 4029,
+            "Name": "Lilian Greenwood",
+            "Party": "Labour",
+            "SubParty": null,
+            "PartyColour": "d50000",
+            "PartyAbbreviation": "Lab",
+            "MemberFrom": "Nottingham South",
+            "ListAs": "Greenwood, Lilian",
+            "ProxyName": null
+          },
+          {
+            "MemberId": 5075,
+            "Name": "Deirdre Costigan",
+            "Party": "Labour",
+            "SubParty": null,
+            "PartyColour": "d50000",
+            "PartyAbbreviation": "Lab",
+            "MemberFrom": "Ealing Southall",
+            "ListAs": "Costigan, Deirdre",
+            "ProxyName": null
+          }
+        ],
+        "Ayes": [],
+        "Noes": [],
+        "FriendlyDescription": null,
+        "FriendlyTitle": null,
+        "NoVoteRecorded": [],
+        "RemoteVotingStart": null,
+        "RemoteVotingEnd": null
+      },
+      {
+        "DivisionId": 2172,
+        "Date": "2025-11-05T18:48:00",
+        "PublicationUpdated": "2025-11-05T19:12:13",
+        "Number": 344,
+        "IsDeferred": false,
+        "EVELType": "",
+        "EVELCountry": "",
+        "Title": "Public Authorities (Fraud, Error and Recovery) Bill: motion to disagree with Lords Amendment 43",
+        "AyeCount": 268,
+        "NoCount": 80,
+        "DoubleMajorityAyeCount": null,
+        "DoubleMajorityNoCount": null,
+        "AyeTellers": [
+          {
+            "MemberId": 5236,
+            "Name": "Jade Botterill",
+            "Party": "Labour",
+            "SubParty": null,
+            "PartyColour": "d50000",
+            "PartyAbbreviation": "Lab",
+            "MemberFrom": "Ossett and Denby Dale",
+            "ListAs": "Botterill, Jade",
+            "ProxyName": null
+          },
+          {
+            "MemberId": 5031,
+            "Name": "Mark Ferguson",
+            "Party": "Labour",
+            "SubParty": null,
+            "PartyColour": "d50000",
+            "PartyAbbreviation": "Lab",
+            "MemberFrom": "Gateshead Central and Whickham",
+            "ListAs": "Ferguson, Mark",
+            "ProxyName": null
+          }
+        ],
+        "NoTellers": [
+          {
+            "MemberId": 4089,
+            "Name": "Tessa Munt",
+            "Party": "Liberal Democrat",
+            "SubParty": null,
+            "PartyColour": "faa01a",
+            "PartyAbbreviation": "LD",
+            "MemberFrom": "Wells and Mendip Hills",
+            "ListAs": "Munt, Tessa",
+            "ProxyName": null
+          },
+          {
+            "MemberId": 5140,
+            "Name": "Claire Young",
+            "Party": "Liberal Democrat",
+            "SubParty": null,
+            "PartyColour": "faa01a",
+            "PartyAbbreviation": "LD",
+            "MemberFrom": "Thornbury and Yate",
+            "ListAs": "Young, Claire",
+            "ProxyName": null
+          }
+        ],
+        "Ayes": [],
+        "Noes": [],
+        "FriendlyDescription": null,
+        "FriendlyTitle": null,
+        "NoVoteRecorded": [],
+        "RemoteVotingStart": null,
+        "RemoteVotingEnd": null
+      },
+      {
+        "DivisionId": 2171,
+        "Date": "2025-11-05T17:24:00",
+        "PublicationUpdated": "2025-11-05T17:37:19",
+        "Number": 343,
+        "IsDeferred": false,
+        "EVELType": "",
+        "EVELCountry": "",
+        "Title": "Employment Rights Bill: Government amendment (a) in lieu of LA62",
+        "AyeCount": 311,
+        "NoCount": 152,
+        "DoubleMajorityAyeCount": null,
+        "DoubleMajorityNoCount": null,
+        "AyeTellers": [
+          {
+            "MemberId": 5236,
+            "Name": "Jade Botterill",
+            "Party": "Labour",
+            "SubParty": null,
+            "PartyColour": "d50000",
+            "PartyAbbreviation": "Lab",
+            "MemberFrom": "Ossett and Denby Dale",
+            "ListAs": "Botterill, Jade",
+            "ProxyName": null
+          },
+          {
+            "MemberId": 5031,
+            "Name": "Mark Ferguson",
+            "Party": "Labour",
+            "SubParty": null,
+            "PartyColour": "d50000",
+            "PartyAbbreviation": "Lab",
+            "MemberFrom": "Gateshead Central and Whickham",
+            "ListAs": "Ferguson, Mark",
+            "ProxyName": null
+          }
+        ],
+        "NoTellers": [
+          {
+            "MemberId": 5285,
+            "Name": "Katie Lam",
+            "Party": "Conservative",
+            "SubParty": null,
+            "PartyColour": "0063ba",
+            "PartyAbbreviation": "Con",
+            "MemberFrom": "Weald of Kent",
+            "ListAs": "Lam, Katie",
+            "ProxyName": null
+          },
+          {
+            "MemberId": 5072,
+            "Name": "Andrew Snowden",
+            "Party": "Conservative",
+            "SubParty": null,
+            "PartyColour": "0063ba",
+            "PartyAbbreviation": "Con",
+            "MemberFrom": "Fylde",
+            "ListAs": "Snowden, Mr Andrew",
+            "ProxyName": null
+          }
+        ],
+        "Ayes": [],
+        "Noes": [],
+        "FriendlyDescription": null,
+        "FriendlyTitle": null,
+        "NoVoteRecorded": [],
+        "RemoteVotingStart": null,
+        "RemoteVotingEnd": null
+      },
+      {
+        "DivisionId": 2170,
+        "Date": "2025-11-05T17:12:00",
+        "PublicationUpdated": "2025-11-07T09:20:13",
+        "Number": 342,
+        "IsDeferred": false,
+        "EVELType": "",
+        "EVELCountry": "",
+        "Title": "Employment Rights Bill: motion relating to Lords Reason 72B",
+        "AyeCount": 312,
+        "NoCount": 151,
+        "DoubleMajorityAyeCount": null,
+        "DoubleMajorityNoCount": null,
+        "AyeTellers": [
+          {
+            "MemberId": 5236,
+            "Name": "Jade Botterill",
+            "Party": "Labour",
+            "SubParty": null,
+            "PartyColour": "d50000",
+            "PartyAbbreviation": "Lab",
+            "MemberFrom": "Ossett and Denby Dale",
+            "ListAs": "Botterill, Jade",
+            "ProxyName": null
+          },
+          {
+            "MemberId": 5031,
+            "Name": "Mark Ferguson",
+            "Party": "Labour",
+            "SubParty": null,
+            "PartyColour": "d50000",
+            "PartyAbbreviation": "Lab",
+            "MemberFrom": "Gateshead Central and Whickham",
+            "ListAs": "Ferguson, Mark",
+            "ProxyName": null
+          }
+        ],
+        "NoTellers": [
+          {
+            "MemberId": 5285,
+            "Name": "Katie Lam",
+            "Party": "Conservative",
+            "SubParty": null,
+            "PartyColour": "0063ba",
+            "PartyAbbreviation": "Con",
+            "MemberFrom": "Weald of Kent",
+            "ListAs": "Lam, Katie",
+            "ProxyName": null
+          },
+          {
+            "MemberId": 5072,
+            "Name": "Andrew Snowden",
+            "Party": "Conservative",
+            "SubParty": null,
+            "PartyColour": "0063ba",
+            "PartyAbbreviation": "Con",
+            "MemberFrom": "Fylde",
+            "ListAs": "Snowden, Mr Andrew",
+            "ProxyName": null
+          }
+        ],
+        "Ayes": [],
+        "Noes": [],
+        "FriendlyDescription": null,
+        "FriendlyTitle": null,
+        "NoVoteRecorded": [],
+        "RemoteVotingStart": null,
+        "RemoteVotingEnd": null
+      }
+    ],
     "lords_divisions": [
       {
         "divisionId": 3466,
@@ -44114,7 +45449,892 @@
         ]
       }
     ],
-    "written_questions": [],
+    "written_questions": [
+      {
+        "value": {
+          "id": 1851613,
+          "askingMemberId": 4131,
+          "askingMember": null,
+          "house": "Commons",
+          "memberHasInterest": false,
+          "dateTabled": "2025-11-12T00:00:00",
+          "dateForAnswer": "2025-11-17T00:00:00",
+          "uin": "90192",
+          "questionText": "To ask the Secretary of State for the Home Department, what steps she is taking to help reduce business crime.",
+          "answeringBodyId": 1,
+          "answeringBodyName": "Home Office",
+          "isWithdrawn": false,
+          "isNamedDay": false,
+          "groupedQuestions": [],
+          "answerIsHolding": false,
+          "answerIsCorrection": false,
+          "answeringMemberId": 4631,
+          "answeringMember": null,
+          "correctingMemberId": null,
+          "correctingMember": null,
+          "dateAnswered": "2025-11-21T00:00:00",
+          "answerText": "We encourage retailers to join their local Business Crime Reduction Partnership (BCRP) or Business Improvement District (BID) to support local community efforts to reduce crimes, including business crime.We are providing over \u00a37 million over the next thre...",
+          "originalAnswerText": "",
+          "comparableAnswerText": "",
+          "dateAnswerCorrected": null,
+          "dateHoldingAnswer": null,
+          "attachmentCount": 0,
+          "heading": "Business: Crime Prevention",
+          "attachments": [],
+          "groupedQuestionsDates": []
+        },
+        "links": [
+          {
+            "rel": "self",
+            "href": "/Questions/1851613",
+            "method": "GET"
+          }
+        ]
+      },
+      {
+        "value": {
+          "id": 1852547,
+          "askingMemberId": 5072,
+          "askingMember": null,
+          "house": "Commons",
+          "memberHasInterest": false,
+          "dateTabled": "2025-11-13T00:00:00",
+          "dateForAnswer": "2025-11-17T00:00:00",
+          "uin": "91060",
+          "questionText": "To ask the Secretary of State for the Home Department, what consultation has taken place with (a) Police and Crime Commissioners and (b) police staff associations on the establishment of the proposed National Centre of Policing.",
+          "answeringBodyId": 1,
+          "answeringBodyName": "Home Office",
+          "isWithdrawn": false,
+          "isNamedDay": false,
+          "groupedQuestions": [],
+          "answerIsHolding": false,
+          "answerIsCorrection": false,
+          "answeringMemberId": 4631,
+          "answeringMember": null,
+          "correctingMemberId": null,
+          "correctingMember": null,
+          "dateAnswered": "2025-11-21T00:00:00",
+          "answerText": "The Home Office has been working with policing partners on police reform, including through the Joint Police Reform Team.This has included engagement with local police chiefs, police and crime commissioners and staff associations. We will publish the Whit...",
+          "originalAnswerText": "",
+          "comparableAnswerText": "",
+          "dateAnswerCorrected": null,
+          "dateHoldingAnswer": null,
+          "attachmentCount": 0,
+          "heading": "National Centre of Policing",
+          "attachments": [],
+          "groupedQuestionsDates": []
+        },
+        "links": [
+          {
+            "rel": "self",
+            "href": "/Questions/1852547",
+            "method": "GET"
+          }
+        ]
+      },
+      {
+        "value": {
+          "id": 1852561,
+          "askingMemberId": 5056,
+          "askingMember": null,
+          "house": "Commons",
+          "memberHasInterest": false,
+          "dateTabled": "2025-11-13T00:00:00",
+          "dateForAnswer": "2025-11-17T00:00:00",
+          "uin": "91074",
+          "questionText": "To ask the Secretary of State for the Home Department, what steps (a) her Department and (b) its public bodies are taking to (i) develop and (ii) use artificial intelligence approaches to British Sign Language.",
+          "answeringBodyId": 1,
+          "answeringBodyName": "Home Office",
+          "isWithdrawn": false,
+          "isNamedDay": false,
+          "groupedQuestions": [],
+          "answerIsHolding": false,
+          "answerIsCorrection": false,
+          "answeringMemberId": 4631,
+          "answeringMember": null,
+          "correctingMemberId": null,
+          "correctingMember": null,
+          "dateAnswered": "2025-11-21T00:00:00",
+          "answerText": "Providing BSL translations of pre-recorded audio and video content on public services is a legislative Web Content Accessibility Guidelines (WCAG) 2.2 AAA criterion. As outlined in the Government Service Standard, all digital government services must as a...",
+          "originalAnswerText": "",
+          "comparableAnswerText": "",
+          "dateAnswerCorrected": null,
+          "dateHoldingAnswer": null,
+          "attachmentCount": 0,
+          "heading": "Home Office: Sign Language",
+          "attachments": [],
+          "groupedQuestionsDates": []
+        },
+        "links": [
+          {
+            "rel": "self",
+            "href": "/Questions/1852561",
+            "method": "GET"
+          }
+        ]
+      },
+      {
+        "value": {
+          "id": 1853189,
+          "askingMemberId": 5078,
+          "askingMember": null,
+          "house": "Commons",
+          "memberHasInterest": false,
+          "dateTabled": "2025-11-17T00:00:00",
+          "dateForAnswer": "2025-11-19T00:00:00",
+          "uin": "91576",
+          "questionText": "To ask the Secretary of State for Education, what measures the government is taking to develop a culture of reading for pleasure in schools as part of the new curriculum.",
+          "answeringBodyId": 60,
+          "answeringBodyName": "Department for Education",
+          "isWithdrawn": false,
+          "isNamedDay": false,
+          "groupedQuestions": [],
+          "answerIsHolding": false,
+          "answerIsCorrection": false,
+          "answeringMemberId": 5033,
+          "answeringMember": null,
+          "correctingMemberId": null,
+          "correctingMember": null,
+          "dateAnswered": "2025-11-21T00:00:00",
+          "answerText": "I refer to the hon. Member for South Cambridgeshire to the answer of 19 November 2025 to Question 88744.",
+          "originalAnswerText": "",
+          "comparableAnswerText": "",
+          "dateAnswerCorrected": null,
+          "dateHoldingAnswer": null,
+          "attachmentCount": 0,
+          "heading": "Reading: Curriculum",
+          "attachments": [],
+          "groupedQuestionsDates": []
+        },
+        "links": [
+          {
+            "rel": "self",
+            "href": "/Questions/1853189",
+            "method": "GET"
+          }
+        ]
+      },
+      {
+        "value": {
+          "id": 1852691,
+          "askingMemberId": 350,
+          "askingMember": null,
+          "house": "Commons",
+          "memberHasInterest": false,
+          "dateTabled": "2025-11-14T00:00:00",
+          "dateForAnswer": "2025-11-18T00:00:00",
+          "uin": "91093",
+          "questionText": "To ask the Secretary of State for Education, how much Ofsted has spent on translation and interpretation services in each of the last five years.",
+          "answeringBodyId": 60,
+          "answeringBodyName": "Department for Education",
+          "isWithdrawn": false,
+          "isNamedDay": false,
+          "groupedQuestions": [],
+          "answerIsHolding": false,
+          "answerIsCorrection": false,
+          "answeringMemberId": 5305,
+          "answeringMember": null,
+          "correctingMemberId": null,
+          "correctingMember": null,
+          "dateAnswered": "2025-11-21T00:00:00",
+          "answerText": "This is a matter for His Majesty\u2019s Chief Inspector, Sir Martyn Oliver. I have asked him to write to the hon. Member for South Holland and The Deepings directly and a copy of his reply will be placed in the Libraries of both Houses. ",
+          "originalAnswerText": "",
+          "comparableAnswerText": "",
+          "dateAnswerCorrected": null,
+          "dateHoldingAnswer": null,
+          "attachmentCount": 0,
+          "heading": "Ofsted: Translation Services",
+          "attachments": [],
+          "groupedQuestionsDates": []
+        },
+        "links": [
+          {
+            "rel": "self",
+            "href": "/Questions/1852691",
+            "method": "GET"
+          }
+        ]
+      },
+      {
+        "value": {
+          "id": 1851897,
+          "askingMemberId": 5101,
+          "askingMember": null,
+          "house": "Commons",
+          "memberHasInterest": false,
+          "dateTabled": "2025-11-12T00:00:00",
+          "dateForAnswer": "2025-11-17T00:00:00",
+          "uin": "90467",
+          "questionText": "To ask the Secretary of State for Education, what training is available for teachers on supporting neurodivergent children in the classroom.",
+          "answeringBodyId": 60,
+          "answeringBodyName": "Department for Education",
+          "isWithdrawn": false,
+          "isNamedDay": false,
+          "groupedQuestions": [],
+          "answerIsHolding": false,
+          "answerIsCorrection": false,
+          "answeringMemberId": 5305,
+          "answeringMember": null,
+          "correctingMemberId": null,
+          "correctingMember": null,
+          "dateAnswered": "2025-11-21T00:00:00",
+          "answerText": "The department is committed to supporting children and young people with special educational needs and disabilities (SEND).From September 2025, the department implemented the revised initial teacher training and early career framework, adding more content...",
+          "originalAnswerText": "",
+          "comparableAnswerText": "",
+          "dateAnswerCorrected": null,
+          "dateHoldingAnswer": null,
+          "attachmentCount": 0,
+          "heading": "Pupils: Neurodiversity",
+          "attachments": [],
+          "groupedQuestionsDates": []
+        },
+        "links": [
+          {
+            "rel": "self",
+            "href": "/Questions/1851897",
+            "method": "GET"
+          }
+        ]
+      },
+      {
+        "value": {
+          "id": 1851191,
+          "askingMemberId": 5327,
+          "askingMember": null,
+          "house": "Commons",
+          "memberHasInterest": false,
+          "dateTabled": "2025-11-11T00:00:00",
+          "dateForAnswer": "2025-11-17T00:00:00",
+          "uin": "89885",
+          "questionText": "To ask the Secretary of State for Education, if she will publish guidance for schools on (a) responding to parental requests for the withdrawal of books from recommended reading lists and (b) the circumstances under which schools can remove books from tho",
+          "answeringBodyId": 60,
+          "answeringBodyName": "Department for Education",
+          "isWithdrawn": false,
+          "isNamedDay": true,
+          "groupedQuestions": [],
+          "answerIsHolding": false,
+          "answerIsCorrection": false,
+          "answeringMemberId": 5305,
+          "answeringMember": null,
+          "correctingMemberId": null,
+          "correctingMember": null,
+          "dateAnswered": "2025-11-21T00:00:00",
+          "answerText": "The current National Curriculum requires teachers to encourage pupils to develop the habit of reading widely and often, for both pleasure and information. Following the publication of the Curriculum and Assessment Review on 5 November 2025, the department...",
+          "originalAnswerText": "",
+          "comparableAnswerText": "",
+          "dateAnswerCorrected": null,
+          "dateHoldingAnswer": null,
+          "attachmentCount": 0,
+          "heading": "Literature: Curriculum",
+          "attachments": [],
+          "groupedQuestionsDates": []
+        },
+        "links": [
+          {
+            "rel": "self",
+            "href": "/Questions/1851191",
+            "method": "GET"
+          }
+        ]
+      },
+      {
+        "value": {
+          "id": 1852786,
+          "askingMemberId": 5038,
+          "askingMember": null,
+          "house": "Commons",
+          "memberHasInterest": false,
+          "dateTabled": "2025-11-14T00:00:00",
+          "dateForAnswer": "2025-11-18T00:00:00",
+          "uin": "91180",
+          "questionText": "To ask the Secretary of State for Education, what support is available to help students in Knowsley access A-levels in other local authority areas.",
+          "answeringBodyId": 60,
+          "answeringBodyName": "Department for Education",
+          "isWithdrawn": false,
+          "isNamedDay": false,
+          "groupedQuestions": [],
+          "answerIsHolding": false,
+          "answerIsCorrection": false,
+          "answeringMemberId": 5305,
+          "answeringMember": null,
+          "correctingMemberId": null,
+          "correctingMember": null,
+          "dateAnswered": "2025-11-21T00:00:00",
+          "answerText": "The department remains committed to ensuring that young people have access to an inclusive and extensive educational offer that adds value and helps them to achieve their long-term career aspirations. Students from Knowsley can, and do, study A level prov...",
+          "originalAnswerText": "",
+          "comparableAnswerText": "",
+          "dateAnswerCorrected": null,
+          "dateHoldingAnswer": null,
+          "attachmentCount": 0,
+          "heading": "GCE A-level: Knowsley",
+          "attachments": [],
+          "groupedQuestionsDates": []
+        },
+        "links": [
+          {
+            "rel": "self",
+            "href": "/Questions/1852786",
+            "method": "GET"
+          }
+        ]
+      },
+      {
+        "value": {
+          "id": 1852218,
+          "askingMemberId": 54,
+          "askingMember": null,
+          "house": "Commons",
+          "memberHasInterest": false,
+          "dateTabled": "2025-11-13T00:00:00",
+          "dateForAnswer": "2025-11-18T00:00:00",
+          "uin": "90651",
+          "questionText": "To ask the Secretary of State for Health and Social Care, when he will answer Question 85056 on Prostate Cancer: Medical Treatments, tabled on 26 October for named day response by 30 October.",
+          "answeringBodyId": 17,
+          "answeringBodyName": "Department of Health and Social Care",
+          "isWithdrawn": false,
+          "isNamedDay": true,
+          "groupedQuestions": [],
+          "answerIsHolding": false,
+          "answerIsCorrection": false,
+          "answeringMemberId": 4981,
+          "answeringMember": null,
+          "correctingMemberId": null,
+          "correctingMember": null,
+          "dateAnswered": "2025-11-21T00:00:00",
+          "answerText": "I refer the hon. Member to the answer I gave on 21 November 2025 to Question 85056.",
+          "originalAnswerText": "",
+          "comparableAnswerText": "",
+          "dateAnswerCorrected": null,
+          "dateHoldingAnswer": "2025-11-19T00:00:00",
+          "attachmentCount": 0,
+          "heading": "Department of Health and Social Care: Written Questions",
+          "attachments": [],
+          "groupedQuestionsDates": []
+        },
+        "links": [
+          {
+            "rel": "self",
+            "href": "/Questions/1852218",
+            "method": "GET"
+          }
+        ]
+      },
+      {
+        "value": {
+          "id": 1837058,
+          "askingMemberId": 4573,
+          "askingMember": null,
+          "house": "Commons",
+          "memberHasInterest": false,
+          "dateTabled": "2025-10-10T00:00:00",
+          "dateForAnswer": "2025-10-15T00:00:00",
+          "uin": "78387",
+          "questionText": "To ask the Secretary of State for Education, what her Department's timetable is for publishing the Post-16 Education and Skills White Paper.",
+          "answeringBodyId": 60,
+          "answeringBodyName": "Department for Education",
+          "isWithdrawn": false,
+          "isNamedDay": true,
+          "groupedQuestions": [],
+          "answerIsHolding": false,
+          "answerIsCorrection": false,
+          "answeringMemberId": 5033,
+          "answeringMember": null,
+          "correctingMemberId": null,
+          "correctingMember": null,
+          "dateAnswered": "2025-11-21T00:00:00",
+          "answerText": "The department published the Post-16 education and skills white paper on 20 October 2025.The white paper sets out comprehensive reforms to build a world-leading skills system that break down barriers to opportunity, meets student and employers\u2019 needs, wid...",
+          "originalAnswerText": "",
+          "comparableAnswerText": "",
+          "dateAnswerCorrected": null,
+          "dateHoldingAnswer": null,
+          "attachmentCount": 0,
+          "heading": "Further Education: Reform",
+          "attachments": [],
+          "groupedQuestionsDates": []
+        },
+        "links": [
+          {
+            "rel": "self",
+            "href": "/Questions/1837058",
+            "method": "GET"
+          }
+        ]
+      },
+      {
+        "value": {
+          "id": 1850319,
+          "askingMemberId": 5359,
+          "askingMember": null,
+          "house": "Commons",
+          "memberHasInterest": false,
+          "dateTabled": "2025-11-10T00:00:00",
+          "dateForAnswer": "2025-11-12T00:00:00",
+          "uin": "89272",
+          "questionText": "To ask the Secretary of State for Education, what (a) training and (b) support will be given to (i) teachers and (ii) education staff to support the delivery of stronger literacy in schools.",
+          "answeringBodyId": 60,
+          "answeringBodyName": "Department for Education",
+          "isWithdrawn": false,
+          "isNamedDay": false,
+          "groupedQuestions": [
+            "89236"
+          ],
+          "answerIsHolding": false,
+          "answerIsCorrection": false,
+          "answeringMemberId": 5033,
+          "answeringMember": null,
+          "correctingMemberId": null,
+          "correctingMember": null,
+          "dateAnswered": "2025-11-21T00:00:00",
+          "answerText": "The government has committed \u00a327.7 million this financial year to support and drive high and rising standards in reading. This includes supporting the teaching of phonics, early language and reading for pleasure via the English Hubs programme.We will also...",
+          "originalAnswerText": "",
+          "comparableAnswerText": "",
+          "dateAnswerCorrected": null,
+          "dateHoldingAnswer": null,
+          "attachmentCount": 0,
+          "heading": "Schools: Literacy",
+          "attachments": [],
+          "groupedQuestionsDates": [
+            {
+              "questionUin": "89236",
+              "dateTabled": "2025-11-10T00:00:00"
+            }
+          ]
+        },
+        "links": [
+          {
+            "rel": "self",
+            "href": "/Questions/1850319",
+            "method": "GET"
+          }
+        ]
+      },
+      {
+        "value": {
+          "id": 1850283,
+          "askingMemberId": 5317,
+          "askingMember": null,
+          "house": "Commons",
+          "memberHasInterest": false,
+          "dateTabled": "2025-11-10T00:00:00",
+          "dateForAnswer": "2025-11-12T00:00:00",
+          "uin": "89236",
+          "questionText": "To ask the Secretary of State for Education, what (a) training and (b) support will be given to (i) teachers and (ii) education staff to support the delivery of stronger literacy in schools.",
+          "answeringBodyId": 60,
+          "answeringBodyName": "Department for Education",
+          "isWithdrawn": false,
+          "isNamedDay": false,
+          "groupedQuestions": [
+            "89272"
+          ],
+          "answerIsHolding": false,
+          "answerIsCorrection": false,
+          "answeringMemberId": 5033,
+          "answeringMember": null,
+          "correctingMemberId": null,
+          "correctingMember": null,
+          "dateAnswered": "2025-11-21T00:00:00",
+          "answerText": "The government has committed \u00a327.7 million this financial year to support and drive high and rising standards in reading. This includes supporting the teaching of phonics, early language and reading for pleasure via the English Hubs programme.We will also...",
+          "originalAnswerText": "",
+          "comparableAnswerText": "",
+          "dateAnswerCorrected": null,
+          "dateHoldingAnswer": null,
+          "attachmentCount": 0,
+          "heading": "Schools: Literacy",
+          "attachments": [],
+          "groupedQuestionsDates": [
+            {
+              "questionUin": "89272",
+              "dateTabled": "2025-11-10T00:00:00"
+            }
+          ]
+        },
+        "links": [
+          {
+            "rel": "self",
+            "href": "/Questions/1850283",
+            "method": "GET"
+          }
+        ]
+      },
+      {
+        "value": {
+          "id": 1850375,
+          "askingMemberId": 5336,
+          "askingMember": null,
+          "house": "Commons",
+          "memberHasInterest": false,
+          "dateTabled": "2025-11-10T00:00:00",
+          "dateForAnswer": "2025-11-12T00:00:00",
+          "uin": "89328",
+          "questionText": "To ask the Secretary of State for Health and Social Care, what estimate he has made of the number of bowel cancer patients diagnosed in emergency NHS settings in the last 12 months; and what steps he is taking to help reduce this number.",
+          "answeringBodyId": 17,
+          "answeringBodyName": "Department of Health and Social Care",
+          "isWithdrawn": false,
+          "isNamedDay": false,
+          "groupedQuestions": [],
+          "answerIsHolding": false,
+          "answerIsCorrection": false,
+          "answeringMemberId": 4981,
+          "answeringMember": null,
+          "correctingMemberId": null,
+          "correctingMember": null,
+          "dateAnswered": "2025-11-21T00:00:00",
+          "answerText": "The National Disease Registration Service (NDRS) in NHS England is the cancer registry for England and collects data on the diagnosis and treatment of cancer patients. The service is available at the following link:https://digital.nhs.uk/ndrsRapid Cancer ...",
+          "originalAnswerText": "",
+          "comparableAnswerText": "",
+          "dateAnswerCorrected": null,
+          "dateHoldingAnswer": null,
+          "attachmentCount": 0,
+          "heading": "Bowel Cancer: Diagnosis",
+          "attachments": [],
+          "groupedQuestionsDates": []
+        },
+        "links": [
+          {
+            "rel": "self",
+            "href": "/Questions/1850375",
+            "method": "GET"
+          }
+        ]
+      },
+      {
+        "value": {
+          "id": 1851539,
+          "askingMemberId": 5089,
+          "askingMember": null,
+          "house": "Commons",
+          "memberHasInterest": false,
+          "dateTabled": "2025-11-12T00:00:00",
+          "dateForAnswer": "2025-11-17T00:00:00",
+          "uin": "90453",
+          "questionText": "To ask the Secretary of State for Science, Innovation and Technology, pursuant to the Answer of 17 July 2025 to Question 66464 on Submarine Telegraph Act 1885, by when will she have considered whether existing penalties and definitions remain fit for purp",
+          "answeringBodyId": 216,
+          "answeringBodyName": "Department for Science, Innovation and Technology",
+          "isWithdrawn": false,
+          "isNamedDay": false,
+          "groupedQuestions": [],
+          "answerIsHolding": false,
+          "answerIsCorrection": false,
+          "answeringMemberId": 5039,
+          "answeringMember": null,
+          "correctingMemberId": null,
+          "correctingMember": null,
+          "dateAnswered": "2025-11-21T00:00:00",
+          "answerText": "Existing penalties for acts of sabotage to submarine cables are significant. Under the National Security Act (NSA) 2023 the sabotage offence carries a maximum penalty of life in prison or a fine, or both, where the activity is conducted for, on behalf of,...",
+          "originalAnswerText": "",
+          "comparableAnswerText": "",
+          "dateAnswerCorrected": null,
+          "dateHoldingAnswer": null,
+          "attachmentCount": 0,
+          "heading": "Submarine Telegraph Act 1885",
+          "attachments": [],
+          "groupedQuestionsDates": []
+        },
+        "links": [
+          {
+            "rel": "self",
+            "href": "/Questions/1851539",
+            "method": "GET"
+          }
+        ]
+      },
+      {
+        "value": {
+          "id": 1851837,
+          "askingMemberId": 4638,
+          "askingMember": null,
+          "house": "Commons",
+          "memberHasInterest": false,
+          "dateTabled": "2025-11-12T00:00:00",
+          "dateForAnswer": "2025-11-17T00:00:00",
+          "uin": "90317",
+          "questionText": "To ask the Secretary of State for Health and Social Care, what recent steps his Department has taken to reduce the average diagnosis time for Postural Tachycardia Syndrome.",
+          "answeringBodyId": 17,
+          "answeringBodyName": "Department of Health and Social Care",
+          "isWithdrawn": false,
+          "isNamedDay": true,
+          "groupedQuestions": [
+            "90316"
+          ],
+          "answerIsHolding": false,
+          "answerIsCorrection": false,
+          "answeringMemberId": 4981,
+          "answeringMember": null,
+          "correctingMemberId": null,
+          "correctingMember": null,
+          "dateAnswered": "2025-11-21T00:00:00",
+          "answerText": "The Royal College of General Practitioners (RCGP) provides education on postural tachycardia syndrome (PoTS) through its Syncope Toolkit, which includes an e-learning module, a podcast and a webinar. These resources cover diagnosis and management and incl...",
+          "originalAnswerText": "",
+          "comparableAnswerText": "",
+          "dateAnswerCorrected": null,
+          "dateHoldingAnswer": "2025-11-18T00:00:00",
+          "attachmentCount": 0,
+          "heading": "Postural Tachycardia Syndrome: Diagnosis",
+          "attachments": [],
+          "groupedQuestionsDates": [
+            {
+              "questionUin": "90316",
+              "dateTabled": "2025-11-12T00:00:00"
+            }
+          ]
+        },
+        "links": [
+          {
+            "rel": "self",
+            "href": "/Questions/1851837",
+            "method": "GET"
+          }
+        ]
+      },
+      {
+        "value": {
+          "id": 1851836,
+          "askingMemberId": 4638,
+          "askingMember": null,
+          "house": "Commons",
+          "memberHasInterest": false,
+          "dateTabled": "2025-11-12T00:00:00",
+          "dateForAnswer": "2025-11-17T00:00:00",
+          "uin": "90316",
+          "questionText": "To ask the Secretary of State for Health and Social Care, what recent assessment he has made of the adequacy of the level of training provided to General Practitioners on (a) the treatment and (b) symptoms of Postural Tachycardia Syndrome .",
+          "answeringBodyId": 17,
+          "answeringBodyName": "Department of Health and Social Care",
+          "isWithdrawn": false,
+          "isNamedDay": true,
+          "groupedQuestions": [
+            "90317"
+          ],
+          "answerIsHolding": false,
+          "answerIsCorrection": false,
+          "answeringMemberId": 4981,
+          "answeringMember": null,
+          "correctingMemberId": null,
+          "correctingMember": null,
+          "dateAnswered": "2025-11-21T00:00:00",
+          "answerText": "The Royal College of General Practitioners (RCGP) provides education on postural tachycardia syndrome (PoTS) through its Syncope Toolkit, which includes an e-learning module, a podcast and a webinar. These resources cover diagnosis and management and incl...",
+          "originalAnswerText": "",
+          "comparableAnswerText": "",
+          "dateAnswerCorrected": null,
+          "dateHoldingAnswer": "2025-11-18T00:00:00",
+          "attachmentCount": 0,
+          "heading": "Postural Tachycardia Syndrome: Training",
+          "attachments": [],
+          "groupedQuestionsDates": [
+            {
+              "questionUin": "90317",
+              "dateTabled": "2025-11-12T00:00:00"
+            }
+          ]
+        },
+        "links": [
+          {
+            "rel": "self",
+            "href": "/Questions/1851836",
+            "method": "GET"
+          }
+        ]
+      },
+      {
+        "value": {
+          "id": 1850064,
+          "askingMemberId": 221,
+          "askingMember": null,
+          "house": "Commons",
+          "memberHasInterest": false,
+          "dateTabled": "2025-11-10T00:00:00",
+          "dateForAnswer": "2025-11-12T00:00:00",
+          "uin": "88572",
+          "questionText": "To ask the Secretary of State for Education, what measures her Department is implementing to improve support for children in mainstream schools who have special educational needs and disabilities.",
+          "answeringBodyId": 60,
+          "answeringBodyName": "Department for Education",
+          "isWithdrawn": false,
+          "isNamedDay": false,
+          "groupedQuestions": [],
+          "answerIsHolding": false,
+          "answerIsCorrection": false,
+          "answeringMemberId": 5305,
+          "answeringMember": null,
+          "correctingMemberId": null,
+          "correctingMember": null,
+          "dateAnswered": "2025-11-21T00:00:00",
+          "answerText": "The government has been clear that a more inclusive education system is needed to give children and young people opportunities they need to achieve and thrive. All schools have a duty to support children and young people with special educational needs and...",
+          "originalAnswerText": "",
+          "comparableAnswerText": "",
+          "dateAnswerCorrected": null,
+          "dateHoldingAnswer": null,
+          "attachmentCount": 0,
+          "heading": "Special Educational Needs",
+          "attachments": [],
+          "groupedQuestionsDates": []
+        },
+        "links": [
+          {
+            "rel": "self",
+            "href": "/Questions/1850064",
+            "method": "GET"
+          }
+        ]
+      },
+      {
+        "value": {
+          "id": 1852705,
+          "askingMemberId": 4598,
+          "askingMember": null,
+          "house": "Commons",
+          "memberHasInterest": false,
+          "dateTabled": "2025-11-14T00:00:00",
+          "dateForAnswer": "2025-11-18T00:00:00",
+          "uin": "91146",
+          "questionText": "To ask the Secretary of State for Education, what performance monitoring and enforcement mechanisms are in place to ensure that the administrative provider of the Teachers\u2019 Pension Scheme delivers services to the agreed standard, and what recourse is avai",
+          "answeringBodyId": 60,
+          "answeringBodyName": "Department for Education",
+          "isWithdrawn": false,
+          "isNamedDay": false,
+          "groupedQuestions": [
+            "91144",
+            "91145"
+          ],
+          "answerIsHolding": false,
+          "answerIsCorrection": false,
+          "answeringMemberId": 5305,
+          "answeringMember": null,
+          "correctingMemberId": null,
+          "correctingMember": null,
+          "dateAnswered": "2025-11-21T00:00:00",
+          "answerText": "Details of how personal data is processed and stored are outlined in the Teachers\u2019 Pension Scheme (TPS) privacy notice which is available here: https://www.teacherspensions.co.uk/-/media/documents/member/factsheets/gdpr/dfe-privacy-notice-gdpr-v12-march-2...",
+          "originalAnswerText": "",
+          "comparableAnswerText": "",
+          "dateAnswerCorrected": null,
+          "dateHoldingAnswer": null,
+          "attachmentCount": 0,
+          "heading": "Teachers: Workplace Pensions",
+          "attachments": [],
+          "groupedQuestionsDates": [
+            {
+              "questionUin": "91144",
+              "dateTabled": "2025-11-14T00:00:00"
+            },
+            {
+              "questionUin": "91145",
+              "dateTabled": "2025-11-14T00:00:00"
+            }
+          ]
+        },
+        "links": [
+          {
+            "rel": "self",
+            "href": "/Questions/1852705",
+            "method": "GET"
+          }
+        ]
+      },
+      {
+        "value": {
+          "id": 1852704,
+          "askingMemberId": 4598,
+          "askingMember": null,
+          "house": "Commons",
+          "memberHasInterest": false,
+          "dateTabled": "2025-11-14T00:00:00",
+          "dateForAnswer": "2025-11-18T00:00:00",
+          "uin": "91145",
+          "questionText": "To ask the Secretary of State for Education, whether the service standards and accessibility requirements for the administrator of the Teachers\u2019 Pension Scheme will include provisions to support members with hearing impairments or communication needs when",
+          "answeringBodyId": 60,
+          "answeringBodyName": "Department for Education",
+          "isWithdrawn": false,
+          "isNamedDay": false,
+          "groupedQuestions": [
+            "91144",
+            "91146"
+          ],
+          "answerIsHolding": false,
+          "answerIsCorrection": false,
+          "answeringMemberId": 5305,
+          "answeringMember": null,
+          "correctingMemberId": null,
+          "correctingMember": null,
+          "dateAnswered": "2025-11-21T00:00:00",
+          "answerText": "Details of how personal data is processed and stored are outlined in the Teachers\u2019 Pension Scheme (TPS) privacy notice which is available here: https://www.teacherspensions.co.uk/-/media/documents/member/factsheets/gdpr/dfe-privacy-notice-gdpr-v12-march-2...",
+          "originalAnswerText": "",
+          "comparableAnswerText": "",
+          "dateAnswerCorrected": null,
+          "dateHoldingAnswer": null,
+          "attachmentCount": 0,
+          "heading": "Teachers: Workplace Pensions",
+          "attachments": [],
+          "groupedQuestionsDates": [
+            {
+              "questionUin": "91144",
+              "dateTabled": "2025-11-14T00:00:00"
+            },
+            {
+              "questionUin": "91146",
+              "dateTabled": "2025-11-14T00:00:00"
+            }
+          ]
+        },
+        "links": [
+          {
+            "rel": "self",
+            "href": "/Questions/1852704",
+            "method": "GET"
+          }
+        ]
+      },
+      {
+        "value": {
+          "id": 1852703,
+          "askingMemberId": 4598,
+          "askingMember": null,
+          "house": "Commons",
+          "memberHasInterest": false,
+          "dateTabled": "2025-11-14T00:00:00",
+          "dateForAnswer": "2025-11-18T00:00:00",
+          "uin": "91144",
+          "questionText": "To ask the Secretary of State for Education, what steps her Department is taking to ensure that the personal data of members of the Teachers\u2019 Pension Scheme is (a) stored, (b) processed and (c) protected in compliance with the General Data Protection Regu",
+          "answeringBodyId": 60,
+          "answeringBodyName": "Department for Education",
+          "isWithdrawn": false,
+          "isNamedDay": false,
+          "groupedQuestions": [
+            "91145",
+            "91146"
+          ],
+          "answerIsHolding": false,
+          "answerIsCorrection": false,
+          "answeringMemberId": 5305,
+          "answeringMember": null,
+          "correctingMemberId": null,
+          "correctingMember": null,
+          "dateAnswered": "2025-11-21T00:00:00",
+          "answerText": "Details of how personal data is processed and stored are outlined in the Teachers\u2019 Pension Scheme (TPS) privacy notice which is available here: https://www.teacherspensions.co.uk/-/media/documents/member/factsheets/gdpr/dfe-privacy-notice-gdpr-v12-march-2...",
+          "originalAnswerText": "",
+          "comparableAnswerText": "",
+          "dateAnswerCorrected": null,
+          "dateHoldingAnswer": null,
+          "attachmentCount": 0,
+          "heading": "Teachers: Workplace Pensions",
+          "attachments": [],
+          "groupedQuestionsDates": [
+            {
+              "questionUin": "91145",
+              "dateTabled": "2025-11-14T00:00:00"
+            },
+            {
+              "questionUin": "91146",
+              "dateTabled": "2025-11-14T00:00:00"
+            }
+          ]
+        },
+        "links": [
+          {
+            "rel": "self",
+            "href": "/Questions/1852703",
+            "method": "GET"
+          }
+        ]
+      }
+    ],
     "committees": [
       {
         "contact": {
@@ -49331,19 +51551,9 @@
         "date": "Sat, 22 Nov 2025 14:59:30 GMT"
       },
       {
-        "title": "<![CDATA[Fear and scepticism as Reeves prepares for her big Budget moment]]>",
-        "link": "https://www.bbc.com/news/articles/cyv8vglv9r5o?at_medium=RSS&amp;at_campaign=rss",
-        "date": "Sat, 22 Nov 2025 12:54:23 GMT"
-      },
-      {
         "title": "<![CDATA[Daily Mail publisher agrees to buy Daily Telegraph for \u00a3500m]]>",
         "link": "https://www.bbc.com/news/articles/cx2eg1w0n81o?at_medium=RSS&amp;at_campaign=rss",
         "date": "Sat, 22 Nov 2025 12:22:39 GMT"
-      },
-      {
-        "title": "<![CDATA[New puberty blockers trial to begin after UK ban]]>",
-        "link": "https://www.bbc.com/news/articles/c2k4jg0wkj4o?at_medium=RSS&amp;at_campaign=rss",
-        "date": "Sat, 22 Nov 2025 11:38:27 GMT"
       },
       {
         "title": "<![CDATA[First Sycamore Gap tree 'offsprings' planted]]>",
@@ -49356,14 +51566,39 @@
         "date": "Sat, 22 Nov 2025 03:23:50 GMT"
       },
       {
+        "title": "<![CDATA[Castle wall 'ripped down' for use as stepping stones in puddle]]>",
+        "link": "https://www.bbc.com/news/articles/c30j3ndg9glo?at_medium=RSS&amp;at_campaign=rss",
+        "date": "Sat, 22 Nov 2025 18:35:52 GMT"
+      },
+      {
+        "title": "<![CDATA[La Voix drops out of Strictly after injury]]>",
+        "link": "https://www.bbc.com/news/articles/ce86183xwxko?at_medium=RSS&amp;at_campaign=rss",
+        "date": "Sat, 22 Nov 2025 21:48:56 GMT"
+      },
+      {
+        "title": "<![CDATA[Scotland cannot rely on migrants to fill social care jobs - Sarwar]]>",
+        "link": "https://www.bbc.com/news/articles/c39pkm3r8wlo?at_medium=RSS&amp;at_campaign=rss",
+        "date": "Sat, 22 Nov 2025 17:17:31 GMT"
+      },
+      {
+        "title": "<![CDATA[\u00a320m heroin haul found in pomegranate juice]]>",
+        "link": "https://www.bbc.com/news/articles/cq8d29lwqvdo?at_medium=RSS&amp;at_campaign=rss",
+        "date": "Sat, 22 Nov 2025 17:46:17 GMT"
+      },
+      {
+        "title": "<![CDATA[Sports tickets, hampers and vouchers for Welsh government staff]]>",
+        "link": "https://www.bbc.com/news/articles/cx2y56wk4zzo?at_medium=RSS&amp;at_campaign=rss",
+        "date": "Sat, 22 Nov 2025 14:55:03 GMT"
+      },
+      {
         "title": "<![CDATA[BBC board member resigns and criticises 'governance issues' at top of corporation]]>",
         "link": "https://www.bbc.com/news/articles/cly5n8x1vedo?at_medium=RSS&amp;at_campaign=rss",
         "date": "Fri, 21 Nov 2025 18:09:18 GMT"
       },
       {
-        "title": "<![CDATA['It's a different world now' - man wrongly jailed for 38 years adjusts to life outside]]>",
-        "link": "https://www.bbc.com/news/articles/cjr0rz3wrrqo?at_medium=RSS&amp;at_campaign=rss",
-        "date": "Sat, 22 Nov 2025 03:33:58 GMT"
+        "title": "<![CDATA[New puberty blockers trial to begin after UK ban]]>",
+        "link": "https://www.bbc.com/news/articles/c2k4jg0wkj4o?at_medium=RSS&amp;at_campaign=rss",
+        "date": "Sat, 22 Nov 2025 11:38:27 GMT"
       },
       {
         "title": "<![CDATA[Tenants left with no loo for 58 days win rent back]]>",
@@ -49381,27 +51616,17 @@
         "date": "Sat, 22 Nov 2025 11:20:52 GMT"
       },
       {
-        "title": "<![CDATA[Radiohead deliver a spell-binding, hit-packed set in London]]>",
-        "link": "https://www.bbc.com/news/articles/clyz32pz81vo?at_medium=RSS&amp;at_campaign=rss",
-        "date": "Sat, 22 Nov 2025 01:58:29 GMT"
-      },
-      {
-        "title": "<![CDATA[We've bought Doris's house from Gavin and Stacey]]>",
-        "link": "https://www.bbc.com/news/articles/cge5r4zn7g2o?at_medium=RSS&amp;at_campaign=rss",
-        "date": "Sat, 22 Nov 2025 07:10:29 GMT"
-      },
-      {
         "title": "<![CDATA[Scotland fans shook the earth in win over Denmark]]>",
         "link": "https://www.bbc.com/news/articles/ckgd2nywde4o?at_medium=RSS&amp;at_campaign=rss",
         "date": "Sat, 22 Nov 2025 08:19:19 GMT"
-      },
-      {
-        "title": "<![CDATA[Watch the moment Nathan Gill is sentenced]]>",
-        "link": "https://www.bbc.com/news/videos/c246p7ep180o?at_medium=RSS&amp;at_campaign=rss",
-        "date": "Fri, 21 Nov 2025 13:29:54 GMT"
       }
     ],
     "guardian_politics": [
+      {
+        "title": "Reeves to announce \u00a31.5bn boost in EV subsidies amid pay-per-mile concerns",
+        "link": "https://www.theguardian.com/uk-news/2025/nov/22/reeves-ev-subsidies-chargers-budget-boost-pay-per-mile-tax",
+        "date": "Sat, 22 Nov 2025 22:00:50 GMT"
+      },
       {
         "title": "Labour must back delivery drivers sacked by DPD, former cabinet minister says",
         "link": "https://www.theguardian.com/business/2025/nov/22/labour-delivery-drivers-sacked-dpd-cabinet-minister-louise-haigh",
@@ -49431,11 +51656,6 @@
         "title": "Nigel Farage urged to root out Reform links to Russia after jailing of Nathan Gill",
         "link": "https://www.theguardian.com/politics/2025/nov/21/nigel-farage-urged-to-root-out-reform-links-to-russia-after-jailing-of-nathan-gill",
         "date": "Fri, 21 Nov 2025 18:15:08 GMT"
-      },
-      {
-        "title": "Starmer rebuffs renewed talk of Andy Burnham leadership challenge",
-        "link": "https://www.theguardian.com/politics/2025/nov/21/starmer-rebuffs-renewed-talk-of-andy-burnham-leadership-challenge",
-        "date": "Fri, 21 Nov 2025 17:17:56 GMT"
       },
       {
         "title": "The \u2018Danish model\u2019 is the darling of centre-left parties like Labour. The problem is, it doesn\u2019t even work in Denmark | Cas Mudde",
@@ -49479,16 +51699,1605 @@
       }
     ]
   },
-  "analysis": "Here is an analysis of the provided UK democracy data:\n\nParliament is currently engaged with 20 active bills, including those focused on road safety (A34 Slip Road Safety), business rates (Abolition of Business Rates Bi), and abortion. No recent votes have been recorded. News headlines highlight scrutiny of political leaders, controversies surrounding assisted dying legislation and a former Welsh leader's pro-Russia stance. Starmer's dialogue with Zelensky and planned approval of a large Chinese embassy also feature prominently. The government is concentrating on combating visa fraud in India and maintaining international relations, particularly with Indonesia and regarding the situation in Ukraine. Public discourse is likely centered on issues of healthcare, international alliances, and domestic economic reforms given these parliamentary and government activities and their media coverage.\n\nHuman review recommended.\n",
+  "crime": {
+    "forces": [
+      {
+        "id": "avon-and-somerset",
+        "name": "Avon and Somerset Constabulary"
+      },
+      {
+        "id": "bedfordshire",
+        "name": "Bedfordshire Police"
+      },
+      {
+        "id": "cambridgeshire",
+        "name": "Cambridgeshire Constabulary"
+      },
+      {
+        "id": "cheshire",
+        "name": "Cheshire Constabulary"
+      },
+      {
+        "id": "city-of-london",
+        "name": "City of London Police"
+      },
+      {
+        "id": "cleveland",
+        "name": "Cleveland Police"
+      },
+      {
+        "id": "cumbria",
+        "name": "Cumbria Constabulary"
+      },
+      {
+        "id": "derbyshire",
+        "name": "Derbyshire Constabulary"
+      },
+      {
+        "id": "devon-and-cornwall",
+        "name": "Devon & Cornwall Police"
+      },
+      {
+        "id": "dorset",
+        "name": "Dorset Police"
+      },
+      {
+        "id": "durham",
+        "name": "Durham Constabulary"
+      },
+      {
+        "id": "dyfed-powys",
+        "name": "Dyfed-Powys Police"
+      },
+      {
+        "id": "essex",
+        "name": "Essex Police"
+      },
+      {
+        "id": "gloucestershire",
+        "name": "Gloucestershire Constabulary"
+      },
+      {
+        "id": "greater-manchester",
+        "name": "Greater Manchester Police"
+      },
+      {
+        "id": "gwent",
+        "name": "Gwent Police"
+      },
+      {
+        "id": "hampshire",
+        "name": "Hampshire Constabulary"
+      },
+      {
+        "id": "hertfordshire",
+        "name": "Hertfordshire Constabulary"
+      },
+      {
+        "id": "humberside",
+        "name": "Humberside Police"
+      },
+      {
+        "id": "kent",
+        "name": "Kent Police"
+      },
+      {
+        "id": "lancashire",
+        "name": "Lancashire Constabulary"
+      },
+      {
+        "id": "leicestershire",
+        "name": "Leicestershire Police"
+      },
+      {
+        "id": "lincolnshire",
+        "name": "Lincolnshire Police"
+      },
+      {
+        "id": "merseyside",
+        "name": "Merseyside Police"
+      },
+      {
+        "id": "metropolitan",
+        "name": "Metropolitan Police Service"
+      },
+      {
+        "id": "norfolk",
+        "name": "Norfolk Constabulary"
+      },
+      {
+        "id": "north-wales",
+        "name": "North Wales Police"
+      },
+      {
+        "id": "north-yorkshire",
+        "name": "North Yorkshire Police"
+      },
+      {
+        "id": "northamptonshire",
+        "name": "Northamptonshire Police"
+      },
+      {
+        "id": "northumbria",
+        "name": "Northumbria Police"
+      },
+      {
+        "id": "nottinghamshire",
+        "name": "Nottinghamshire Police"
+      },
+      {
+        "id": "northern-ireland",
+        "name": "Police Service of Northern Ireland"
+      },
+      {
+        "id": "south-wales",
+        "name": "South Wales Police"
+      },
+      {
+        "id": "south-yorkshire",
+        "name": "South Yorkshire Police"
+      },
+      {
+        "id": "staffordshire",
+        "name": "Staffordshire Police"
+      },
+      {
+        "id": "suffolk",
+        "name": "Suffolk Constabulary"
+      },
+      {
+        "id": "surrey",
+        "name": "Surrey Police"
+      },
+      {
+        "id": "sussex",
+        "name": "Sussex Police"
+      },
+      {
+        "id": "thames-valley",
+        "name": "Thames Valley Police"
+      },
+      {
+        "id": "warwickshire",
+        "name": "Warwickshire Police"
+      },
+      {
+        "id": "west-mercia",
+        "name": "West Mercia Police"
+      },
+      {
+        "id": "west-midlands",
+        "name": "West Midlands Police"
+      },
+      {
+        "id": "west-yorkshire",
+        "name": "West Yorkshire Police"
+      },
+      {
+        "id": "wiltshire",
+        "name": "Wiltshire Police"
+      }
+    ],
+    "categories": [
+      {
+        "url": "all-crime",
+        "name": "All crime"
+      },
+      {
+        "url": "anti-social-behaviour",
+        "name": "Anti-social behaviour"
+      },
+      {
+        "url": "bicycle-theft",
+        "name": "Bicycle theft"
+      },
+      {
+        "url": "burglary",
+        "name": "Burglary"
+      },
+      {
+        "url": "criminal-damage-arson",
+        "name": "Criminal damage and arson"
+      },
+      {
+        "url": "drugs",
+        "name": "Drugs"
+      },
+      {
+        "url": "other-theft",
+        "name": "Other theft"
+      },
+      {
+        "url": "possession-of-weapons",
+        "name": "Possession of weapons"
+      },
+      {
+        "url": "public-order",
+        "name": "Public order"
+      },
+      {
+        "url": "robbery",
+        "name": "Robbery"
+      },
+      {
+        "url": "shoplifting",
+        "name": "Shoplifting"
+      },
+      {
+        "url": "theft-from-the-person",
+        "name": "Theft from the person"
+      },
+      {
+        "url": "vehicle-crime",
+        "name": "Vehicle crime"
+      },
+      {
+        "url": "violent-crime",
+        "name": "Violence and sexual offences"
+      },
+      {
+        "url": "other-crime",
+        "name": "Other crime"
+      }
+    ],
+    "london_crimes": [
+      {
+        "category": "anti-social-behaviour",
+        "location_type": "Force",
+        "location": {
+          "latitude": "51.514369",
+          "street": {
+            "id": 1679259,
+            "name": "On or near Drury Lane"
+          },
+          "longitude": "-0.121645"
+        },
+        "context": "",
+        "outcome_status": null,
+        "persistent_id": "",
+        "id": 131325140,
+        "location_subtype": "",
+        "month": "2025-09"
+      },
+      {
+        "category": "anti-social-behaviour",
+        "location_type": "Force",
+        "location": {
+          "latitude": "51.519933",
+          "street": {
+            "id": 1677494,
+            "name": "On or near Shopping Area"
+          },
+          "longitude": "-0.133899"
+        },
+        "context": "",
+        "outcome_status": null,
+        "persistent_id": "",
+        "id": 131323415,
+        "location_subtype": "",
+        "month": "2025-09"
+      },
+      {
+        "category": "anti-social-behaviour",
+        "location_type": "Force",
+        "location": {
+          "latitude": "51.509786",
+          "street": {
+            "id": 1678937,
+            "name": "On or near Police Station"
+          },
+          "longitude": "-0.124658"
+        },
+        "context": "",
+        "outcome_status": null,
+        "persistent_id": "",
+        "id": 131323444,
+        "location_subtype": "",
+        "month": "2025-09"
+      },
+      {
+        "category": "anti-social-behaviour",
+        "location_type": "Force",
+        "location": {
+          "latitude": "51.512300",
+          "street": {
+            "id": 1678389,
+            "name": "On or near Theatre/concert Hall"
+          },
+          "longitude": "-0.128388"
+        },
+        "context": "",
+        "outcome_status": null,
+        "persistent_id": "",
+        "id": 131324578,
+        "location_subtype": "",
+        "month": "2025-09"
+      },
+      {
+        "category": "anti-social-behaviour",
+        "location_type": "Force",
+        "location": {
+          "latitude": "51.509944",
+          "street": {
+            "id": 1678386,
+            "name": "On or near Theatre/concert Hall"
+          },
+          "longitude": "-0.127807"
+        },
+        "context": "",
+        "outcome_status": null,
+        "persistent_id": "",
+        "id": 131323573,
+        "location_subtype": "",
+        "month": "2025-09"
+      },
+      {
+        "category": "anti-social-behaviour",
+        "location_type": "Force",
+        "location": {
+          "latitude": "51.506707",
+          "street": {
+            "id": 1680245,
+            "name": "On or near Theatre/concert Hall"
+          },
+          "longitude": "-0.116009"
+        },
+        "context": "",
+        "outcome_status": null,
+        "persistent_id": "",
+        "id": 131325244,
+        "location_subtype": "",
+        "month": "2025-09"
+      },
+      {
+        "category": "anti-social-behaviour",
+        "location_type": "Force",
+        "location": {
+          "latitude": "51.510345",
+          "street": {
+            "id": 1679211,
+            "name": "On or near Theatre/concert Hall"
+          },
+          "longitude": "-0.122502"
+        },
+        "context": "",
+        "outcome_status": null,
+        "persistent_id": "",
+        "id": 131323809,
+        "location_subtype": "",
+        "month": "2025-09"
+      },
+      {
+        "category": "anti-social-behaviour",
+        "location_type": "Force",
+        "location": {
+          "latitude": "51.508087",
+          "street": {
+            "id": 1678961,
+            "name": "On or near Nightclub"
+          },
+          "longitude": "-0.124122"
+        },
+        "context": "",
+        "outcome_status": null,
+        "persistent_id": "",
+        "id": 131323838,
+        "location_subtype": "",
+        "month": "2025-09"
+      },
+      {
+        "category": "anti-social-behaviour",
+        "location_type": "Force",
+        "location": {
+          "latitude": "51.495745",
+          "street": {
+            "id": 1677734,
+            "name": "On or near Parking Area"
+          },
+          "longitude": "-0.132308"
+        },
+        "context": "",
+        "outcome_status": null,
+        "persistent_id": "",
+        "id": 131323589,
+        "location_subtype": "",
+        "month": "2025-09"
+      },
+      {
+        "category": "anti-social-behaviour",
+        "location_type": "Force",
+        "location": {
+          "latitude": "51.515684",
+          "street": {
+            "id": 1677259,
+            "name": "On or near Nightclub"
+          },
+          "longitude": "-0.135874"
+        },
+        "context": "",
+        "outcome_status": null,
+        "persistent_id": "",
+        "id": 131323636,
+        "location_subtype": "",
+        "month": "2025-09"
+      },
+      {
+        "category": "anti-social-behaviour",
+        "location_type": "Force",
+        "location": {
+          "latitude": "51.519792",
+          "street": {
+            "id": 1679812,
+            "name": "On or near Theatre/concert Hall"
+          },
+          "longitude": "-0.118337"
+        },
+        "context": "",
+        "outcome_status": null,
+        "persistent_id": "",
+        "id": 131324260,
+        "location_subtype": "",
+        "month": "2025-09"
+      },
+      {
+        "category": "anti-social-behaviour",
+        "location_type": "Force",
+        "location": {
+          "latitude": "51.519378",
+          "street": {
+            "id": 1677300,
+            "name": "On or near Goodge Street"
+          },
+          "longitude": "-0.135737"
+        },
+        "context": "",
+        "outcome_status": null,
+        "persistent_id": "",
+        "id": 131324400,
+        "location_subtype": "",
+        "month": "2025-09"
+      },
+      {
+        "category": "anti-social-behaviour",
+        "location_type": "Force",
+        "location": {
+          "latitude": "51.513090",
+          "street": {
+            "id": 1677384,
+            "name": "On or near Hopkins Street"
+          },
+          "longitude": "-0.135043"
+        },
+        "context": "",
+        "outcome_status": null,
+        "persistent_id": "",
+        "id": 131323645,
+        "location_subtype": "",
+        "month": "2025-09"
+      },
+      {
+        "category": "anti-social-behaviour",
+        "location_type": "Force",
+        "location": {
+          "latitude": "51.498553",
+          "street": {
+            "id": 1677378,
+            "name": "On or near Caxton Street"
+          },
+          "longitude": "-0.135291"
+        },
+        "context": "",
+        "outcome_status": null,
+        "persistent_id": "",
+        "id": 131323707,
+        "location_subtype": "",
+        "month": "2025-09"
+      },
+      {
+        "category": "anti-social-behaviour",
+        "location_type": "Force",
+        "location": {
+          "latitude": "51.507952",
+          "street": {
+            "id": 1677228,
+            "name": "On or near Duke Of York Street"
+          },
+          "longitude": "-0.135988"
+        },
+        "context": "",
+        "outcome_status": null,
+        "persistent_id": "",
+        "id": 131323970,
+        "location_subtype": "",
+        "month": "2025-09"
+      },
+      {
+        "category": "anti-social-behaviour",
+        "location_type": "Force",
+        "location": {
+          "latitude": "51.495745",
+          "street": {
+            "id": 1677734,
+            "name": "On or near Parking Area"
+          },
+          "longitude": "-0.132308"
+        },
+        "context": "",
+        "outcome_status": null,
+        "persistent_id": "",
+        "id": 131323860,
+        "location_subtype": "",
+        "month": "2025-09"
+      },
+      {
+        "category": "anti-social-behaviour",
+        "location_type": "Force",
+        "location": {
+          "latitude": "51.514010",
+          "street": {
+            "id": 1678889,
+            "name": "On or near Parking Area"
+          },
+          "longitude": "-0.124528"
+        },
+        "context": "",
+        "outcome_status": null,
+        "persistent_id": "",
+        "id": 131323768,
+        "location_subtype": "",
+        "month": "2025-09"
+      },
+      {
+        "category": "anti-social-behaviour",
+        "location_type": "Force",
+        "location": {
+          "latitude": "51.510272",
+          "street": {
+            "id": 1678129,
+            "name": "On or near Nightclub"
+          },
+          "longitude": "-0.129192"
+        },
+        "context": "",
+        "outcome_status": null,
+        "persistent_id": "",
+        "id": 131325441,
+        "location_subtype": "",
+        "month": "2025-09"
+      },
+      {
+        "category": "anti-social-behaviour",
+        "location_type": "Force",
+        "location": {
+          "latitude": "51.514867",
+          "street": {
+            "id": 1676714,
+            "name": "On or near Further/higher Educational Building"
+          },
+          "longitude": "-0.138790"
+        },
+        "context": "",
+        "outcome_status": null,
+        "persistent_id": "",
+        "id": 131312368,
+        "location_subtype": "",
+        "month": "2025-09"
+      },
+      {
+        "category": "anti-social-behaviour",
+        "location_type": "Force",
+        "location": {
+          "latitude": "51.515088",
+          "street": {
+            "id": 1676649,
+            "name": "On or near Hills Place"
+          },
+          "longitude": "-0.140222"
+        },
+        "context": "",
+        "outcome_status": null,
+        "persistent_id": "",
+        "id": 131312389,
+        "location_subtype": "",
+        "month": "2025-09"
+      },
+      {
+        "category": "anti-social-behaviour",
+        "location_type": "Force",
+        "location": {
+          "latitude": "51.506541",
+          "street": {
+            "id": 1675916,
+            "name": "On or near Ashburton Place"
+          },
+          "longitude": "-0.144533"
+        },
+        "context": "",
+        "outcome_status": null,
+        "persistent_id": "",
+        "id": 131311696,
+        "location_subtype": "",
+        "month": "2025-09"
+      },
+      {
+        "category": "anti-social-behaviour",
+        "location_type": "Force",
+        "location": {
+          "latitude": "51.498908",
+          "street": {
+            "id": 1677674,
+            "name": "On or near Dacre Street"
+          },
+          "longitude": "-0.132712"
+        },
+        "context": "",
+        "outcome_status": null,
+        "persistent_id": "",
+        "id": 131312648,
+        "location_subtype": "",
+        "month": "2025-09"
+      },
+      {
+        "category": "anti-social-behaviour",
+        "location_type": "Force",
+        "location": {
+          "latitude": "51.510042",
+          "street": {
+            "id": 1679444,
+            "name": "On or near Savoy Way"
+          },
+          "longitude": "-0.120439"
+        },
+        "context": "",
+        "outcome_status": null,
+        "persistent_id": "",
+        "id": 131308312,
+        "location_subtype": "",
+        "month": "2025-09"
+      },
+      {
+        "category": "anti-social-behaviour",
+        "location_type": "Force",
+        "location": {
+          "latitude": "51.511022",
+          "street": {
+            "id": 1679585,
+            "name": "On or near Strand"
+          },
+          "longitude": "-0.119880"
+        },
+        "context": "",
+        "outcome_status": null,
+        "persistent_id": "",
+        "id": 131311686,
+        "location_subtype": "",
+        "month": "2025-09"
+      },
+      {
+        "category": "anti-social-behaviour",
+        "location_type": "Force",
+        "location": {
+          "latitude": "51.511111",
+          "street": {
+            "id": 1679082,
+            "name": "On or near Henrietta Street"
+          },
+          "longitude": "-0.123710"
+        },
+        "context": "",
+        "outcome_status": null,
+        "persistent_id": "",
+        "id": 131311553,
+        "location_subtype": "",
+        "month": "2025-09"
+      },
+      {
+        "category": "anti-social-behaviour",
+        "location_type": "Force",
+        "location": {
+          "latitude": "51.512059",
+          "street": {
+            "id": 1679743,
+            "name": "On or near A301"
+          },
+          "longitude": "-0.118929"
+        },
+        "context": "",
+        "outcome_status": null,
+        "persistent_id": "",
+        "id": 131312649,
+        "location_subtype": "",
+        "month": "2025-09"
+      },
+      {
+        "category": "anti-social-behaviour",
+        "location_type": "Force",
+        "location": {
+          "latitude": "51.510450",
+          "street": {
+            "id": 1678780,
+            "name": "On or near Bedfordbury"
+          },
+          "longitude": "-0.125726"
+        },
+        "context": "",
+        "outcome_status": null,
+        "persistent_id": "",
+        "id": 131311524,
+        "location_subtype": "",
+        "month": "2025-09"
+      },
+      {
+        "category": "anti-social-behaviour",
+        "location_type": "Force",
+        "location": {
+          "latitude": "51.494818",
+          "street": {
+            "id": 1679973,
+            "name": "On or near Pratt Walk"
+          },
+          "longitude": "-0.117089"
+        },
+        "context": "",
+        "outcome_status": null,
+        "persistent_id": "",
+        "id": 131312770,
+        "location_subtype": "",
+        "month": "2025-09"
+      },
+      {
+        "category": "anti-social-behaviour",
+        "location_type": "Force",
+        "location": {
+          "latitude": "51.498315",
+          "street": {
+            "id": 1675919,
+            "name": "On or near Warwick Row"
+          },
+          "longitude": "-0.142994"
+        },
+        "context": "",
+        "outcome_status": null,
+        "persistent_id": "",
+        "id": 131311491,
+        "location_subtype": "",
+        "month": "2025-09"
+      },
+      {
+        "category": "anti-social-behaviour",
+        "location_type": "Force",
+        "location": {
+          "latitude": "51.516568",
+          "street": {
+            "id": 1679291,
+            "name": "On or near Newton Street"
+          },
+          "longitude": "-0.121381"
+        },
+        "context": "",
+        "outcome_status": null,
+        "persistent_id": "",
+        "id": 131309520,
+        "location_subtype": "",
+        "month": "2025-09"
+      },
+      {
+        "category": "anti-social-behaviour",
+        "location_type": "Force",
+        "location": {
+          "latitude": "51.513601",
+          "street": {
+            "id": 1677939,
+            "name": "On or near Frith Street"
+          },
+          "longitude": "-0.131534"
+        },
+        "context": "",
+        "outcome_status": null,
+        "persistent_id": "",
+        "id": 131312965,
+        "location_subtype": "",
+        "month": "2025-09"
+      },
+      {
+        "category": "anti-social-behaviour",
+        "location_type": "Force",
+        "location": {
+          "latitude": "51.509786",
+          "street": {
+            "id": 1678937,
+            "name": "On or near Police Station"
+          },
+          "longitude": "-0.124658"
+        },
+        "context": "",
+        "outcome_status": null,
+        "persistent_id": "",
+        "id": 131312722,
+        "location_subtype": "",
+        "month": "2025-09"
+      },
+      {
+        "category": "anti-social-behaviour",
+        "location_type": "Force",
+        "location": {
+          "latitude": "51.515088",
+          "street": {
+            "id": 1676649,
+            "name": "On or near Hills Place"
+          },
+          "longitude": "-0.140222"
+        },
+        "context": "",
+        "outcome_status": null,
+        "persistent_id": "",
+        "id": 131312003,
+        "location_subtype": "",
+        "month": "2025-09"
+      },
+      {
+        "category": "anti-social-behaviour",
+        "location_type": "Force",
+        "location": {
+          "latitude": "51.513477",
+          "street": {
+            "id": 1679579,
+            "name": "On or near Theatre/concert Hall"
+          },
+          "longitude": "-0.119880"
+        },
+        "context": "",
+        "outcome_status": null,
+        "persistent_id": "",
+        "id": 131311487,
+        "location_subtype": "",
+        "month": "2025-09"
+      },
+      {
+        "category": "anti-social-behaviour",
+        "location_type": "Force",
+        "location": {
+          "latitude": "51.509909",
+          "street": {
+            "id": 1678560,
+            "name": "On or near Theatre/concert Hall"
+          },
+          "longitude": "-0.126298"
+        },
+        "context": "",
+        "outcome_status": null,
+        "persistent_id": "",
+        "id": 131311753,
+        "location_subtype": "",
+        "month": "2025-09"
+      },
+      {
+        "category": "anti-social-behaviour",
+        "location_type": "Force",
+        "location": {
+          "latitude": "51.511022",
+          "street": {
+            "id": 1679585,
+            "name": "On or near Strand"
+          },
+          "longitude": "-0.119880"
+        },
+        "context": "",
+        "outcome_status": null,
+        "persistent_id": "",
+        "id": 131312750,
+        "location_subtype": "",
+        "month": "2025-09"
+      },
+      {
+        "category": "anti-social-behaviour",
+        "location_type": "Force",
+        "location": {
+          "latitude": "51.501162",
+          "street": {
+            "id": 1680084,
+            "name": "On or near Addington Street"
+          },
+          "longitude": "-0.116252"
+        },
+        "context": "",
+        "outcome_status": null,
+        "persistent_id": "",
+        "id": 131312867,
+        "location_subtype": "",
+        "month": "2025-09"
+      },
+      {
+        "category": "anti-social-behaviour",
+        "location_type": "Force",
+        "location": {
+          "latitude": "51.509491",
+          "street": {
+            "id": 1678539,
+            "name": "On or near William Iv Street"
+          },
+          "longitude": "-0.125924"
+        },
+        "context": "",
+        "outcome_status": null,
+        "persistent_id": "",
+        "id": 131313327,
+        "location_subtype": "",
+        "month": "2025-09"
+      },
+      {
+        "category": "anti-social-behaviour",
+        "location_type": "Force",
+        "location": {
+          "latitude": "51.518405",
+          "street": {
+            "id": 1679695,
+            "name": "On or near Procter Street"
+          },
+          "longitude": "-0.119302"
+        },
+        "context": "",
+        "outcome_status": null,
+        "persistent_id": "",
+        "id": 131311310,
+        "location_subtype": "",
+        "month": "2025-09"
+      },
+      {
+        "category": "anti-social-behaviour",
+        "location_type": "Force",
+        "location": {
+          "latitude": "51.514537",
+          "street": {
+            "id": 1678431,
+            "name": "On or near St Giles Passage"
+          },
+          "longitude": "-0.128196"
+        },
+        "context": "",
+        "outcome_status": null,
+        "persistent_id": "",
+        "id": 131308154,
+        "location_subtype": "",
+        "month": "2025-09"
+      },
+      {
+        "category": "anti-social-behaviour",
+        "location_type": "Force",
+        "location": {
+          "latitude": "51.500978",
+          "street": {
+            "id": 1678704,
+            "name": "On or near Bridge Street"
+          },
+          "longitude": "-0.125524"
+        },
+        "context": "",
+        "outcome_status": null,
+        "persistent_id": "",
+        "id": 131220078,
+        "location_subtype": "",
+        "month": "2025-09"
+      },
+      {
+        "category": "anti-social-behaviour",
+        "location_type": "Force",
+        "location": {
+          "latitude": "51.502888",
+          "street": {
+            "id": 1679979,
+            "name": "On or near Chicheley Street"
+          },
+          "longitude": "-0.117319"
+        },
+        "context": "",
+        "outcome_status": null,
+        "persistent_id": "",
+        "id": 131312931,
+        "location_subtype": "",
+        "month": "2025-09"
+      },
+      {
+        "category": "anti-social-behaviour",
+        "location_type": "Force",
+        "location": {
+          "latitude": "51.517476",
+          "street": {
+            "id": 1677079,
+            "name": "On or near Supermarket"
+          },
+          "longitude": "-0.136579"
+        },
+        "context": "",
+        "outcome_status": null,
+        "persistent_id": "",
+        "id": 131311616,
+        "location_subtype": "",
+        "month": "2025-09"
+      },
+      {
+        "category": "anti-social-behaviour",
+        "location_type": "Force",
+        "location": {
+          "latitude": "51.511574",
+          "street": {
+            "id": 1678643,
+            "name": "On or near Garrick Street"
+          },
+          "longitude": "-0.126271"
+        },
+        "context": "",
+        "outcome_status": null,
+        "persistent_id": "",
+        "id": 131312983,
+        "location_subtype": "",
+        "month": "2025-09"
+      },
+      {
+        "category": "anti-social-behaviour",
+        "location_type": "Force",
+        "location": {
+          "latitude": "51.516341",
+          "street": {
+            "id": 1679597,
+            "name": "On or near Nightclub"
+          },
+          "longitude": "-0.120151"
+        },
+        "context": "",
+        "outcome_status": null,
+        "persistent_id": "",
+        "id": 131312053,
+        "location_subtype": "",
+        "month": "2025-09"
+      },
+      {
+        "category": "anti-social-behaviour",
+        "location_type": "Force",
+        "location": {
+          "latitude": "51.501409",
+          "street": {
+            "id": 1680983,
+            "name": "On or near Tanswell Street"
+          },
+          "longitude": "-0.111443"
+        },
+        "context": "",
+        "outcome_status": null,
+        "persistent_id": "",
+        "id": 131313268,
+        "location_subtype": "",
+        "month": "2025-09"
+      },
+      {
+        "category": "anti-social-behaviour",
+        "location_type": "Force",
+        "location": {
+          "latitude": "51.496941",
+          "street": {
+            "id": 1677903,
+            "name": "On or near Conference/exhibition Centre"
+          },
+          "longitude": "-0.130617"
+        },
+        "context": "",
+        "outcome_status": null,
+        "persistent_id": "",
+        "id": 131311230,
+        "location_subtype": "",
+        "month": "2025-09"
+      },
+      {
+        "category": "anti-social-behaviour",
+        "location_type": "Force",
+        "location": {
+          "latitude": "51.497269",
+          "street": {
+            "id": 1680296,
+            "name": "On or near Hercules Road"
+          },
+          "longitude": "-0.114064"
+        },
+        "context": "",
+        "outcome_status": null,
+        "persistent_id": "",
+        "id": 131313369,
+        "location_subtype": "",
+        "month": "2025-09"
+      },
+      {
+        "category": "anti-social-behaviour",
+        "location_type": "Force",
+        "location": {
+          "latitude": "51.499042",
+          "street": {
+            "id": 1680867,
+            "name": "On or near Lambeth North"
+          },
+          "longitude": "-0.111930"
+        },
+        "context": "",
+        "outcome_status": null,
+        "persistent_id": "",
+        "id": 131312238,
+        "location_subtype": "",
+        "month": "2025-09"
+      },
+      {
+        "category": "anti-social-behaviour",
+        "location_type": "Force",
+        "location": {
+          "latitude": "51.515088",
+          "street": {
+            "id": 1676649,
+            "name": "On or near Hills Place"
+          },
+          "longitude": "-0.140222"
+        },
+        "context": "",
+        "outcome_status": null,
+        "persistent_id": "",
+        "id": 131313042,
+        "location_subtype": "",
+        "month": "2025-09"
+      }
+    ]
+  },
+  "economics": {
+    "datasets": [
+      {
+        "contacts": [
+          {
+            "email": "qualityoflife@ons.gov.uk",
+            "name": "Will Shufflebottom, Owain Birrell, Pavan Bains and Geeta Kerai",
+            "telephone": "+44 300 0671543"
+          }
+        ],
+        "description": "Seasonally and non seasonally-adjusted quarterly estimates of life satisfaction, feeling that the things done in life are worthwhile, happiness and anxiety in the UK.",
+        "keywords": [
+          "well-being"
+        ],
+        "id": "wellbeing-quarterly",
+        "last_updated": "2023-12-13T09:40:24.204Z",
+        "links": {
+          "editions": {
+            "href": "https://api.beta.ons.gov.uk/v1/datasets/wellbeing-quarterly/editions"
+          },
+          "latest_version": {
+            "href": "https://api.beta.ons.gov.uk/v1/datasets/wellbeing-quarterly/editions/time-series/versions/9",
+            "id": "9"
+          },
+          "self": {
+            "href": "https://api.beta.ons.gov.uk/v1/datasets/wellbeing-quarterly"
+          },
+          "taxonomy": {
+            "href": "https://api.beta.ons.gov.uk/v1/peoplepopulationandcommunity/wellbeing"
+          }
+        },
+        "methodologies": [
+          {
+            "href": "https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing/methodologies/personalwellbeingquarterlyestimatestechnicalreport",
+            "title": "Personal well-being quarterly estimates technical report"
+          }
+        ],
+        "national_statistic": false,
+        "next_release": "TBC",
+        "qmi": {
+          "href": "https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing/methodologies/personalwellbeingintheukqmi"
+        },
+        "related_datasets": [
+          {
+            "href": "https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing/datasets/ukmeasuresofnationalwellbeing",
+            "title": "Personal well-being in the UK"
+          }
+        ],
+        "release_frequency": "Quarterly",
+        "state": "published",
+        "title": "Quarterly personal well-being estimates",
+        "unit_of_measure": "Percentage"
+      },
+      {
+        "contacts": [
+          {
+            "email": "QualityOfLife@ons.gov.uk",
+            "name": "Rachel Mullis, Joe Shepherd and Geeta Kerai",
+            "telephone": "+44 3000 671 543"
+          }
+        ],
+        "description": "Estimates of life satisfaction, feeling that the things done in life are worthwhile, happiness and anxiety at the UK, country, regional, county, local and unitary authority level.",
+        "keywords": [
+          "well-being"
+        ],
+        "id": "wellbeing-local-authority",
+        "last_updated": "2023-12-13T09:40:21.928Z",
+        "links": {
+          "editions": {
+            "href": "https://api.beta.ons.gov.uk/v1/datasets/wellbeing-local-authority/editions"
+          },
+          "latest_version": {
+            "href": "https://api.beta.ons.gov.uk/v1/datasets/wellbeing-local-authority/editions/time-series/versions/4",
+            "id": "4"
+          },
+          "self": {
+            "href": "https://api.beta.ons.gov.uk/v1/datasets/wellbeing-local-authority"
+          },
+          "taxonomy": {
+            "href": "https://api.beta.ons.gov.uk/v1/peoplepopulationandcommunity/wellbeing"
+          }
+        },
+        "national_statistic": true,
+        "next_release": "TBC",
+        "qmi": {
+          "href": "https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing/methodologies/personalwellbeingintheukqmi"
+        },
+        "related_datasets": [
+          {
+            "href": "https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing/bulletins/measuringnationalwellbeing/april2022tomarch2023",
+            "title": "Personal well-being in the UK: April 2022 to March 2023"
+          }
+        ],
+        "release_frequency": "Annual",
+        "state": "published",
+        "title": "Personal well-being estimates by local authority",
+        "unit_of_measure": "Percentage"
+      },
+      {
+        "contacts": [
+          {
+            "email": "health.data@ons.gov.uk",
+            "name": "Data Insights and Data Science team",
+            "telephone": "+44 1329 444110"
+          }
+        ],
+        "description": "Provisional counts of the number of deaths registered in England and Wales, by region, in the latest weeks for which data are available.",
+        "keywords": [
+          "Deaths",
+          "weekly deaths"
+        ],
+        "id": "weekly-deaths-region",
+        "last_updated": "2025-11-19T10:09:00.223Z",
+        "links": {
+          "editions": {
+            "href": "https://api.beta.ons.gov.uk/v1/datasets/weekly-deaths-region/editions"
+          },
+          "latest_version": {
+            "href": "https://api.beta.ons.gov.uk/v1/datasets/weekly-deaths-region/editions/time-series/versions/95",
+            "id": "95"
+          },
+          "self": {
+            "href": "https://api.beta.ons.gov.uk/v1/datasets/weekly-deaths-region"
+          },
+          "taxonomy": {
+            "href": "https://api.beta.ons.gov.uk/v1/peoplepopulationandcommunity/birthsdeathsandmarriages/deaths"
+          }
+        },
+        "national_statistic": true,
+        "next_release": "26 November 2025",
+        "qmi": {
+          "href": "https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/deaths/methodologies/mortalitystatisticsinenglandandwalesqmi"
+        },
+        "release_frequency": "Weekly",
+        "state": "published",
+        "title": "Deaths registered weekly in England and Wales by region"
+      },
+      {
+        "contacts": [
+          {
+            "email": "health.data@ons.gov.uk",
+            "name": "Sarah Caul",
+            "telephone": "+44 1329 444110"
+          }
+        ],
+        "description": "Provisional counts of the number of deaths registered in England and Wales, including deaths involving the coronavirus (COVID-19), by local authority, health board and place of death in the latest weeks for which data are available.",
+        "keywords": [
+          "Deaths",
+          "weekly deaths"
+        ],
+        "id": "weekly-deaths-local-authority",
+        "last_updated": "2024-01-09T10:10:57.755Z",
+        "links": {
+          "editions": {
+            "href": "https://api.beta.ons.gov.uk/v1/datasets/weekly-deaths-local-authority/editions"
+          },
+          "latest_version": {
+            "href": "https://api.beta.ons.gov.uk/v1/datasets/weekly-deaths-local-authority/editions/2023/versions/50",
+            "id": "50"
+          },
+          "self": {
+            "href": "https://api.beta.ons.gov.uk/v1/datasets/weekly-deaths-local-authority"
+          },
+          "taxonomy": {
+            "href": "https://api.beta.ons.gov.uk/v1/peoplepopulationandcommunity/birthsdeathsandmarriages/deaths"
+          }
+        },
+        "national_statistic": true,
+        "next_release": "17 January 2024",
+        "qmi": {
+          "href": "https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/deaths/methodologies/mortalitystatisticsinenglandandwalesqmi"
+        },
+        "release_frequency": "Weekly",
+        "state": "published",
+        "title": "Death registrations and occurrences by local authority and place of death"
+      },
+      {
+        "contacts": [
+          {
+            "email": "health.data@ons.gov.uk",
+            "name": "Sarah Caul",
+            "telephone": "+44 1329 444110"
+          }
+        ],
+        "description": "Provisional counts of the number of deaths registered in Wales, by health board and place of death, in the latest weeks for which data are available.",
+        "keywords": [
+          "Deaths",
+          "weekly deaths"
+        ],
+        "id": "weekly-deaths-health-board",
+        "last_updated": "2024-01-09T10:11:08.441Z",
+        "links": {
+          "editions": {
+            "href": "https://api.beta.ons.gov.uk/v1/datasets/weekly-deaths-health-board/editions"
+          },
+          "latest_version": {
+            "href": "https://api.beta.ons.gov.uk/v1/datasets/weekly-deaths-health-board/editions/2023/versions/50",
+            "id": "50"
+          },
+          "self": {
+            "href": "https://api.beta.ons.gov.uk/v1/datasets/weekly-deaths-health-board"
+          },
+          "taxonomy": {
+            "href": "https://api.beta.ons.gov.uk/v1/peoplepopulationandcommunity/birthsdeathsandmarriages/deaths"
+          }
+        },
+        "national_statistic": true,
+        "next_release": "17 January 2024",
+        "qmi": {
+          "href": "https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/deaths/methodologies/mortalitystatisticsinenglandandwalesqmi"
+        },
+        "release_frequency": "Weekly",
+        "state": "published",
+        "title": "Death registrations and occurrences by health board and place of death"
+      },
+      {
+        "contacts": [
+          {
+            "email": "health.data@ons.gov.uk",
+            "name": "Data Insights and Data Science team",
+            "telephone": "+44 1329 444110"
+          }
+        ],
+        "description": "Provisional counts of the number of deaths registered in England and Wales, by age and sex, in the latest weeks for which data are available.",
+        "keywords": [
+          "Deaths",
+          "weekly deaths"
+        ],
+        "id": "weekly-deaths-age-sex",
+        "last_updated": "2025-11-19T10:08:56.488Z",
+        "links": {
+          "editions": {
+            "href": "https://api.beta.ons.gov.uk/v1/datasets/weekly-deaths-age-sex/editions"
+          },
+          "latest_version": {
+            "href": "https://api.beta.ons.gov.uk/v1/datasets/weekly-deaths-age-sex/editions/2025/versions/39",
+            "id": "39"
+          },
+          "self": {
+            "href": "https://api.beta.ons.gov.uk/v1/datasets/weekly-deaths-age-sex"
+          },
+          "taxonomy": {
+            "href": "https://api.beta.ons.gov.uk/v1/peoplepopulationandcommunity/birthsdeathsandmarriages/deaths"
+          }
+        },
+        "national_statistic": true,
+        "next_release": "26 November 2025",
+        "qmi": {
+          "href": "https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/deaths/methodologies/mortalitystatisticsinenglandandwalesqmi"
+        },
+        "release_frequency": "Weekly",
+        "state": "published",
+        "title": "Deaths registered weekly in England and Wales by age and sex"
+      },
+      {
+        "contacts": [
+          {
+            "email": "realtime.indicators@ons.gov.uk",
+            "name": "Real time indicators team",
+            "telephone": "+44 1633 560344"
+          }
+        ],
+        "description": "These data series are experimental faster indicators for monitoring UK spending using debit and credit cards.",
+        "id": "uk-spending-on-cards",
+        "last_updated": "2024-05-16T09:00:13.637Z",
+        "links": {
+          "editions": {
+            "href": "https://api.beta.ons.gov.uk/v1/datasets/uk-spending-on-cards/editions"
+          },
+          "latest_version": {
+            "href": "https://api.beta.ons.gov.uk/v1/datasets/uk-spending-on-cards/editions/time-series/versions/130",
+            "id": "130"
+          },
+          "self": {
+            "href": "https://api.beta.ons.gov.uk/v1/datasets/uk-spending-on-cards"
+          },
+          "taxonomy": {
+            "href": "https://api.beta.ons.gov.uk/v1/economy/economicoutputandproductivity/productivitymeasures"
+          }
+        },
+        "national_statistic": false,
+        "next_release": "To be announced",
+        "qmi": {
+          "href": "https://www.bankofengland.co.uk/payment-and-settlement/chaps-faster-indicator"
+        },
+        "release_frequency": "Weekly",
+        "state": "published",
+        "title": "UK spending on credit and debit cards",
+        "type": "filterable"
+      },
+      {
+        "contacts": [
+          {
+            "email": "idbras@ons.gov.uk",
+            "name": "Becky Shaw",
+            "telephone": "+44 1633 456902"
+          }
+        ],
+        "description": "The data contained in these tables are numbers of enterprises and local units produced from a snapshot of the Inter-Departmental Business Register (IDBR) taken on 12 March 2021. This dataset contains details of the number of VAT and/or PAYE based enterprises and local units in districts, counties and unitary authorities within region and country by broad industry group.",
+        "keywords": [
+          "enterprises",
+          "local units,IDBR,business counts,Inter-Departmental Business Register"
+        ],
+        "id": "uk-business-by-enterprises-and-local-units",
+        "last_updated": "2022-11-03T09:50:09.932Z",
+        "links": {
+          "editions": {
+            "href": "https://api.beta.ons.gov.uk/v1/datasets/uk-business-by-enterprises-and-local-units/editions"
+          },
+          "latest_version": {
+            "href": "https://api.beta.ons.gov.uk/v1/datasets/uk-business-by-enterprises-and-local-units/editions/2022/versions/1",
+            "id": "1"
+          },
+          "self": {
+            "href": "https://api.beta.ons.gov.uk/v1/datasets/uk-business-by-enterprises-and-local-units"
+          },
+          "taxonomy": {
+            "href": "https://api.beta.ons.gov.uk/v1/businessindustryandtrade/business/businessservices"
+          }
+        },
+        "next_release": "To be announced",
+        "publications": [
+          {
+            "href": "https://www.ons.gov.uk/businessindustryandtrade/business/activitysizeandlocation",
+            "title": "UK Business: Activity, Size and Location"
+          }
+        ],
+        "qmi": {
+          "href": "https://www.ons.gov.uk/businessindustryandtrade/business/activitysizeandlocation/methodologies/ukbusinessactivitysizeandlocationqmi"
+        },
+        "release_frequency": "Annual",
+        "state": "published",
+        "title": "UK Business: Activity, Size and Location",
+        "unit_of_measure": "Count",
+        "type": "filterable"
+      },
+      {
+        "contacts": [
+          {
+            "email": "realtime.indicators@ons.gov.uk",
+            "name": "Real time indicators team",
+            "telephone": "+44 1633 560344"
+          }
+        ],
+        "description": "Experimental dataset for business indices covering the UK as part of the real-time indicators release to help better understand economic activity and social change in the UK.",
+        "id": "traffic-camera-activity",
+        "last_updated": "2024-06-20T09:00:45.082Z",
+        "links": {
+          "editions": {
+            "href": "https://api.beta.ons.gov.uk/v1/datasets/traffic-camera-activity/editions"
+          },
+          "latest_version": {
+            "href": "https://api.beta.ons.gov.uk/v1/datasets/traffic-camera-activity/editions/time-series/versions/105",
+            "id": "105"
+          },
+          "self": {
+            "href": "https://api.beta.ons.gov.uk/v1/datasets/traffic-camera-activity"
+          },
+          "taxonomy": {
+            "href": "https://api.beta.ons.gov.uk/v1/businessindustryandtrade/business/activitysizeandlocation"
+          }
+        },
+        "national_statistic": false,
+        "next_release": "To be announced",
+        "qmi": {
+          "href": "https://datasciencecampus.ons.gov.uk/projects/estimating-vehicle-and-pedestrian-activity-from-town-and-city-traffic-cameras/"
+        },
+        "release_frequency": "Weekly",
+        "state": "published",
+        "title": "Traffic Camera Activity",
+        "type": "filterable"
+      },
+      {
+        "contacts": [
+          {
+            "email": "trade@ons.gov.uk",
+            "name": "UK Trade team",
+            "telephone": "+44 1329 447648"
+          }
+        ],
+        "description": "Country by commodity data on the UK's trade in goods, including trade by all countries and selected commodities, exports and imports, non seasonally adjusted.",
+        "keywords": [
+          "trade"
+        ],
+        "id": "trade",
+        "last_updated": "2025-11-14T10:57:15.509Z",
+        "links": {
+          "editions": {
+            "href": "https://api.beta.ons.gov.uk/v1/datasets/trade/editions"
+          },
+          "latest_version": {
+            "href": "https://api.beta.ons.gov.uk/v1/datasets/trade/editions/time-series/versions/62",
+            "id": "62"
+          },
+          "self": {
+            "href": "https://api.beta.ons.gov.uk/v1/datasets/trade"
+          },
+          "taxonomy": {
+            "href": "https://api.beta.ons.gov.uk/v1/businessindustryandtrade/internationaltrade"
+          }
+        },
+        "national_statistic": false,
+        "next_release": "13 November 2025",
+        "qmi": {
+          "href": "https://www.ons.gov.uk/economy/nationalaccounts/balanceofpayments/methodologies/uktradeqmi"
+        },
+        "release_frequency": "Monthly",
+        "state": "published",
+        "title": "Trade in goods: country by commodity",
+        "unit_of_measure": "\u00c2\u00a3million"
+      }
+    ],
+    "inflation": {
+      "source": "ONS",
+      "type": "CPI",
+      "data": "Available"
+    }
+  },
+  "weather": {
+    "warnings": [
+      {
+        "warning": "Yellow warning of fog affecting East Midlands"
+      },
+      {
+        "warning": "Yellow warning of fog affecting North East England"
+      },
+      {
+        "warning": "Yellow warning of fog affecting North West England"
+      },
+      {
+        "warning": "Yellow warning of fog affecting West Midlands"
+      },
+      {
+        "warning": "Yellow warning of fog affecting Yorkshire &amp; Humber"
+      }
+    ],
+    "forecast": {
+      "status": "available",
+      "source": "Met Office"
+    }
+  },
+  "analysis": "Here's an analysis of the provided UK democracy data:\n\nParliament is currently active with 20 bills under consideration and 20 recent votes, with key legislation focusing on road safety, business rates, and abortion. News headlines highlight political tensions surrounding assisted dying legislation and controversies involving former political figures, including a pro-Russia scandal. The government is prioritizing international relations, evidenced by discussions with Ukrainian and Indonesian leaders, as well as addressing immigration issues by expanding visa fraud campaigns in India. These activities could impact public discourse on sensitive social issues, influence international perceptions of the UK, and affect immigration policies. Human review recommended.\n",
   "stats": {
     "total_bills": 20,
-    "total_votes": 10,
+    "total_votes": 30,
     "total_mps": 20,
     "total_lords": 20,
-    "total_questions": 0,
+    "total_questions": 20,
     "total_committees": 20,
     "total_news": 30,
-    "total_gov_updates": 25
+    "total_gov_updates": 25,
+    "total_crimes": 50,
+    "total_police_forces": 44,
+    "total_weather_warnings": 5,
+    "total_econ_datasets": 10
   },
-  "sha_hash": "3f06bde476ca573dd20aa12084653a90"
+  "sha_hash": "d2db0cf5a8a90f71357797295ab04ade"
 }

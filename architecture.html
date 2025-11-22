@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WE333 OMNIPLEX - System Architecture</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #0a0a1a, #1a1a3e);
+            color: #fff;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container { max-width: 1200px; margin: 0 auto; }
+        h1 {
+            text-align: center;
+            font-size: 2.5em;
+            background: linear-gradient(90deg, #e94560, #4ecca3);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 10px;
+        }
+        .subtitle { text-align: center; color: #888; margin-bottom: 30px; }
+        .section {
+            background: rgba(255,255,255,0.05);
+            border-radius: 15px;
+            padding: 25px;
+            margin-bottom: 25px;
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+        .section h2 {
+            color: #4ecca3;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #4ecca3;
+            padding-bottom: 10px;
+        }
+        .diagram {
+            background: #0a0a1a;
+            border-radius: 10px;
+            padding: 20px;
+            font-family: monospace;
+            white-space: pre;
+            overflow-x: auto;
+            font-size: 0.85em;
+            line-height: 1.4;
+        }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
+        .card {
+            background: rgba(0,0,0,0.3);
+            border-radius: 10px;
+            padding: 20px;
+            border-left: 4px solid #e94560;
+        }
+        .card h3 { color: #e94560; margin-bottom: 10px; }
+        .card p { color: #aaa; font-size: 0.9em; line-height: 1.5; }
+        .card.green { border-left-color: #4ecca3; }
+        .card.green h3 { color: #4ecca3; }
+        .card.blue { border-left-color: #00bcd4; }
+        .card.blue h3 { color: #00bcd4; }
+        .card.yellow { border-left-color: #ffd700; }
+        .card.yellow h3 { color: #ffd700; }
+        .stats { display: flex; justify-content: center; gap: 30px; flex-wrap: wrap; margin: 20px 0; }
+        .stat { text-align: center; padding: 15px 25px; background: rgba(233,69,96,0.2); border-radius: 10px; }
+        .stat .num { font-size: 2em; font-weight: bold; color: #e94560; }
+        .stat .label { color: #888; font-size: 0.85em; }
+        .timeline { position: relative; padding-left: 30px; }
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 10px;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: #4ecca3;
+        }
+        .timeline-item {
+            position: relative;
+            margin-bottom: 20px;
+            padding: 15px;
+            background: rgba(0,0,0,0.3);
+            border-radius: 10px;
+        }
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -24px;
+            top: 20px;
+            width: 10px;
+            height: 10px;
+            background: #4ecca3;
+            border-radius: 50%;
+        }
+        .timeline-item h4 { color: #4ecca3; margin-bottom: 5px; }
+        .timeline-item p { color: #aaa; font-size: 0.9em; }
+        .heritage { display: flex; justify-content: center; gap: 40px; margin: 30px 0; }
+        .heritage-item { text-align: center; }
+        .heritage-item .year { font-size: 2em; color: #e94560; }
+        .heritage-item .name { color: #888; }
+        table { width: 100%; border-collapse: collapse; margin-top: 15px; }
+        th, td { padding: 12px; text-align: left; border-bottom: 1px solid rgba(255,255,255,0.1); }
+        th { color: #4ecca3; }
+        td { color: #ccc; }
+        .tag {
+            display: inline-block;
+            padding: 3px 10px;
+            border-radius: 15px;
+            font-size: 0.8em;
+            margin: 2px;
+        }
+        .tag.green { background: rgba(78,204,163,0.3); color: #4ecca3; }
+        .tag.red { background: rgba(233,69,96,0.3); color: #e94560; }
+        .tag.blue { background: rgba(0,188,212,0.3); color: #00bcd4; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>WE333 OMNIPLEX</h1>
+        <p class="subtitle">UK Democracy Monitor - System Architecture</p>
+
+        <div class="heritage">
+            <div class="heritage-item">
+                <div class="year">1951</div>
+                <div class="name">THA - Kadri</div>
+            </div>
+            <div class="heritage-item">
+                <div class="year">1970s</div>
+                <div class="name">BBA - Bedri</div>
+            </div>
+            <div class="heritage-item">
+                <div class="year">2025</div>
+                <div class="name">AIIA - WE333</div>
+            </div>
+        </div>
+
+        <div class="stats">
+            <div class="stat"><div class="num">6</div><div class="label">Hours Built</div></div>
+            <div class="stat"><div class="num">8</div><div class="label">AI Agents</div></div>
+            <div class="stat"><div class="num">5+</div><div class="label">Data Sources</div></div>
+            <div class="stat"><div class="num">4</div><div class="label">AI Providers</div></div>
+            <div class="stat"><div class="num">1</div><div class="label">Live Dashboard</div></div>
+        </div>
+
+        <div class="section">
+            <h2>System Architecture</h2>
+            <div class="diagram">
+                        ┌─────────────────────────────────────────────────────────────┐
+                        │                    WE333 OMNIPLEX HUB                       │
+                        │              Built in 6 Hours - Nov 22, 2025                │
+                        └─────────────────────────────────────────────────────────────┘
+                                                    │
+                    ┌───────────────────────────────┼───────────────────────────────┐
+                    │                               │                               │
+            ┌───────▼───────┐               ┌───────▼───────┐               ┌───────▼───────┐
+            │    CLAUDE     │               │    GEMINI     │               │     GPT       │
+            │  Orchestrator │               │   Research    │               │   Ecosystem   │
+            │               │               │               │               │               │
+            │ • Code/Deploy │               │ • Analysis    │               │ • Strategy    │
+            │ • Coordinate  │               │ • Web Search  │               │ • Content     │
+            │ • Build       │               │ • Email       │               │ • Planning    │
+            └───────┬───────┘               └───────┬───────┘               └───────┬───────┘
+                    │                               │                               │
+                    └───────────────────────────────┼───────────────────────────────┘
+                                                    │
+                        ┌───────────────────────────▼───────────────────────────┐
+                        │                    OUTPUT LAYER                        │
+                        ├───────────┬───────────┬───────────┬───────────────────┤
+                        │  RUNWAY   │ ELEVENLABS│   SLACK   │      EMAIL        │
+                        │  Video    │   Voice   │  Notify   │      Send         │
+                        └───────────┴───────────┴───────────┴───────────────────┘
+                                                    │
+                        ┌───────────────────────────▼───────────────────────────┐
+                        │                   DEPLOYMENT                           │
+                        │          GitHub Pages → bba.news / omniplex.earth      │
+                        └───────────────────────────────────────────────────────┘
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>8 Monitoring Agents (Octopus Arms)</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>1. Parliament Monitor</h3>
+                    <p>Bills, debates, legislation tracking from api.parliament.uk</p>
+                    <span class="tag green">ACTIVE</span>
+                </div>
+                <div class="card green">
+                    <h3>2. Votes Tracker</h3>
+                    <p>Commons & Lords divisions, voting patterns analysis</p>
+                    <span class="tag green">ACTIVE</span>
+                </div>
+                <div class="card blue">
+                    <h3>3. News Aggregator</h3>
+                    <p>BBC Politics, Guardian, real-time news feeds</p>
+                    <span class="tag green">ACTIVE</span>
+                </div>
+                <div class="card yellow">
+                    <h3>4. Gov.uk Tracker</h3>
+                    <p>Government announcements, policies, statistics</p>
+                    <span class="tag green">ACTIVE</span>
+                </div>
+                <div class="card">
+                    <h3>5. Crime Monitor</h3>
+                    <p>UK Police API - crime statistics by region</p>
+                    <span class="tag red">PLANNED</span>
+                </div>
+                <div class="card green">
+                    <h3>6. Economics Tracker</h3>
+                    <p>ONS data, Bank of England, economic indicators</p>
+                    <span class="tag red">PLANNED</span>
+                </div>
+                <div class="card blue">
+                    <h3>7. Weather/Crisis</h3>
+                    <p>Met Office API, emergency alerts, climate data</p>
+                    <span class="tag red">PLANNED</span>
+                </div>
+                <div class="card yellow">
+                    <h3>8. Bias Detector</h3>
+                    <p>Cross-source comparison, sentiment analysis</p>
+                    <span class="tag red">PLANNED</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Data Flow</h2>
+            <div class="diagram">
+    ┌──────────────────┐     ┌──────────────────┐     ┌──────────────────┐
+    │   DATA SOURCES   │────▶│   PROCESSING     │────▶│     OUTPUT       │
+    └──────────────────┘     └──────────────────┘     └──────────────────┘
+           │                        │                        │
+    • Parliament API         • Triple Verify           • Dashboard (HTML)
+    • Gov.uk API             • SHA256 Hash             • Audio (ElevenLabs)
+    • BBC/Guardian RSS       • Gemini Analysis         • Video (Runway)
+    • Police API             • Ethics Check            • Slack Alerts
+    • Met Office API         • Bias Detection          • Email Reports
+    • ONS Statistics                                   • GitHub Deploy
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>AI Provider Stack</h2>
+            <table>
+                <tr>
+                    <th>Provider</th>
+                    <th>Purpose</th>
+                    <th>Status</th>
+                </tr>
+                <tr>
+                    <td>Google Gemini</td>
+                    <td>Analysis, Research, Script Writing</td>
+                    <td><span class="tag green">ACTIVE</span></td>
+                </tr>
+                <tr>
+                    <td>Claude (Anthropic)</td>
+                    <td>Code Generation, Orchestration</td>
+                    <td><span class="tag green">ACTIVE</span></td>
+                </tr>
+                <tr>
+                    <td>Runway ML</td>
+                    <td>Video Generation</td>
+                    <td><span class="tag green">READY</span></td>
+                </tr>
+                <tr>
+                    <td>ElevenLabs</td>
+                    <td>Voice/Audio Generation</td>
+                    <td><span class="tag green">READY</span></td>
+                </tr>
+                <tr>
+                    <td>OpenAI GPT</td>
+                    <td>Ecosystem Planning</td>
+                    <td><span class="tag red">PENDING</span></td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="section">
+            <h2>Build Timeline (6 Hours)</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <h4>Hour 0-1: Setup</h4>
+                    <p>Python environment, dependencies, project structure</p>
+                </div>
+                <div class="timeline-item">
+                    <h4>Hour 1-2: Parliament API</h4>
+                    <p>Connected to UK Parliament API - Bills, Votes, MPs, Lords</p>
+                </div>
+                <div class="timeline-item">
+                    <h4>Hour 2-3: News + Gov.uk</h4>
+                    <p>Added BBC, Guardian RSS feeds and Gov.uk API</p>
+                </div>
+                <div class="timeline-item">
+                    <h4>Hour 3-4: Gemini AI</h4>
+                    <p>Integrated Google Gemini for intelligent analysis</p>
+                </div>
+                <div class="timeline-item">
+                    <h4>Hour 4-5: Dashboard</h4>
+                    <p>Built responsive HTML dashboard with live data</p>
+                </div>
+                <div class="timeline-item">
+                    <h4>Hour 5-6: Deployment</h4>
+                    <p>GitHub Pages, Runway + ElevenLabs integration</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Files Structure</h2>
+            <div class="diagram">
+Omniplex-Newsroom/
+├── index.html                 # Main dashboard
+├── architecture.html          # This documentation
+├── data.json                  # Live data (auto-generated)
+│
+├── full_data_generator.py     # Fetch all UK data sources
+├── watsonx_orchestrate.py     # Main pipeline with 8 agents
+├── ai_news_presenter.py       # ElevenLabs voice generator
+├── runway_video_generator.py  # Runway video generator
+│
+├── .env                       # API keys (NOT in git)
+├── .env.example               # Template for API keys
+└── README.md                  # Project documentation
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>WE333 Principles</h2>
+            <div class="grid">
+                <div class="card green">
+                    <h3>Zero Manipulation</h3>
+                    <p>Data presented as-is, no editorial bias, transparent sources</p>
+                </div>
+                <div class="card green">
+                    <h3>Triple Verification</h3>
+                    <p>Every fact checked 3 ways + SHA256 integrity hash</p>
+                </div>
+                <div class="card green">
+                    <h3>Human Judgment</h3>
+                    <p>AI assists, human decides. "Human review recommended"</p>
+                </div>
+                <div class="card green">
+                    <h3>Three Generations</h3>
+                    <p>1951 THA → 1970s BBA → 2025 AIIA heritage honored</p>
+                </div>
+            </div>
+        </div>
+
+        <div style="text-align: center; padding: 40px; color: #666;">
+            <p>WE333 OMNIPLEX | Built with Claude Code | November 22, 2025</p>
+            <p style="margin-top: 10px;">Human + AI = WE</p>
+        </div>
+    </div>
+</body>
+</html>

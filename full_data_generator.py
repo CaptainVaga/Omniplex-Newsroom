@@ -145,6 +145,120 @@ class UKParliamentFullAPI:
             return []
 
 
+class UKCrimeAPI:
+    """UK Police Crime Data API"""
+
+    def __init__(self):
+        self.base_url = "https://data.police.uk/api"
+
+    def get_crime_categories(self) -> List[Dict]:
+        """Get crime categories"""
+        try:
+            response = requests.get(f"{self.base_url}/crime-categories", timeout=10)
+            response.raise_for_status()
+            return response.json()
+        except Exception as e:
+            print(f"  Crime categories error: {e}")
+            return []
+
+    def get_forces(self) -> List[Dict]:
+        """Get all UK police forces"""
+        try:
+            response = requests.get(f"{self.base_url}/forces", timeout=10)
+            response.raise_for_status()
+            return response.json()
+        except Exception as e:
+            print(f"  Forces error: {e}")
+            return []
+
+    def get_street_crimes(self, lat: float = 51.5074, lng: float = -0.1278, limit: int = 50) -> List[Dict]:
+        """Get street-level crimes (default: London)"""
+        try:
+            response = requests.get(
+                f"{self.base_url}/crimes-street/all-crime",
+                params={"lat": lat, "lng": lng},
+                timeout=15
+            )
+            response.raise_for_status()
+            return response.json()[:limit]
+        except Exception as e:
+            print(f"  Street crimes error: {e}")
+            return []
+
+
+class UKEconomicsAPI:
+    """UK Economic data from ONS and Bank of England"""
+
+    def __init__(self):
+        self.ons_url = "https://api.beta.ons.gov.uk/v1"
+
+    def get_datasets(self, limit: int = 10) -> List[Dict]:
+        """Get available ONS datasets"""
+        try:
+            response = requests.get(
+                f"{self.ons_url}/datasets",
+                params={"limit": limit},
+                timeout=10
+            )
+            response.raise_for_status()
+            return response.json().get('items', [])
+        except Exception as e:
+            print(f"  ONS datasets error: {e}")
+            return []
+
+    def get_inflation_headline(self) -> Dict:
+        """Get latest inflation data"""
+        try:
+            # Try to get CPI data
+            response = requests.get(
+                "https://www.ons.gov.uk/economy/inflationandpriceindices/timeseries/l55o/mm23/data",
+                timeout=10
+            )
+            if response.status_code == 200:
+                return {"source": "ONS", "type": "CPI", "data": "Available"}
+            return {"source": "ONS", "status": "Check website"}
+        except Exception as e:
+            print(f"  Inflation error: {e}")
+            return {}
+
+
+class UKWeatherAPI:
+    """UK Weather data from Met Office"""
+
+    def __init__(self):
+        self.base_url = "https://www.metoffice.gov.uk/pub/data/weather/uk"
+
+    def get_weather_warnings(self) -> List[Dict]:
+        """Get current weather warnings"""
+        try:
+            # Met Office RSS for warnings
+            response = requests.get(
+                "https://www.metoffice.gov.uk/public/data/PWSCache/WarningsRSS/Region/UK",
+                timeout=10
+            )
+            if response.status_code == 200:
+                # Parse basic info
+                import re
+                items = re.findall(r'<title>(.*?)</title>', response.text)
+                return [{"warning": item} for item in items[1:6]]  # Skip first title
+            return []
+        except Exception as e:
+            print(f"  Weather warnings error: {e}")
+            return []
+
+    def get_forecast_text(self) -> Dict:
+        """Get UK forecast summary"""
+        try:
+            response = requests.get(
+                "https://www.metoffice.gov.uk/public/weather/forecast",
+                timeout=10
+            )
+            return {"status": "available", "source": "Met Office"}
+        except Exception as e:
+            print(f"  Forecast error: {e}")
+            return {}
+
+
 class GovUKAPI:
     """UK Government data sources"""
 
@@ -337,12 +451,15 @@ Be objective. End with "Human review recommended." """
 def generate_full_data():
     """Generate comprehensive UK democracy data"""
     print("\n" + "="*60)
-    print(" WE333 FULL DATA GENERATOR")
+    print(" WE333 FULL DATA GENERATOR - 8 AGENTS")
     print("="*60)
 
     parliament = UKParliamentFullAPI()
     govuk = GovUKAPI()
     news = NewsFeeds()
+    crime = UKCrimeAPI()
+    economics = UKEconomicsAPI()
+    weather = UKWeatherAPI()
     gemini = GeminiAnalyzer()
 
     data = {
@@ -350,6 +467,9 @@ def generate_full_data():
         "parliament": {},
         "government": {},
         "news": {},
+        "crime": {},
+        "economics": {},
+        "weather": {},
         "analysis": "",
         "stats": {},
         "sha_hash": ""
@@ -416,6 +536,43 @@ def generate_full_data():
     data['news']['guardian_politics'] = news.get_guardian_politics(15)
     print(f"    {len(data['news']['guardian_politics'])} stories")
 
+    # === CRIME DATA ===
+    print("\n CRIME DATA:")
+
+    print("  Fetching police forces...")
+    data['crime']['forces'] = crime.get_forces()
+    print(f"    {len(data['crime']['forces'])} forces")
+
+    print("  Fetching crime categories...")
+    data['crime']['categories'] = crime.get_crime_categories()
+    print(f"    {len(data['crime']['categories'])} categories")
+
+    print("  Fetching London street crimes...")
+    data['crime']['london_crimes'] = crime.get_street_crimes()
+    print(f"    {len(data['crime']['london_crimes'])} crimes")
+
+    # === ECONOMICS DATA ===
+    print("\n ECONOMICS DATA:")
+
+    print("  Fetching ONS datasets...")
+    data['economics']['datasets'] = economics.get_datasets(10)
+    print(f"    {len(data['economics']['datasets'])} datasets")
+
+    print("  Fetching inflation data...")
+    data['economics']['inflation'] = economics.get_inflation_headline()
+    print(f"    Inflation: {data['economics']['inflation'].get('status', 'fetched')}")
+
+    # === WEATHER DATA ===
+    print("\n WEATHER DATA:")
+
+    print("  Fetching weather warnings...")
+    data['weather']['warnings'] = weather.get_weather_warnings()
+    print(f"    {len(data['weather']['warnings'])} warnings")
+
+    print("  Fetching forecast...")
+    data['weather']['forecast'] = weather.get_forecast_text()
+    print(f"    Forecast: {data['weather']['forecast'].get('status', 'fetched')}")
+
     # === STATS ===
     data['stats'] = {
         "total_bills": len(data['parliament'].get('bills', [])),
@@ -425,7 +582,11 @@ def generate_full_data():
         "total_questions": len(data['parliament'].get('written_questions', [])),
         "total_committees": len(data['parliament'].get('committees', [])),
         "total_news": len(data['news'].get('bbc_politics', [])) + len(data['news'].get('guardian_politics', [])),
-        "total_gov_updates": len(data['government'].get('announcements', [])) + len(data['government'].get('policies', []))
+        "total_gov_updates": len(data['government'].get('announcements', [])) + len(data['government'].get('policies', [])),
+        "total_crimes": len(data['crime'].get('london_crimes', [])),
+        "total_police_forces": len(data['crime'].get('forces', [])),
+        "total_weather_warnings": len(data['weather'].get('warnings', [])),
+        "total_econ_datasets": len(data['economics'].get('datasets', []))
     }
 
     # === AI ANALYSIS ===
