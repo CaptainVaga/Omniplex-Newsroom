@@ -1,0 +1,940 @@
+{
+  "timestamp": "2025-11-22T20:57:09.644735",
+  "bills": [
+    {
+      "billId": 3973,
+      "shortTitle": "A34 Slip Road Safety (East Ilsley and Beedon) Bill",
+      "formerShortTitle": null,
+      "currentHouse": "Commons",
+      "originatingHouse": "Commons",
+      "lastUpdate": "2025-09-16T17:08:18.2184786",
+      "billWithdrawn": "2025-09-15T00:00:00",
+      "isDefeated": false,
+      "billTypeId": 5,
+      "introducedSessionId": 39,
+      "includedSessionIds": [
+        39
+      ],
+      "isAct": false,
+      "currentStage": {
+        "id": 19929,
+        "stageId": 7,
+        "sessionId": 39,
+        "description": "2nd reading",
+        "abbreviation": "2R",
+        "house": "Commons",
+        "stageSittings": [
+          {
+            "id": 17032,
+            "stageId": 7,
+            "billStageId": 19929,
+            "billId": 3973,
+            "date": "2025-07-11T00:00:00"
+          }
+        ],
+        "sortOrder": 2
+      }
+    },
+    {
+      "billId": 2818,
+      "shortTitle": "Abolition of Business Rates Bill",
+      "formerShortTitle": null,
+      "currentHouse": "Commons",
+      "originatingHouse": "Commons",
+      "lastUpdate": "2021-05-04T10:42:08.0579851",
+      "billWithdrawn": null,
+      "isDefeated": false,
+      "billTypeId": 5,
+      "introducedSessionId": 35,
+      "includedSessionIds": [
+        35
+      ],
+      "isAct": false,
+      "currentStage": {
+        "id": 12655,
+        "stageId": 7,
+        "sessionId": 35,
+        "description": "2nd reading",
+        "abbreviation": "2R",
+        "house": "Commons",
+        "stageSittings": [],
+        "sortOrder": 2
+      }
+    },
+    {
+      "billId": 2302,
+      "shortTitle": "Abortion Bill",
+      "formerShortTitle": null,
+      "currentHouse": "Commons",
+      "originatingHouse": "Commons",
+      "lastUpdate": "2019-09-17T16:22:10",
+      "billWithdrawn": null,
+      "isDefeated": false,
+      "billTypeId": 5,
+      "introducedSessionId": 30,
+      "includedSessionIds": [
+        30
+      ],
+      "isAct": false,
+      "currentStage": {
+        "id": 15039,
+        "stageId": 7,
+        "sessionId": 30,
+        "description": "2nd reading",
+        "abbreviation": "2R",
+        "house": "Commons",
+        "stageSittings": [],
+        "sortOrder": 2
+      }
+    },
+    {
+      "billId": 2556,
+      "shortTitle": "Abortion Bill [HL]",
+      "formerShortTitle": null,
+      "currentHouse": "Lords",
+      "originatingHouse": "Lords",
+      "lastUpdate": "2021-05-05T11:05:17.4984479",
+      "billWithdrawn": null,
+      "isDefeated": false,
+      "billTypeId": 2,
+      "introducedSessionId": 35,
+      "includedSessionIds": [
+        35
+      ],
+      "isAct": false,
+      "currentStage": {
+        "id": 11662,
+        "stageId": 2,
+        "sessionId": 35,
+        "description": "2nd reading",
+        "abbreviation": "2R",
+        "house": "Lords",
+        "stageSittings": [],
+        "sortOrder": 2
+      }
+    },
+    {
+      "billId": 2743,
+      "shortTitle": "Abortion (Cleft Lip, Cleft Palate and Clubfoot) Bill",
+      "formerShortTitle": null,
+      "currentHouse": "Commons",
+      "originatingHouse": "Commons",
+      "lastUpdate": "2021-05-04T10:55:22.6940381",
+      "billWithdrawn": null,
+      "isDefeated": false,
+      "billTypeId": 8,
+      "introducedSessionId": 35,
+      "includedSessionIds": [
+        35
+      ],
+      "isAct": false,
+      "currentStage": {
+        "id": 12196,
+        "stageId": 7,
+        "sessionId": 35,
+        "description": "2nd reading",
+        "abbreviation": "2R",
+        "house": "Commons",
+        "stageSittings": [],
+        "sortOrder": 2
+      }
+    },
+    {
+      "billId": 1790,
+      "shortTitle": "Abortion (Disability Equality) Bill [HL]",
+      "formerShortTitle": null,
+      "currentHouse": "Lords",
+      "originatingHouse": "Lords",
+      "lastUpdate": "2017-05-02T10:36:51",
+      "billWithdrawn": null,
+      "isDefeated": false,
+      "billTypeId": 2,
+      "introducedSessionId": 29,
+      "includedSessionIds": [
+        29
+      ],
+      "isAct": false,
+      "currentStage": {
+        "id": 9209,
+        "stageId": 4,
+        "sessionId": 29,
+        "description": "Report stage",
+        "abbreviation": "RS",
+        "house": "Lords",
+        "stageSittings": [
+          {
+            "id": 8494,
+            "stageId": 4,
+            "billStageId": 9209,
+            "billId": 1790,
+            "date": "2017-02-24T00:00:00"
+          }
+        ],
+        "sortOrder": 4
+      }
+    },
+    {
+      "billId": 2043,
+      "shortTitle": "Abortion (Disability Equality) Bill [HL]",
+      "formerShortTitle": null,
+      "currentHouse": "Lords",
+      "originatingHouse": "Lords",
+      "lastUpdate": "2019-10-09T10:23:08",
+      "billWithdrawn": null,
+      "isDefeated": false,
+      "billTypeId": 2,
+      "introducedSessionId": 30,
+      "includedSessionIds": [
+        30
+      ],
+      "isAct": false,
+      "currentStage": {
+        "id": 14787,
+        "stageId": 2,
+        "sessionId": 30,
+        "description": "2nd reading",
+        "abbreviation": "2R",
+        "house": "Lords",
+        "stageSittings": [],
+        "sortOrder": 2
+      }
+    },
+    {
+      "billId": 2028,
+      "shortTitle": "Abortion (Foetus Protection) Bill [HL]",
+      "formerShortTitle": null,
+      "currentHouse": "Lords",
+      "originatingHouse": "Lords",
+      "lastUpdate": "2019-10-09T10:24:33",
+      "billWithdrawn": null,
+      "isDefeated": false,
+      "billTypeId": 2,
+      "introducedSessionId": 30,
+      "includedSessionIds": [
+        30
+      ],
+      "isAct": false,
+      "currentStage": {
+        "id": 14772,
+        "stageId": 2,
+        "sessionId": 30,
+        "description": "2nd reading",
+        "abbreviation": "2R",
+        "house": "Lords",
+        "stageSittings": [],
+        "sortOrder": 2
+      }
+    },
+    {
+      "billId": 3554,
+      "shortTitle": "Abortion (Gestational Time Limit Reduction) Bill [HL]",
+      "formerShortTitle": null,
+      "currentHouse": "Lords",
+      "originatingHouse": "Lords",
+      "lastUpdate": "2024-05-29T11:30:05.9068571",
+      "billWithdrawn": null,
+      "isDefeated": false,
+      "billTypeId": 2,
+      "introducedSessionId": 38,
+      "includedSessionIds": [
+        38
+      ],
+      "isAct": false,
+      "currentStage": {
+        "id": 18160,
+        "stageId": 1,
+        "sessionId": 38,
+        "description": "1st reading",
+        "abbreviation": "1R",
+        "house": "Lords",
+        "stageSittings": [
+          {
+            "id": 15147,
+            "stageId": 1,
+            "billStageId": 18160,
+            "billId": 3554,
+            "date": "2023-12-07T00:00:00"
+          }
+        ],
+        "sortOrder": 1
+      }
+    },
+    {
+      "billId": 1514,
+      "shortTitle": "Abortion (Sex-Selection) Bill",
+      "formerShortTitle": null,
+      "currentHouse": "Commons",
+      "originatingHouse": "Commons",
+      "lastUpdate": "2015-03-30T11:16:23",
+      "billWithdrawn": null,
+      "isDefeated": false,
+      "billTypeId": 5,
+      "introducedSessionId": 27,
+      "includedSessionIds": [
+        27
+      ],
+      "isAct": false,
+      "currentStage": {
+        "id": 14298,
+        "stageId": 7,
+        "sessionId": 27,
+        "description": "2nd reading",
+        "abbreviation": "2R",
+        "house": "Commons",
+        "stageSittings": [],
+        "sortOrder": 2
+      }
+    }
+  ],
+  "divisions": [
+    {
+      "DivisionId": 2190,
+      "Date": "2025-11-19T14:01:00",
+      "PublicationUpdated": "2025-11-19T14:19:18",
+      "Number": 361,
+      "IsDeferred": false,
+      "EVELType": "",
+      "EVELCountry": "",
+      "Title": "Border Security, Asylum and Immigration Bill: motion to disagree with Lords Amendment 37",
+      "AyeCount": 326,
+      "NoCount": 92,
+      "DoubleMajorityAyeCount": null,
+      "DoubleMajorityNoCount": null,
+      "AyeTellers": [
+        {
+          "MemberId": 5180,
+          "Name": "Nesil Caliskan",
+          "Party": "Labour",
+          "SubParty": null,
+          "PartyColour": "d50000",
+          "PartyAbbreviation": "Lab",
+          "MemberFrom": "Barking",
+          "ListAs": "Caliskan, Nesil",
+          "ProxyName": null
+        },
+        {
+          "MemberId": 4653,
+          "Name": "Stephen Morgan",
+          "Party": "Labour",
+          "SubParty": null,
+          "PartyColour": "d50000",
+          "PartyAbbreviation": "Lab",
+          "MemberFrom": "Portsmouth South",
+          "ListAs": "Morgan, Stephen",
+          "ProxyName": null
+        }
+      ],
+      "NoTellers": [
+        {
+          "MemberId": 4739,
+          "Name": "Jerome Mayhew",
+          "Party": "Conservative",
+          "SubParty": null,
+          "PartyColour": "0063ba",
+          "PartyAbbreviation": "Con",
+          "MemberFrom": "Broadland and Fakenham",
+          "ListAs": "Mayhew, Jerome",
+          "ProxyName": null
+        },
+        {
+          "MemberId": 4872,
+          "Name": "David Simmonds",
+          "Party": "Conservative",
+          "SubParty": null,
+          "PartyColour": "0063ba",
+          "PartyAbbreviation": "Con",
+          "MemberFrom": "Ruislip, Northwood and Pinner",
+          "ListAs": "Simmonds, David",
+          "ProxyName": null
+        }
+      ],
+      "Ayes": [],
+      "Noes": [],
+      "FriendlyDescription": null,
+      "FriendlyTitle": null,
+      "NoVoteRecorded": [],
+      "RemoteVotingStart": null,
+      "RemoteVotingEnd": null
+    },
+    {
+      "DivisionId": 2189,
+      "Date": "2025-11-19T00:00:00",
+      "PublicationUpdated": "2025-11-20T11:13:17",
+      "Number": 360,
+      "IsDeferred": true,
+      "EVELType": "",
+      "EVELCountry": "",
+      "Title": "Draft Radio Equipment (Amendment) (Northern Ireland) Regulations 2025",
+      "AyeCount": 376,
+      "NoCount": 16,
+      "DoubleMajorityAyeCount": null,
+      "DoubleMajorityNoCount": null,
+      "AyeTellers": null,
+      "NoTellers": null,
+      "Ayes": [],
+      "Noes": [],
+      "FriendlyDescription": null,
+      "FriendlyTitle": null,
+      "NoVoteRecorded": [],
+      "RemoteVotingStart": null,
+      "RemoteVotingEnd": null
+    },
+    {
+      "DivisionId": 2188,
+      "Date": "2025-11-18T19:12:00",
+      "PublicationUpdated": "2025-11-19T10:51:20",
+      "Number": 359,
+      "IsDeferred": false,
+      "EVELType": "",
+      "EVELCountry": "",
+      "Title": "Northern Ireland Troubles Bill: Second Reading",
+      "AyeCount": 320,
+      "NoCount": 105,
+      "DoubleMajorityAyeCount": null,
+      "DoubleMajorityNoCount": null,
+      "AyeTellers": [
+        {
+          "MemberId": 5136,
+          "Name": "Imogen Walker",
+          "Party": "Labour",
+          "SubParty": null,
+          "PartyColour": "d50000",
+          "PartyAbbreviation": "Lab",
+          "MemberFrom": "Hamilton and Clyde Valley",
+          "ListAs": "Walker, Imogen",
+          "ProxyName": null
+        },
+        {
+          "MemberId": 5236,
+          "Name": "Jade Botterill",
+          "Party": "Labour",
+          "SubParty": null,
+          "PartyColour": "d50000",
+          "PartyAbbreviation": "Lab",
+          "MemberFrom": "Ossett and Denby Dale",
+          "ListAs": "Botterill, Jade",
+          "ProxyName": null
+        }
+      ],
+      "NoTellers": [
+        {
+          "MemberId": 5062,
+          "Name": "Nick Timothy",
+          "Party": "Conservative",
+          "SubParty": null,
+          "PartyColour": "0063ba",
+          "PartyAbbreviation": "Con",
+          "MemberFrom": "West Suffolk",
+          "ListAs": "Timothy, Nick",
+          "ProxyName": null
+        },
+        {
+          "MemberId": 4872,
+          "Name": "David Simmonds",
+          "Party": "Conservative",
+          "SubParty": null,
+          "PartyColour": "0063ba",
+          "PartyAbbreviation": "Con",
+          "MemberFrom": "Ruislip, Northwood and Pinner",
+          "ListAs": "Simmonds, David",
+          "ProxyName": null
+        }
+      ],
+      "Ayes": [],
+      "Noes": [],
+      "FriendlyDescription": null,
+      "FriendlyTitle": null,
+      "NoVoteRecorded": [],
+      "RemoteVotingStart": null,
+      "RemoteVotingEnd": null
+    },
+    {
+      "DivisionId": 2187,
+      "Date": "2025-11-18T18:58:00",
+      "PublicationUpdated": "2025-11-19T12:05:51",
+      "Number": 358,
+      "IsDeferred": false,
+      "EVELType": "",
+      "EVELCountry": "",
+      "Title": "Northern Ireland Troubles Bill: Opposition Reasoned Amendment",
+      "AyeCount": 165,
+      "NoCount": 327,
+      "DoubleMajorityAyeCount": null,
+      "DoubleMajorityNoCount": null,
+      "AyeTellers": [
+        {
+          "MemberId": 5062,
+          "Name": "Nick Timothy",
+          "Party": "Conservative",
+          "SubParty": null,
+          "PartyColour": "0063ba",
+          "PartyAbbreviation": "Con",
+          "MemberFrom": "West Suffolk",
+          "ListAs": "Timothy, Nick",
+          "ProxyName": null
+        },
+        {
+          "MemberId": 4872,
+          "Name": "David Simmonds",
+          "Party": "Conservative",
+          "SubParty": null,
+          "PartyColour": "0063ba",
+          "PartyAbbreviation": "Con",
+          "MemberFrom": "Ruislip, Northwood and Pinner",
+          "ListAs": "Simmonds, David",
+          "ProxyName": null
+        }
+      ],
+      "NoTellers": [
+        {
+          "MemberId": 5136,
+          "Name": "Imogen Walker",
+          "Party": "Labour",
+          "SubParty": null,
+          "PartyColour": "d50000",
+          "PartyAbbreviation": "Lab",
+          "MemberFrom": "Hamilton and Clyde Valley",
+          "ListAs": "Walker, Imogen",
+          "ProxyName": null
+        },
+        {
+          "MemberId": 5236,
+          "Name": "Jade Botterill",
+          "Party": "Labour",
+          "SubParty": null,
+          "PartyColour": "d50000",
+          "PartyAbbreviation": "Lab",
+          "MemberFrom": "Ossett and Denby Dale",
+          "ListAs": "Botterill, Jade",
+          "ProxyName": null
+        }
+      ],
+      "Ayes": [],
+      "Noes": [],
+      "FriendlyDescription": null,
+      "FriendlyTitle": null,
+      "NoVoteRecorded": [],
+      "RemoteVotingStart": null,
+      "RemoteVotingEnd": null
+    },
+    {
+      "DivisionId": 2185,
+      "Date": "2025-11-17T21:20:00",
+      "PublicationUpdated": "2025-11-18T18:20:31",
+      "Number": 357,
+      "IsDeferred": false,
+      "EVELType": "",
+      "EVELCountry": "",
+      "Title": "Biodiversity Beyond National Jurisdiction Bill: Committee: Amendment 5",
+      "AyeCount": 147,
+      "NoCount": 318,
+      "DoubleMajorityAyeCount": null,
+      "DoubleMajorityNoCount": null,
+      "AyeTellers": [
+        {
+          "MemberId": 5062,
+          "Name": "Nick Timothy",
+          "Party": "Conservative",
+          "SubParty": null,
+          "PartyColour": "0063ba",
+          "PartyAbbreviation": "Con",
+          "MemberFrom": "West Suffolk",
+          "ListAs": "Timothy, Nick",
+          "ProxyName": null
+        },
+        {
+          "MemberId": 4872,
+          "Name": "David Simmonds",
+          "Party": "Conservative",
+          "SubParty": null,
+          "PartyColour": "0063ba",
+          "PartyAbbreviation": "Con",
+          "MemberFrom": "Ruislip, Northwood and Pinner",
+          "ListAs": "Simmonds, David",
+          "ProxyName": null
+        }
+      ],
+      "NoTellers": [
+        {
+          "MemberId": 5167,
+          "Name": "Gregor Poynton",
+          "Party": "Labour",
+          "SubParty": null,
+          "PartyColour": "d50000",
+          "PartyAbbreviation": "Lab",
+          "MemberFrom": "Livingston",
+          "ListAs": "Poynton, Gregor",
+          "ProxyName": null
+        },
+        {
+          "MemberId": 5075,
+          "Name": "Deirdre Costigan",
+          "Party": "Labour",
+          "SubParty": null,
+          "PartyColour": "d50000",
+          "PartyAbbreviation": "Lab",
+          "MemberFrom": "Ealing Southall",
+          "ListAs": "Costigan, Deirdre",
+          "ProxyName": null
+        }
+      ],
+      "Ayes": [],
+      "Noes": [],
+      "FriendlyDescription": null,
+      "FriendlyTitle": null,
+      "NoVoteRecorded": [],
+      "RemoteVotingStart": null,
+      "RemoteVotingEnd": null
+    },
+    {
+      "DivisionId": 2184,
+      "Date": "2025-11-17T21:07:00",
+      "PublicationUpdated": "2025-11-18T11:05:16",
+      "Number": 356,
+      "IsDeferred": false,
+      "EVELType": "",
+      "EVELCountry": "",
+      "Title": "Biodiversity Beyond National Jurisdiction Bill: Committee: Amendment 4",
+      "AyeCount": 143,
+      "NoCount": 318,
+      "DoubleMajorityAyeCount": null,
+      "DoubleMajorityNoCount": null,
+      "AyeTellers": [
+        {
+          "MemberId": 5062,
+          "Name": "Nick Timothy",
+          "Party": "Conservative",
+          "SubParty": null,
+          "PartyColour": "0063ba",
+          "PartyAbbreviation": "Con",
+          "MemberFrom": "West Suffolk",
+          "ListAs": "Timothy, Nick",
+          "ProxyName": null
+        },
+        {
+          "MemberId": 4872,
+          "Name": "David Simmonds",
+          "Party": "Conservative",
+          "SubParty": null,
+          "PartyColour": "0063ba",
+          "PartyAbbreviation": "Con",
+          "MemberFrom": "Ruislip, Northwood and Pinner",
+          "ListAs": "Simmonds, David",
+          "ProxyName": null
+        }
+      ],
+      "NoTellers": [
+        {
+          "MemberId": 5167,
+          "Name": "Gregor Poynton",
+          "Party": "Labour",
+          "SubParty": null,
+          "PartyColour": "d50000",
+          "PartyAbbreviation": "Lab",
+          "MemberFrom": "Livingston",
+          "ListAs": "Poynton, Gregor",
+          "ProxyName": null
+        },
+        {
+          "MemberId": 5075,
+          "Name": "Deirdre Costigan",
+          "Party": "Labour",
+          "SubParty": null,
+          "PartyColour": "d50000",
+          "PartyAbbreviation": "Lab",
+          "MemberFrom": "Ealing Southall",
+          "ListAs": "Costigan, Deirdre",
+          "ProxyName": null
+        }
+      ],
+      "Ayes": [],
+      "Noes": [],
+      "FriendlyDescription": null,
+      "FriendlyTitle": null,
+      "NoVoteRecorded": [],
+      "RemoteVotingStart": null,
+      "RemoteVotingEnd": null
+    },
+    {
+      "DivisionId": 2183,
+      "Date": "2025-11-13T17:41:00",
+      "PublicationUpdated": "2025-11-13T17:56:02",
+      "Number": 355,
+      "IsDeferred": false,
+      "EVELType": "",
+      "EVELCountry": "",
+      "Title": "Planning and Infrastructure Bill: motion to disagree with Lords Amendment 40",
+      "AyeCount": 244,
+      "NoCount": 132,
+      "DoubleMajorityAyeCount": null,
+      "DoubleMajorityNoCount": null,
+      "AyeTellers": [
+        {
+          "MemberId": 4653,
+          "Name": "Stephen Morgan",
+          "Party": "Labour",
+          "SubParty": null,
+          "PartyColour": "d50000",
+          "PartyAbbreviation": "Lab",
+          "MemberFrom": "Portsmouth South",
+          "ListAs": "Morgan, Stephen",
+          "ProxyName": null
+        },
+        {
+          "MemberId": 5167,
+          "Name": "Gregor Poynton",
+          "Party": "Labour",
+          "SubParty": null,
+          "PartyColour": "d50000",
+          "PartyAbbreviation": "Lab",
+          "MemberFrom": "Livingston",
+          "ListAs": "Poynton, Gregor",
+          "ProxyName": null
+        }
+      ],
+      "NoTellers": [
+        {
+          "MemberId": 5297,
+          "Name": "Rebecca Paul",
+          "Party": "Conservative",
+          "SubParty": null,
+          "PartyColour": "0063ba",
+          "PartyAbbreviation": "Con",
+          "MemberFrom": "Reigate",
+          "ListAs": "Paul, Rebecca",
+          "ProxyName": null
+        },
+        {
+          "MemberId": 5101,
+          "Name": "Ashley Fox",
+          "Party": "Conservative",
+          "SubParty": null,
+          "PartyColour": "0063ba",
+          "PartyAbbreviation": "Con",
+          "MemberFrom": "Bridgwater",
+          "ListAs": "Fox, Sir Ashley",
+          "ProxyName": null
+        }
+      ],
+      "Ayes": [],
+      "Noes": [],
+      "FriendlyDescription": null,
+      "FriendlyTitle": null,
+      "NoVoteRecorded": [],
+      "RemoteVotingStart": null,
+      "RemoteVotingEnd": null
+    },
+    {
+      "DivisionId": 2182,
+      "Date": "2025-11-13T17:30:00",
+      "PublicationUpdated": "2025-11-19T12:31:50",
+      "Number": 354,
+      "IsDeferred": false,
+      "EVELType": "",
+      "EVELCountry": "",
+      "Title": "Planning and Infrastructure Bill: motion to disagree with Lords Amendment 39",
+      "AyeCount": 250,
+      "NoCount": 133,
+      "DoubleMajorityAyeCount": null,
+      "DoubleMajorityNoCount": null,
+      "AyeTellers": [
+        {
+          "MemberId": 4653,
+          "Name": "Stephen Morgan",
+          "Party": "Labour",
+          "SubParty": null,
+          "PartyColour": "d50000",
+          "PartyAbbreviation": "Lab",
+          "MemberFrom": "Portsmouth South",
+          "ListAs": "Morgan, Stephen",
+          "ProxyName": null
+        },
+        {
+          "MemberId": 5167,
+          "Name": "Gregor Poynton",
+          "Party": "Labour",
+          "SubParty": null,
+          "PartyColour": "d50000",
+          "PartyAbbreviation": "Lab",
+          "MemberFrom": "Livingston",
+          "ListAs": "Poynton, Gregor",
+          "ProxyName": null
+        }
+      ],
+      "NoTellers": [
+        {
+          "MemberId": 5101,
+          "Name": "Ashley Fox",
+          "Party": "Conservative",
+          "SubParty": null,
+          "PartyColour": "0063ba",
+          "PartyAbbreviation": "Con",
+          "MemberFrom": "Bridgwater",
+          "ListAs": "Fox, Sir Ashley",
+          "ProxyName": null
+        },
+        {
+          "MemberId": 5311,
+          "Name": "Harriet Cross",
+          "Party": "Conservative",
+          "SubParty": null,
+          "PartyColour": "0063ba",
+          "PartyAbbreviation": "Con",
+          "MemberFrom": "Gordon and Buchan",
+          "ListAs": "Cross, Harriet",
+          "ProxyName": null
+        }
+      ],
+      "Ayes": [],
+      "Noes": [],
+      "FriendlyDescription": null,
+      "FriendlyTitle": null,
+      "NoVoteRecorded": [],
+      "RemoteVotingStart": null,
+      "RemoteVotingEnd": null
+    },
+    {
+      "DivisionId": 2181,
+      "Date": "2025-11-13T17:19:00",
+      "PublicationUpdated": "2025-11-14T15:13:06",
+      "Number": 353,
+      "IsDeferred": false,
+      "EVELType": "",
+      "EVELCountry": "",
+      "Title": "Planning and Infrastructure Bill: motion to disagree with Lords Amendment 38",
+      "AyeCount": 252,
+      "NoCount": 130,
+      "DoubleMajorityAyeCount": null,
+      "DoubleMajorityNoCount": null,
+      "AyeTellers": [
+        {
+          "MemberId": 4653,
+          "Name": "Stephen Morgan",
+          "Party": "Labour",
+          "SubParty": null,
+          "PartyColour": "d50000",
+          "PartyAbbreviation": "Lab",
+          "MemberFrom": "Portsmouth South",
+          "ListAs": "Morgan, Stephen",
+          "ProxyName": null
+        },
+        {
+          "MemberId": 5167,
+          "Name": "Gregor Poynton",
+          "Party": "Labour",
+          "SubParty": null,
+          "PartyColour": "d50000",
+          "PartyAbbreviation": "Lab",
+          "MemberFrom": "Livingston",
+          "ListAs": "Poynton, Gregor",
+          "ProxyName": null
+        }
+      ],
+      "NoTellers": [
+        {
+          "MemberId": 5101,
+          "Name": "Ashley Fox",
+          "Party": "Conservative",
+          "SubParty": null,
+          "PartyColour": "0063ba",
+          "PartyAbbreviation": "Con",
+          "MemberFrom": "Bridgwater",
+          "ListAs": "Fox, Sir Ashley",
+          "ProxyName": null
+        },
+        {
+          "MemberId": 5311,
+          "Name": "Harriet Cross",
+          "Party": "Conservative",
+          "SubParty": null,
+          "PartyColour": "0063ba",
+          "PartyAbbreviation": "Con",
+          "MemberFrom": "Gordon and Buchan",
+          "ListAs": "Cross, Harriet",
+          "ProxyName": null
+        }
+      ],
+      "Ayes": [],
+      "Noes": [],
+      "FriendlyDescription": null,
+      "FriendlyTitle": null,
+      "NoVoteRecorded": [],
+      "RemoteVotingStart": null,
+      "RemoteVotingEnd": null
+    },
+    {
+      "DivisionId": 2180,
+      "Date": "2025-11-13T17:08:00",
+      "PublicationUpdated": "2025-11-18T10:47:02",
+      "Number": 352,
+      "IsDeferred": false,
+      "EVELType": "",
+      "EVELCountry": "",
+      "Title": "Planning and Infrastructure Bill: motion to disagree with Lords Amendment 37",
+      "AyeCount": 254,
+      "NoCount": 129,
+      "DoubleMajorityAyeCount": null,
+      "DoubleMajorityNoCount": null,
+      "AyeTellers": [
+        {
+          "MemberId": 4653,
+          "Name": "Stephen Morgan",
+          "Party": "Labour",
+          "SubParty": null,
+          "PartyColour": "d50000",
+          "PartyAbbreviation": "Lab",
+          "MemberFrom": "Portsmouth South",
+          "ListAs": "Morgan, Stephen",
+          "ProxyName": null
+        },
+        {
+          "MemberId": 5167,
+          "Name": "Gregor Poynton",
+          "Party": "Labour",
+          "SubParty": null,
+          "PartyColour": "d50000",
+          "PartyAbbreviation": "Lab",
+          "MemberFrom": "Livingston",
+          "ListAs": "Poynton, Gregor",
+          "ProxyName": null
+        }
+      ],
+      "NoTellers": [
+        {
+          "MemberId": 5297,
+          "Name": "Rebecca Paul",
+          "Party": "Conservative",
+          "SubParty": null,
+          "PartyColour": "0063ba",
+          "PartyAbbreviation": "Con",
+          "MemberFrom": "Reigate",
+          "ListAs": "Paul, Rebecca",
+          "ProxyName": null
+        },
+        {
+          "MemberId": 4739,
+          "Name": "Jerome Mayhew",
+          "Party": "Conservative",
+          "SubParty": null,
+          "PartyColour": "0063ba",
+          "PartyAbbreviation": "Con",
+          "MemberFrom": "Broadland and Fakenham",
+          "ListAs": "Mayhew, Jerome",
+          "ProxyName": null
+        }
+      ],
+      "Ayes": [],
+      "Noes": [],
+      "FriendlyDescription": null,
+      "FriendlyTitle": null,
+      "NoVoteRecorded": [],
+      "RemoteVotingStart": null,
+      "RemoteVotingEnd": null
+    }
+  ],
+  "analysis": "The UK Parliament data shows legislative activity focused on a range of topics, including local infrastructure, economic policy (business rates), and abortion law. Votes indicate significant divisions within Parliament on issues like border security and the Northern Ireland Troubles Bill. Human review recommended for publication.\n",
+  "sha_hash": "96e97c246c33b109d2f93ff5ee4c20eb",
+  "agents_active": 8,
+  "ethics_status": "enforced",
+  "verification": "triple_sha256"
+}
