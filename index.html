@@ -3,72 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WE333 UK Parliament Monitor | bba.news</title>
+    <title>WE333 UK Democracy Monitor | bba.news</title>
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
 
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            background: linear-gradient(135deg, #0a0a1a 0%, #1a1a3e 100%);
             color: #fff;
             min-height: 100vh;
         }
 
         .header {
-            background: rgba(0,0,0,0.3);
-            padding: 20px;
+            background: linear-gradient(90deg, rgba(233,69,96,0.3) 0%, rgba(78,204,163,0.3) 100%);
+            padding: 25px;
             text-align: center;
             border-bottom: 2px solid #e94560;
         }
 
         .header h1 {
-            font-size: 2.5em;
-            color: #e94560;
-            margin-bottom: 10px;
+            font-size: 2.2em;
+            background: linear-gradient(90deg, #e94560, #4ecca3);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
         }
 
-        .header .subtitle {
-            color: #a0a0a0;
-            font-size: 1.1em;
-        }
+        .header .subtitle { color: #ccc; margin-top: 8px; }
 
         .heritage {
             display: flex;
             justify-content: center;
-            gap: 30px;
+            gap: 20px;
             margin-top: 15px;
-            font-size: 0.9em;
-            color: #888;
+            flex-wrap: wrap;
         }
 
         .heritage span {
             padding: 5px 15px;
-            background: rgba(233, 69, 96, 0.2);
+            background: rgba(233,69,96,0.2);
             border-radius: 20px;
+            font-size: 0.85em;
+            color: #e94560;
         }
 
         .status-bar {
-            background: #0f3460;
-            padding: 15px;
+            background: rgba(0,0,0,0.4);
+            padding: 12px;
             display: flex;
             justify-content: center;
-            gap: 40px;
+            gap: 30px;
             flex-wrap: wrap;
+            font-size: 0.9em;
         }
 
         .status-item {
             display: flex;
             align-items: center;
-            gap: 8px;
+            gap: 6px;
         }
 
         .status-dot {
-            width: 12px;
-            height: 12px;
+            width: 10px;
+            height: 10px;
             border-radius: 50%;
             background: #4ecca3;
             animation: pulse 2s infinite;
@@ -76,124 +73,122 @@
 
         @keyframes pulse {
             0%, 100% { opacity: 1; }
-            50% { opacity: 0.5; }
+            50% { opacity: 0.4; }
         }
 
-        .main-content {
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 15px;
+            padding: 20px;
             max-width: 1400px;
             margin: 0 auto;
-            padding: 30px;
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 30px;
-        }
-
-        @media (max-width: 900px) {
-            .main-content {
-                grid-template-columns: 1fr;
-            }
-        }
-
-        .card {
-            background: rgba(255,255,255,0.05);
-            border-radius: 15px;
-            padding: 25px;
-            border: 1px solid rgba(255,255,255,0.1);
-        }
-
-        .card h2 {
-            color: #e94560;
-            margin-bottom: 20px;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            font-size: 1.3em;
-        }
-
-        .card h2 .icon {
-            font-size: 1.5em;
-        }
-
-        .bill-item, .vote-item {
-            background: rgba(0,0,0,0.2);
-            padding: 15px;
-            border-radius: 10px;
-            margin-bottom: 12px;
-            border-left: 4px solid #4ecca3;
-        }
-
-        .bill-item h3, .vote-item h3 {
-            font-size: 1em;
-            margin-bottom: 8px;
-            color: #fff;
-        }
-
-        .bill-meta, .vote-meta {
-            font-size: 0.85em;
-            color: #888;
-            display: flex;
-            gap: 15px;
-            flex-wrap: wrap;
-        }
-
-        .vote-result {
-            display: flex;
-            gap: 20px;
-            margin-top: 10px;
-        }
-
-        .vote-ayes {
-            color: #4ecca3;
-            font-weight: bold;
-        }
-
-        .vote-noes {
-            color: #e94560;
-            font-weight: bold;
-        }
-
-        .ai-analysis {
-            grid-column: 1 / -1;
-        }
-
-        .ai-analysis .analysis-text {
-            background: rgba(78, 204, 163, 0.1);
-            padding: 20px;
-            border-radius: 10px;
-            line-height: 1.8;
-            border-left: 4px solid #4ecca3;
-        }
-
-        .stats-row {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            gap: 20px;
-            grid-column: 1 / -1;
-        }
-
-        @media (max-width: 700px) {
-            .stats-row {
-                grid-template-columns: repeat(2, 1fr);
-            }
         }
 
         .stat-card {
-            background: rgba(233, 69, 96, 0.1);
-            padding: 20px;
-            border-radius: 10px;
+            background: rgba(233,69,96,0.15);
+            padding: 20px 15px;
+            border-radius: 12px;
             text-align: center;
-            border: 1px solid rgba(233, 69, 96, 0.3);
+            border: 1px solid rgba(233,69,96,0.3);
         }
 
         .stat-card .number {
-            font-size: 2.5em;
+            font-size: 2em;
             font-weight: bold;
             color: #e94560;
         }
 
         .stat-card .label {
             color: #888;
+            font-size: 0.8em;
             margin-top: 5px;
+        }
+
+        .main-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        @media (max-width: 1100px) {
+            .main-content { grid-template-columns: repeat(2, 1fr); }
+        }
+
+        @media (max-width: 700px) {
+            .main-content { grid-template-columns: 1fr; }
+        }
+
+        .card {
+            background: rgba(255,255,255,0.03);
+            border-radius: 12px;
+            padding: 20px;
+            border: 1px solid rgba(255,255,255,0.08);
+        }
+
+        .card.wide { grid-column: span 2; }
+        .card.full { grid-column: 1 / -1; }
+
+        @media (max-width: 700px) {
+            .card.wide, .card.full { grid-column: 1; }
+        }
+
+        .card h2 {
+            color: #4ecca3;
+            margin-bottom: 15px;
+            font-size: 1.1em;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            border-bottom: 1px solid rgba(78,204,163,0.3);
+            padding-bottom: 10px;
+        }
+
+        .item {
+            background: rgba(0,0,0,0.3);
+            padding: 12px;
+            border-radius: 8px;
+            margin-bottom: 10px;
+            border-left: 3px solid #4ecca3;
+        }
+
+        .item.vote { border-left-color: #e94560; }
+        .item.news { border-left-color: #ffd700; }
+        .item.gov { border-left-color: #00bcd4; }
+
+        .item h3 {
+            font-size: 0.95em;
+            margin-bottom: 6px;
+            color: #fff;
+            line-height: 1.3;
+        }
+
+        .item-meta {
+            font-size: 0.8em;
+            color: #888;
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .vote-result {
+            display: flex;
+            gap: 15px;
+            margin-top: 6px;
+        }
+
+        .vote-ayes { color: #4ecca3; font-weight: bold; }
+        .vote-noes { color: #e94560; font-weight: bold; }
+
+        .analysis-box {
+            background: linear-gradient(135deg, rgba(78,204,163,0.1) 0%, rgba(233,69,96,0.1) 100%);
+            padding: 20px;
+            border-radius: 10px;
+            line-height: 1.7;
+            border: 1px solid rgba(78,204,163,0.3);
         }
 
         .footer {
@@ -204,38 +199,49 @@
             margin-top: 30px;
         }
 
-        .footer .we333 {
-            color: #e94560;
-            font-weight: bold;
-        }
+        .footer .brand { color: #e94560; font-weight: bold; }
 
         .sha-badge {
-            background: rgba(78, 204, 163, 0.2);
-            padding: 5px 15px;
-            border-radius: 20px;
+            background: rgba(78,204,163,0.2);
+            padding: 5px 12px;
+            border-radius: 15px;
             font-family: monospace;
-            font-size: 0.8em;
+            font-size: 0.75em;
             color: #4ecca3;
         }
 
-        .loading {
-            text-align: center;
-            padding: 50px;
-            color: #888;
+        .source-tag {
+            font-size: 0.7em;
+            padding: 2px 8px;
+            border-radius: 10px;
+            background: rgba(255,255,255,0.1);
+            color: #aaa;
         }
+
+        .scroll-container {
+            max-height: 400px;
+            overflow-y: auto;
+        }
+
+        .scroll-container::-webkit-scrollbar { width: 6px; }
+        .scroll-container::-webkit-scrollbar-track { background: rgba(0,0,0,0.2); }
+        .scroll-container::-webkit-scrollbar-thumb { background: #4ecca3; border-radius: 3px; }
+
+        a { color: #4ecca3; text-decoration: none; }
+        a:hover { text-decoration: underline; }
 
         .last-update {
             text-align: center;
             color: #666;
             padding: 10px;
-            font-size: 0.9em;
+            font-size: 0.85em;
         }
     </style>
 </head>
 <body>
     <header class="header">
-        <h1>WE333 UK Parliament Monitor</h1>
-        <p class="subtitle">Real-time democracy monitoring with zero manipulation</p>
+        <h1>WE333 UK DEMOCRACY MONITOR</h1>
+        <p class="subtitle">Real-time Parliament, Government & News Intelligence</p>
         <div class="heritage">
             <span>1951 THA</span>
             <span>1970s BBA</span>
@@ -244,165 +250,200 @@
     </header>
 
     <div class="status-bar">
-        <div class="status-item">
-            <div class="status-dot"></div>
-            <span>Parliament API: Live</span>
-        </div>
-        <div class="status-item">
-            <div class="status-dot"></div>
-            <span>Gemini AI: Active</span>
-        </div>
-        <div class="status-item">
-            <div class="status-dot"></div>
-            <span>SHA256: Verified</span>
-        </div>
-        <div class="status-item">
-            <div class="status-dot"></div>
-            <span>Ethics: Enforced</span>
-        </div>
+        <div class="status-item"><div class="status-dot"></div><span>Parliament API</span></div>
+        <div class="status-item"><div class="status-dot"></div><span>Gov.uk API</span></div>
+        <div class="status-item"><div class="status-dot"></div><span>BBC News</span></div>
+        <div class="status-item"><div class="status-dot"></div><span>Guardian</span></div>
+        <div class="status-item"><div class="status-dot"></div><span>Gemini AI</span></div>
+        <div class="status-item"><div class="status-dot"></div><span>SHA256</span></div>
     </div>
 
-    <div class="last-update">
-        Last updated: <span id="lastUpdate">Loading...</span>
+    <div class="last-update">Last updated: <span id="lastUpdate">Loading...</span></div>
+
+    <div class="stats-grid">
+        <div class="stat-card"><div class="number" id="statBills">-</div><div class="label">Bills</div></div>
+        <div class="stat-card"><div class="number" id="statVotes">-</div><div class="label">Votes</div></div>
+        <div class="stat-card"><div class="number" id="statMPs">-</div><div class="label">MPs</div></div>
+        <div class="stat-card"><div class="number" id="statLords">-</div><div class="label">Lords</div></div>
+        <div class="stat-card"><div class="number" id="statCommittees">-</div><div class="label">Committees</div></div>
+        <div class="stat-card"><div class="number" id="statNews">-</div><div class="label">News</div></div>
+        <div class="stat-card"><div class="number" id="statGov">-</div><div class="label">Gov Updates</div></div>
+        <div class="stat-card"><div class="number">8</div><div class="label">Agents</div></div>
     </div>
 
     <main class="main-content">
-        <div class="stats-row">
-            <div class="stat-card">
-                <div class="number" id="billCount">-</div>
-                <div class="label">Active Bills</div>
-            </div>
-            <div class="stat-card">
-                <div class="number" id="voteCount">-</div>
-                <div class="label">Recent Votes</div>
-            </div>
-            <div class="stat-card">
-                <div class="number">650</div>
-                <div class="label">MPs Monitored</div>
-            </div>
-            <div class="stat-card">
-                <div class="number">8</div>
-                <div class="label">Active Agents</div>
-            </div>
+        <!-- AI Analysis -->
+        <div class="card full">
+            <h2>🤖 AI Analysis (Gemini)</h2>
+            <div class="analysis-box" id="aiAnalysis">Loading analysis...</div>
         </div>
 
-        <div class="card ai-analysis">
-            <h2><span class="icon">🤖</span> AI Analysis (Gemini)</h2>
-            <div class="analysis-text" id="aiAnalysis">
-                Loading AI analysis...
-            </div>
-        </div>
-
+        <!-- Bills -->
         <div class="card">
-            <h2><span class="icon">📜</span> Current Bills</h2>
-            <div id="billsList">
-                <div class="loading">Loading bills...</div>
-            </div>
+            <h2>📜 Current Bills</h2>
+            <div class="scroll-container" id="billsList"></div>
         </div>
 
+        <!-- Votes -->
         <div class="card">
-            <h2><span class="icon">🗳️</span> Recent Votes</h2>
-            <div id="votesList">
-                <div class="loading">Loading votes...</div>
-            </div>
+            <h2>🗳️ Recent Votes</h2>
+            <div class="scroll-container" id="votesList"></div>
+        </div>
+
+        <!-- News -->
+        <div class="card">
+            <h2>📰 News Headlines</h2>
+            <div class="scroll-container" id="newsList"></div>
+        </div>
+
+        <!-- Government -->
+        <div class="card">
+            <h2>🏛️ Government Updates</h2>
+            <div class="scroll-container" id="govList"></div>
+        </div>
+
+        <!-- Committees -->
+        <div class="card">
+            <h2>👥 Parliamentary Committees</h2>
+            <div class="scroll-container" id="committeesList"></div>
+        </div>
+
+        <!-- MPs -->
+        <div class="card">
+            <h2>🎩 Members of Parliament</h2>
+            <div class="scroll-container" id="mpsList"></div>
         </div>
     </main>
 
     <footer class="footer">
-        <p><span class="we333">WE333 OMNIPLEX</span> | Human + AI Collaborative Truth Infrastructure</p>
+        <p><span class="brand">WE333 OMNIPLEX</span> | Human + AI Collaborative Truth Infrastructure</p>
         <p style="margin-top: 10px;">Three generations. One truth. Zero manipulation.</p>
-        <p style="margin-top: 15px;">
-            <span class="sha-badge" id="shaHash">SHA: Loading...</span>
-        </p>
+        <p style="margin-top: 15px;"><span class="sha-badge" id="shaHash">SHA: Loading...</span></p>
         <p style="margin-top: 15px; font-size: 0.8em;">
-            <a href="https://omniplex.earth" style="color: #e94560;">omniplex.earth</a> |
-            <a href="https://aiia.earth" style="color: #e94560;">aiia.earth</a> |
-            <a href="https://bba.news" style="color: #e94560;">bba.news</a>
+            <a href="https://omniplex.earth">omniplex.earth</a> |
+            <a href="https://aiia.earth">aiia.earth</a> |
+            <a href="https://bba.news">bba.news</a>
         </p>
     </footer>
 
     <script>
-        // Load data from JSON file
         async function loadData() {
             try {
-                const response = await fetch('data.json');
+                const response = await fetch('data.json?' + Date.now());
                 const data = await response.json();
                 renderData(data);
             } catch (error) {
-                console.error('Error loading data:', error);
-                // Use embedded data as fallback
-                renderData(embeddedData);
+                console.error('Error:', error);
             }
         }
 
-        // Embedded fallback data
-        const embeddedData = {
-            "timestamp": "2025-11-22T20:00:00",
-            "bills": [
-                {"shortTitle": "A34 Slip Road Safety (East Ilsley and Beedon) Bill", "currentStage": {"description": "2nd reading"}, "currentHouse": "Commons"},
-                {"shortTitle": "Abolition of Business Rates Bill", "currentStage": {"description": "2nd reading"}, "currentHouse": "Commons"},
-                {"shortTitle": "Abortion Bill", "currentStage": {"description": "2nd reading"}, "currentHouse": "Commons"},
-                {"shortTitle": "Abortion Bill [HL]", "currentStage": {"description": "2nd reading"}, "currentHouse": "Lords"},
-                {"shortTitle": "Abortion (Cleft Lip, Cleft Palate and Clubfoot) Bill", "currentStage": {"description": "2nd reading"}, "currentHouse": "Commons"}
-            ],
-            "divisions": [
-                {"Title": "Border Security, Asylum and Immigration Bill: motion to disagree", "AyeCount": 326, "NoCount": 92, "Date": "2025-11-19"},
-                {"Title": "Draft Radio Equipment (Amendment) (Northern Ireland) Regulations", "AyeCount": 376, "NoCount": 16, "Date": "2025-11-19"},
-                {"Title": "Northern Ireland Troubles Bill: Second Reading", "AyeCount": 320, "NoCount": 105, "Date": "2025-11-18"},
-                {"Title": "Northern Ireland Troubles Bill: Opposition Reasoned Amendment", "AyeCount": 165, "NoCount": 327, "Date": "2025-11-18"},
-                {"Title": "Biodiversity Beyond National Jurisdiction Bill: Committee Amendment", "AyeCount": 147, "NoCount": 318, "Date": "2025-11-17"}
-            ],
-            "analysis": "UK Parliament is currently considering legislation related to road safety, business rates, and several bills addressing abortion. Recent votes reveal significant support for border security measures. The Northern Ireland Troubles Bill faced strong opposition. Human review recommended for publication.",
-            "sha_hash": "e004dfa68fac88a484517c5375472a7f"
-        };
-
         function renderData(data) {
-            // Update timestamp
-            document.getElementById('lastUpdate').textContent = new Date(data.timestamp).toLocaleString();
+            // Timestamp
+            document.getElementById('lastUpdate').textContent =
+                new Date(data.timestamp).toLocaleString();
 
-            // Update stats
-            document.getElementById('billCount').textContent = data.bills.length;
-            document.getElementById('voteCount').textContent = data.divisions.length;
+            // Stats
+            const stats = data.stats || {};
+            document.getElementById('statBills').textContent = stats.total_bills || 0;
+            document.getElementById('statVotes').textContent = stats.total_votes || 0;
+            document.getElementById('statMPs').textContent = stats.total_mps || 0;
+            document.getElementById('statLords').textContent = stats.total_lords || 0;
+            document.getElementById('statCommittees').textContent = stats.total_committees || 0;
+            document.getElementById('statNews').textContent = stats.total_news || 0;
+            document.getElementById('statGov').textContent = stats.total_gov_updates || 0;
 
-            // Update AI analysis
-            document.getElementById('aiAnalysis').textContent = data.analysis;
+            // Analysis
+            document.getElementById('aiAnalysis').textContent = data.analysis || 'No analysis available';
 
-            // Update SHA
-            document.getElementById('shaHash').textContent = `SHA: ${data.sha_hash}...`;
+            // SHA
+            document.getElementById('shaHash').textContent = `SHA: ${data.sha_hash || 'N/A'}`;
 
-            // Render bills
-            const billsHtml = data.bills.map(bill => `
-                <div class="bill-item">
-                    <h3>${bill.shortTitle}</h3>
-                    <div class="bill-meta">
-                        <span>Stage: ${bill.currentStage?.description || 'Unknown'}</span>
-                        <span>House: ${bill.currentHouse}</span>
+            // Bills
+            const bills = data.parliament?.bills || [];
+            document.getElementById('billsList').innerHTML = bills.slice(0, 15).map(b => `
+                <div class="item">
+                    <h3>${b.shortTitle || 'Unknown Bill'}</h3>
+                    <div class="item-meta">
+                        <span>Stage: ${b.currentStage?.description || 'N/A'}</span>
+                        <span>House: ${b.currentHouse || 'N/A'}</span>
                     </div>
                 </div>
-            `).join('');
-            document.getElementById('billsList').innerHTML = billsHtml;
+            `).join('') || '<p>No bills data</p>';
 
-            // Render votes
-            const votesHtml = data.divisions.map(vote => `
-                <div class="vote-item">
-                    <h3>${vote.Title}</h3>
+            // Votes (Commons + Lords)
+            const commons = data.parliament?.commons_divisions || [];
+            const lords = data.parliament?.lords_divisions || [];
+            const allVotes = [...commons.map(v => ({...v, house: 'Commons'})),
+                            ...lords.map(v => ({...v, house: 'Lords'}))];
+
+            document.getElementById('votesList').innerHTML = allVotes.slice(0, 15).map(v => `
+                <div class="item vote">
+                    <h3>${(v.Title || v.title || 'Unknown Vote').substring(0, 60)}</h3>
                     <div class="vote-result">
-                        <span class="vote-ayes">Ayes: ${vote.AyeCount}</span>
-                        <span class="vote-noes">Noes: ${vote.NoCount}</span>
+                        <span class="vote-ayes">Ayes: ${v.AyeCount || v.AuthorityVotesForCount || 0}</span>
+                        <span class="vote-noes">Noes: ${v.NoCount || v.AuthorityVotesAgainstCount || 0}</span>
                     </div>
-                    <div class="vote-meta">
-                        <span>Date: ${vote.Date}</span>
+                    <div class="item-meta">
+                        <span>${v.house}</span>
+                        <span>${(v.Date || '').substring(0, 10)}</span>
                     </div>
                 </div>
-            `).join('');
-            document.getElementById('votesList').innerHTML = votesHtml;
+            `).join('') || '<p>No votes data</p>';
+
+            // News
+            const bbcNews = data.news?.bbc_politics || [];
+            const guardianNews = data.news?.guardian_politics || [];
+            const allNews = [
+                ...bbcNews.map(n => ({...n, source: 'BBC'})),
+                ...guardianNews.map(n => ({...n, source: 'Guardian'}))
+            ];
+
+            document.getElementById('newsList').innerHTML = allNews.slice(0, 15).map(n => `
+                <div class="item news">
+                    <h3>${n.title || 'No title'}</h3>
+                    <div class="item-meta">
+                        <span class="source-tag">${n.source}</span>
+                    </div>
+                </div>
+            `).join('') || '<p>No news data</p>';
+
+            // Government
+            const announcements = data.government?.announcements || [];
+            document.getElementById('govList').innerHTML = announcements.slice(0, 15).map(g => `
+                <div class="item gov">
+                    <h3>${g.title || 'No title'}</h3>
+                    <div class="item-meta">
+                        <span>${g.organisations?.[0]?.title || 'Government'}</span>
+                    </div>
+                </div>
+            `).join('') || '<p>No government data</p>';
+
+            // Committees
+            const committees = data.parliament?.committees || [];
+            document.getElementById('committeesList').innerHTML = committees.slice(0, 15).map(c => `
+                <div class="item">
+                    <h3>${c.name || 'Unknown Committee'}</h3>
+                    <div class="item-meta">
+                        <span>${c.house || 'Parliament'}</span>
+                    </div>
+                </div>
+            `).join('') || '<p>No committee data</p>';
+
+            // MPs
+            const mps = data.parliament?.mps || [];
+            document.getElementById('mpsList').innerHTML = mps.slice(0, 15).map(m => `
+                <div class="item">
+                    <h3>${m.value?.nameDisplayAs || 'Unknown MP'}</h3>
+                    <div class="item-meta">
+                        <span>${m.value?.latestParty?.name || ''}</span>
+                        <span>${m.value?.latestHouseMembership?.membershipFrom || ''}</span>
+                    </div>
+                </div>
+            `).join('') || '<p>No MP data</p>';
         }
 
-        // Load data on page load
         loadData();
-
-        // Auto-refresh every 5 minutes
-        setInterval(loadData, 300000);
+        setInterval(loadData, 300000); // Refresh every 5 mins
     </script>
 </body>
 </html>
