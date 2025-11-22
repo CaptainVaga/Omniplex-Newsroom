@@ -114,7 +114,7 @@ class ElevenLabsClient:
         try:
             audio = self.client.text_to_speech.convert(
                 text=text,
-                voice_id="Rachel",
+                voice_id="EXAVITQu4vr4xnSDxMaL",  # Sarah - professional voice
                 model_id="eleven_multilingual_v2"
             )
 
