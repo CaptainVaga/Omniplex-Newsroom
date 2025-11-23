@@ -442,8 +442,103 @@
             `).join('') || '<p>No MP data</p>';
         }
 
-        loadData();
-        setInterval(loadData, 300000); // Refresh every 5 mins
+        // SHA256 hash function for verification
+        async function sha256(message) {
+            const msgBuffer = new TextEncoder().encode(message);
+            const hashBuffer = await crypto.subtle.digest('SHA-256', msgBuffer);
+            const hashArray = Array.from(new Uint8Array(hashBuffer));
+            return hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
+        }
+
+        // Logging system
+        const activityLog = [];
+        function log(action, details) {
+            const entry = {
+                timestamp: new Date().toISOString(),
+                action: action,
+                details: details
+            };
+            activityLog.push(entry);
+            console.log(`[WE333 LOG] ${entry.timestamp} | ${action} | ${details}`);
+
+            // Keep last 100 entries
+            if (activityLog.length > 100) activityLog.shift();
+
+            // Update log display if exists
+            const logEl = document.getElementById('activity-log');
+            if (logEl) {
+                logEl.innerHTML = activityLog.slice(-5).reverse().map(e =>
+                    `<div class="log-entry">${e.timestamp.split('T')[1].split('.')[0]} - ${e.action}</div>`
+                ).join('');
+            }
+        }
+
+        // Enhanced load with SHA verification
+        async function loadDataWithVerification() {
+            const startTime = Date.now();
+            log('FETCH_START', 'Loading data.json');
+
+            try {
+                const response = await fetch('data.json?t=' + Date.now());
+                const text = await response.text();
+                const hash = await sha256(text);
+                const data = JSON.parse(text);
+
+                const loadTime = Date.now() - startTime;
+                log('FETCH_SUCCESS', `SHA256: ${hash.substring(0, 16)}... (${loadTime}ms)`);
+
+                // Store hash for 30-min review
+                if (!window.hashHistory) window.hashHistory = [];
+                window.hashHistory.push({
+                    time: new Date().toISOString(),
+                    hash: hash,
+                    stats: data.stats
+                });
+
+                // Update SHA display
+                const shaEl = document.getElementById('sha-display');
+                if (shaEl) shaEl.textContent = `SHA: ${hash.substring(0, 12)}...`;
+
+                // Update last refresh time
+                const refreshEl = document.getElementById('last-refresh');
+                if (refreshEl) refreshEl.textContent = `Last: ${new Date().toLocaleTimeString()}`;
+
+                updateDashboard(data);
+
+            } catch (error) {
+                log('FETCH_ERROR', error.message);
+            }
+        }
+
+        // 30-minute review
+        function thirtyMinuteReview() {
+            if (!window.hashHistory || window.hashHistory.length === 0) return;
+
+            console.log('\n========== WE333 30-MINUTE REVIEW ==========');
+            console.log(`Review Time: ${new Date().toISOString()}`);
+            console.log(`Total Updates: ${window.hashHistory.length}`);
+
+            const hashes = window.hashHistory.map(h => h.hash);
+            const uniqueHashes = [...new Set(hashes)];
+            console.log(`Unique Data States: ${uniqueHashes.length}`);
+
+            window.hashHistory.forEach((h, i) => {
+                console.log(`  ${i+1}. ${h.time} | ${h.hash.substring(0,16)}...`);
+            });
+
+            log('30MIN_REVIEW', `${window.hashHistory.length} updates, ${uniqueHashes.length} unique states`);
+            console.log('=============================================\n');
+
+            // Clear for next 30 mins
+            window.hashHistory = [];
+        }
+
+        // Initialize
+        loadDataWithVerification();
+        setInterval(loadDataWithVerification, 150000); // Refresh every 2.5 mins
+        setInterval(thirtyMinuteReview, 1800000); // 30-min review
+
+        log('SYSTEM_START', 'WE333 Omniplex initialized - 2.5min refresh, 30min review');
     </script>
 </body>
 </html>
