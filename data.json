@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-11-22T23:19:54.089948",
+  "timestamp": "2025-11-23T02:04:15.895378",
   "parliament": {
     "bills": [
       {
@@ -47669,6 +47669,338 @@
   "government": {
     "announcements": [
       {
+        "description": "Rail fares frozen for the first time in 30 years in historic intervention to deliver real savings for millions of commuters.",
+        "format": "press_release",
+        "link": "/government/news/first-rail-freeze-in-30-years-to-ease-the-cost-of-living",
+        "organisations": [
+          {
+            "organisation_type": "ministerial_department",
+            "organisation_state": "live",
+            "acronym": "HMT",
+            "content_id": "1994e0e4-bd19-4966-bbd7-f293d6e90a6b",
+            "link": "/government/organisations/hm-treasury",
+            "title": "HM Treasury",
+            "analytics_identifier": "D15",
+            "organisation_crest": "single-identity",
+            "organisation_brand": "hm-treasury",
+            "child_organisations": [
+              "uk-debt-management-office",
+              "uk-financial-investments-limited",
+              "office-for-budget-responsibility",
+              "royal-mint",
+              "ns-i",
+              "royal-mint-advisory-committee",
+              "the-crown-estate",
+              "infrastructure-uk",
+              "government-internal-audit-agency",
+              "financial-conduct-authority",
+              "payment-systems-regulator",
+              "national-infrastructure-commission",
+              "financial-services-trade-and-investment-board",
+              "uk-government-investments",
+              "office-of-financial-sanctions-implementation",
+              "infrastructure-and-projects-authority",
+              "government-actuarys-department",
+              "uk-asset-resolution-limited",
+              "government-finance-function",
+              "reclaim-fund-ltd",
+              "public-sector-fraud-authority",
+              "office-of-tax-simplification",
+              "uk-infrastructure-bank",
+              "government-debt-management-function",
+              "evaluation-task-force",
+              "national-infrastructure-and-service-transformation-authority",
+              "national-wealth-fund"
+            ],
+            "logo_formatted_title": "HM Treasury",
+            "public_timestamp": "2025-01-31T11:27:54.000+00:00",
+            "slug": "hm-treasury"
+          }
+        ],
+        "public_timestamp": "2025-11-23T00:01:00Z",
+        "title": "First rail freeze in 30 years to ease the cost of living",
+        "world_locations": [],
+        "topical_events": [],
+        "organisation_content_ids": [
+          "1994e0e4-bd19-4966-bbd7-f293d6e90a6b"
+        ],
+        "expanded_organisations": [
+          {
+            "organisation_type": "ministerial_department",
+            "organisation_state": "live",
+            "acronym": "HMT",
+            "content_id": "1994e0e4-bd19-4966-bbd7-f293d6e90a6b",
+            "link": "/government/organisations/hm-treasury",
+            "title": "HM Treasury",
+            "analytics_identifier": "D15",
+            "organisation_crest": "single-identity",
+            "organisation_brand": "hm-treasury",
+            "child_organisations": [
+              "uk-debt-management-office",
+              "uk-financial-investments-limited",
+              "office-for-budget-responsibility",
+              "royal-mint",
+              "ns-i",
+              "royal-mint-advisory-committee",
+              "the-crown-estate",
+              "infrastructure-uk",
+              "government-internal-audit-agency",
+              "financial-conduct-authority",
+              "payment-systems-regulator",
+              "national-infrastructure-commission",
+              "financial-services-trade-and-investment-board",
+              "uk-government-investments",
+              "office-of-financial-sanctions-implementation",
+              "infrastructure-and-projects-authority",
+              "government-actuarys-department",
+              "uk-asset-resolution-limited",
+              "government-finance-function",
+              "reclaim-fund-ltd",
+              "public-sector-fraud-authority",
+              "office-of-tax-simplification",
+              "uk-infrastructure-bank",
+              "government-debt-management-function",
+              "evaluation-task-force",
+              "national-infrastructure-and-service-transformation-authority",
+              "national-wealth-fund"
+            ],
+            "logo_formatted_title": "HM Treasury",
+            "public_timestamp": "2025-01-31T11:27:54.000+00:00",
+            "slug": "hm-treasury"
+          }
+        ],
+        "index": "govuk",
+        "es_score": null,
+        "_id": "/government/news/first-rail-freeze-in-30-years-to-ease-the-cost-of-living",
+        "elasticsearch_type": "edition",
+        "document_type": "edition"
+      },
+      {
+        "description": "The UK will host the G20 in 2027, the Prime Minister has confirmed today.",
+        "format": "press_release",
+        "link": "/government/news/growth-and-opportunity-set-to-be-at-the-heart-of-uk-hosted-g20",
+        "organisations": [
+          {
+            "organisation_type": "executive_office",
+            "organisation_state": "live",
+            "acronym": "Number 10",
+            "content_id": "705dbea4-8bd7-422e-ba9c-254557f77f81",
+            "parent_organisations": [
+              "cabinet-office"
+            ],
+            "link": "/government/organisations/prime-ministers-office-10-downing-street",
+            "title": "Prime Minister's Office, 10 Downing Street",
+            "analytics_identifier": "OT532",
+            "organisation_crest": "eo",
+            "organisation_brand": "prime-ministers-office-10-downing-street",
+            "child_organisations": [
+              "incubator-for-artificial-intelligence"
+            ],
+            "logo_formatted_title": "Prime Minister's Office \r\n10 Downing Street",
+            "public_timestamp": "2024-07-16T15:02:39.000+01:00",
+            "slug": "prime-ministers-office-10-downing-street"
+          }
+        ],
+        "public_timestamp": "2025-11-22T22:50:54Z",
+        "title": "Growth and opportunity set to be at the heart of UK-hosted G20",
+        "world_locations": [],
+        "topical_events": [],
+        "organisation_content_ids": [
+          "705dbea4-8bd7-422e-ba9c-254557f77f81"
+        ],
+        "expanded_organisations": [
+          {
+            "organisation_type": "executive_office",
+            "organisation_state": "live",
+            "acronym": "Number 10",
+            "content_id": "705dbea4-8bd7-422e-ba9c-254557f77f81",
+            "parent_organisations": [
+              "cabinet-office"
+            ],
+            "link": "/government/organisations/prime-ministers-office-10-downing-street",
+            "title": "Prime Minister's Office, 10 Downing Street",
+            "analytics_identifier": "OT532",
+            "organisation_crest": "eo",
+            "organisation_brand": "prime-ministers-office-10-downing-street",
+            "child_organisations": [
+              "incubator-for-artificial-intelligence"
+            ],
+            "logo_formatted_title": "Prime Minister's Office \r\n10 Downing Street",
+            "public_timestamp": "2024-07-16T15:02:39.000+01:00",
+            "slug": "prime-ministers-office-10-downing-street"
+          }
+        ],
+        "index": "govuk",
+        "es_score": null,
+        "_id": "/government/news/growth-and-opportunity-set-to-be-at-the-heart-of-uk-hosted-g20",
+        "elasticsearch_type": "edition",
+        "document_type": "edition"
+      },
+      {
+        "description": "The Government has launched the UK\u2019s new Critical Minerals Strategy.",
+        "format": "press_release",
+        "link": "/government/news/from-smartphones-to-fridges-uk-to-end-overreliance-on-imports-of-critical-minerals",
+        "organisations": [
+          {
+            "organisation_type": "executive_office",
+            "organisation_state": "live",
+            "acronym": "Number 10",
+            "content_id": "705dbea4-8bd7-422e-ba9c-254557f77f81",
+            "parent_organisations": [
+              "cabinet-office"
+            ],
+            "link": "/government/organisations/prime-ministers-office-10-downing-street",
+            "title": "Prime Minister's Office, 10 Downing Street",
+            "analytics_identifier": "OT532",
+            "organisation_crest": "eo",
+            "organisation_brand": "prime-ministers-office-10-downing-street",
+            "child_organisations": [
+              "incubator-for-artificial-intelligence"
+            ],
+            "logo_formatted_title": "Prime Minister's Office \r\n10 Downing Street",
+            "public_timestamp": "2024-07-16T15:02:39.000+01:00",
+            "slug": "prime-ministers-office-10-downing-street"
+          },
+          {
+            "organisation_type": "ministerial_department",
+            "organisation_state": "live",
+            "acronym": "DBT",
+            "content_id": "aa750cdf-7925-429d-a2b3-0d9fa47d2c48",
+            "link": "/government/organisations/department-for-business-and-trade",
+            "superseded_organisations": [
+              "department-for-international-trade",
+              "department-for-business-energy-and-industrial-strategy"
+            ],
+            "title": "Department for Business and Trade",
+            "analytics_identifier": "D1382",
+            "organisation_crest": "dbt",
+            "organisation_brand": "department-for-business-trade",
+            "child_organisations": [
+              "groceries-code-adjudicator",
+              "office-for-product-safety-and-standards",
+              "central-arbitration-committee",
+              "trade-remedies-authority",
+              "export-control-joint-unit",
+              "office-for-investment",
+              "uk-national-contact-point",
+              "uk-defence-and-security-exports",
+              "competition-and-markets-authority",
+              "acas",
+              "british-business-bank",
+              "financial-reporting-council",
+              "insolvency-service",
+              "competition-appeal-tribunal",
+              "low-pay-commission",
+              "pubs-code-adjudicator",
+              "companies-house",
+              "regulatory-policy-committee",
+              "certification-officer",
+              "small-business-commissioner",
+              "competition-service",
+              "british-hallmarking-council",
+              "post-office",
+              "centre-for-connected-and-autonomous-vehicles",
+              "employment-agency-standards-inspectorate",
+              "office-of-the-regulator-of-community-interest-companies",
+              "office-of-manpower-economics",
+              "office-of-trade-sanctions-implementation",
+              "office-for-the-pay-review-bodies",
+              "office-for-responsible-business-conduct",
+              "labour-market-evidence-group"
+            ],
+            "logo_formatted_title": "Department for\r\nBusiness & Trade",
+            "public_timestamp": "2024-05-01T14:49:20.000+01:00",
+            "slug": "department-for-business-and-trade"
+          }
+        ],
+        "public_timestamp": "2025-11-22T22:30:02Z",
+        "title": "From smartphones to fridges: UK to end overreliance on imports of critical minerals",
+        "world_locations": [],
+        "topical_events": [],
+        "organisation_content_ids": [
+          "705dbea4-8bd7-422e-ba9c-254557f77f81",
+          "aa750cdf-7925-429d-a2b3-0d9fa47d2c48"
+        ],
+        "expanded_organisations": [
+          {
+            "organisation_type": "executive_office",
+            "organisation_state": "live",
+            "acronym": "Number 10",
+            "content_id": "705dbea4-8bd7-422e-ba9c-254557f77f81",
+            "parent_organisations": [
+              "cabinet-office"
+            ],
+            "link": "/government/organisations/prime-ministers-office-10-downing-street",
+            "title": "Prime Minister's Office, 10 Downing Street",
+            "analytics_identifier": "OT532",
+            "organisation_crest": "eo",
+            "organisation_brand": "prime-ministers-office-10-downing-street",
+            "child_organisations": [
+              "incubator-for-artificial-intelligence"
+            ],
+            "logo_formatted_title": "Prime Minister's Office \r\n10 Downing Street",
+            "public_timestamp": "2024-07-16T15:02:39.000+01:00",
+            "slug": "prime-ministers-office-10-downing-street"
+          },
+          {
+            "organisation_type": "ministerial_department",
+            "organisation_state": "live",
+            "acronym": "DBT",
+            "content_id": "aa750cdf-7925-429d-a2b3-0d9fa47d2c48",
+            "link": "/government/organisations/department-for-business-and-trade",
+            "superseded_organisations": [
+              "department-for-international-trade",
+              "department-for-business-energy-and-industrial-strategy"
+            ],
+            "title": "Department for Business and Trade",
+            "analytics_identifier": "D1382",
+            "organisation_crest": "dbt",
+            "organisation_brand": "department-for-business-trade",
+            "child_organisations": [
+              "groceries-code-adjudicator",
+              "office-for-product-safety-and-standards",
+              "central-arbitration-committee",
+              "trade-remedies-authority",
+              "export-control-joint-unit",
+              "office-for-investment",
+              "uk-national-contact-point",
+              "uk-defence-and-security-exports",
+              "competition-and-markets-authority",
+              "acas",
+              "british-business-bank",
+              "financial-reporting-council",
+              "insolvency-service",
+              "competition-appeal-tribunal",
+              "low-pay-commission",
+              "pubs-code-adjudicator",
+              "companies-house",
+              "regulatory-policy-committee",
+              "certification-officer",
+              "small-business-commissioner",
+              "competition-service",
+              "british-hallmarking-council",
+              "post-office",
+              "centre-for-connected-and-autonomous-vehicles",
+              "employment-agency-standards-inspectorate",
+              "office-of-the-regulator-of-community-interest-companies",
+              "office-of-manpower-economics",
+              "office-of-trade-sanctions-implementation",
+              "office-for-the-pay-review-bodies",
+              "office-for-responsible-business-conduct",
+              "labour-market-evidence-group"
+            ],
+            "logo_formatted_title": "Department for\r\nBusiness & Trade",
+            "public_timestamp": "2024-05-01T14:49:20.000+01:00",
+            "slug": "department-for-business-and-trade"
+          }
+        ],
+        "index": "govuk",
+        "es_score": null,
+        "_id": "/government/news/from-smartphones-to-fridges-uk-to-end-overreliance-on-imports-of-critical-minerals",
+        "elasticsearch_type": "edition",
+        "document_type": "edition"
+      },
+      {
         "description": "The UK\u2019s campaign to raise awareness against visa fraud in India is expanding to a second region, Tamil Nadu.",
         "format": "world_news_story",
         "link": "/government/news/uk-expands-visa-fraud-campaign-in-india-to-tackle-illegal-migration",
@@ -48733,461 +49065,133 @@
         "_id": "/government/speeches/minister-ian-murrays-speech-at-the-british-screen-forum-conference",
         "elasticsearch_type": "edition",
         "document_type": "edition"
-      },
-      {
-        "description": "Military personnel from over 40 nations compete to sharpen cyber skills through gaming applying lessons from Ukraine's use of gaming technology in warfare.",
-        "format": "press_release",
-        "link": "/government/news/uk-launches-military-esports-games-to-boost-cyber-skills",
-        "organisations": [
-          {
-            "organisation_type": "ministerial_department",
-            "organisation_state": "live",
-            "acronym": "MOD",
-            "content_id": "d994e55c-48c9-4795-b872-58d8ec98af12",
-            "link": "/government/organisations/ministry-of-defence",
-            "superseded_organisations": [
-              "service-children-s-education"
-            ],
-            "title": "Ministry of Defence",
-            "analytics_identifier": "D17",
-            "organisation_crest": "mod",
-            "organisation_brand": "ministry-of-defence",
-            "child_organisations": [
-              "defence-science-and-technology-laboratory",
-              "defence-support-group",
-              "service-children-s-education",
-              "service-personnel-and-veterans-agency",
-              "uk-hydrographic-office",
-              "royal-naval-museum",
-              "national-army-museum",
-              "royal-air-force-museum",
-              "royal-marines-museum",
-              "fleet-air-arm-museum",
-              "advisory-committee-on-conscientious-objectors",
-              "central-advisory-committee-on-pensions-and-compensation",
-              "defence-nuclear-safety-committee",
-              "defence-scientific-advisory-council",
-              "national-employer-advisory-board",
-              "nuclear-research-advisory-council",
-              "oil-and-pipelines-agency",
-              "science-advisory-committee-on-the-medical-implications-of-less-lethal-weapons",
-              "veterans-advisory-and-pensions-committees-x13",
-              "service-complaints-commissioner",
-              "defence-academy",
-              "service-prosecuting-authority",
-              "defence-press-and-broadcasting-advisory-committee",
-              "royal-navy-submarine-museum",
-              "defence-sixth-form-college",
-              "review-board-for-government-contracts",
-              "advisory-group-on-military-medicine",
-              "armed-forces-pay-review-body",
-              "defence-equipment-and-support",
-              "defence-infrastructure-organisation",
-              "joint-forces-command",
-              "kings-harbour-master",
-              "independent-medical-expert-group",
-              "reserve-forces-and-cadets-associations",
-              "military-aviation-authority",
-              "veterans-uk",
-              "single-source-regulations-office",
-              "united-kingdom-reserve-forces-association",
-              "defence-and-security-media-advisory-committee",
-              "service-complaints-ombudsman",
-              "defence-safety-authority",
-              "central-advisory-committee-on-compensation",
-              "defence-nuclear-organisation",
-              "jhub-defence-innovation",
-              "defence-and-security-accelerator",
-              "strategic-command",
-              "armed-forces-covenant-fund-trust",
-              "submarine-delivery-agency",
-              "atomic-weapons-establishment",
-              "national-cyber-force",
-              "sheffield-forgemasters-international-ltd",
-              "national-space-operations-centre",
-              "office-for-veterans-affairs",
-              "awe-nuclear-security-technologies",
-              "cyber-and-specialist-operations-command"
-            ],
-            "logo_formatted_title": "Ministry\r\nof Defence",
-            "public_timestamp": "2025-09-10T14:29:23.000+01:00",
-            "slug": "ministry-of-defence"
-          }
-        ],
-        "public_timestamp": "2025-11-21T14:49:40Z",
-        "title": "UK launches military esports games to boost cyber skills",
-        "world_locations": [],
-        "topical_events": [],
-        "organisation_content_ids": [
-          "d994e55c-48c9-4795-b872-58d8ec98af12"
-        ],
-        "expanded_organisations": [
-          {
-            "organisation_type": "ministerial_department",
-            "organisation_state": "live",
-            "acronym": "MOD",
-            "content_id": "d994e55c-48c9-4795-b872-58d8ec98af12",
-            "link": "/government/organisations/ministry-of-defence",
-            "superseded_organisations": [
-              "service-children-s-education"
-            ],
-            "title": "Ministry of Defence",
-            "analytics_identifier": "D17",
-            "organisation_crest": "mod",
-            "organisation_brand": "ministry-of-defence",
-            "child_organisations": [
-              "defence-science-and-technology-laboratory",
-              "defence-support-group",
-              "service-children-s-education",
-              "service-personnel-and-veterans-agency",
-              "uk-hydrographic-office",
-              "royal-naval-museum",
-              "national-army-museum",
-              "royal-air-force-museum",
-              "royal-marines-museum",
-              "fleet-air-arm-museum",
-              "advisory-committee-on-conscientious-objectors",
-              "central-advisory-committee-on-pensions-and-compensation",
-              "defence-nuclear-safety-committee",
-              "defence-scientific-advisory-council",
-              "national-employer-advisory-board",
-              "nuclear-research-advisory-council",
-              "oil-and-pipelines-agency",
-              "science-advisory-committee-on-the-medical-implications-of-less-lethal-weapons",
-              "veterans-advisory-and-pensions-committees-x13",
-              "service-complaints-commissioner",
-              "defence-academy",
-              "service-prosecuting-authority",
-              "defence-press-and-broadcasting-advisory-committee",
-              "royal-navy-submarine-museum",
-              "defence-sixth-form-college",
-              "review-board-for-government-contracts",
-              "advisory-group-on-military-medicine",
-              "armed-forces-pay-review-body",
-              "defence-equipment-and-support",
-              "defence-infrastructure-organisation",
-              "joint-forces-command",
-              "kings-harbour-master",
-              "independent-medical-expert-group",
-              "reserve-forces-and-cadets-associations",
-              "military-aviation-authority",
-              "veterans-uk",
-              "single-source-regulations-office",
-              "united-kingdom-reserve-forces-association",
-              "defence-and-security-media-advisory-committee",
-              "service-complaints-ombudsman",
-              "defence-safety-authority",
-              "central-advisory-committee-on-compensation",
-              "defence-nuclear-organisation",
-              "jhub-defence-innovation",
-              "defence-and-security-accelerator",
-              "strategic-command",
-              "armed-forces-covenant-fund-trust",
-              "submarine-delivery-agency",
-              "atomic-weapons-establishment",
-              "national-cyber-force",
-              "sheffield-forgemasters-international-ltd",
-              "national-space-operations-centre",
-              "office-for-veterans-affairs",
-              "awe-nuclear-security-technologies",
-              "cyber-and-specialist-operations-command"
-            ],
-            "logo_formatted_title": "Ministry\r\nof Defence",
-            "public_timestamp": "2025-09-10T14:29:23.000+01:00",
-            "slug": "ministry-of-defence"
-          }
-        ],
-        "index": "govuk",
-        "es_score": null,
-        "_id": "/government/news/uk-launches-military-esports-games-to-boost-cyber-skills",
-        "elasticsearch_type": "edition",
-        "document_type": "edition"
-      },
-      {
-        "description": "Decision by the Secretary of State on an application for a non-material change to an offshore wind farm project.",
-        "display_type": "Decision",
-        "format": "decision",
-        "link": "/government/publications/dogger-bank-creyke-beck-non-material-change-planning-act-2008",
-        "organisations": [
-          {
-            "organisation_type": "ministerial_department",
-            "organisation_state": "live",
-            "acronym": "DESNZ",
-            "content_id": "6315817c-ef11-4905-bb4d-b6dca8e9052c",
-            "link": "/government/organisations/department-for-energy-security-and-net-zero",
-            "superseded_organisations": [
-              "department-for-business-energy-and-industrial-strategy"
-            ],
-            "title": "Department for Energy Security and Net Zero",
-            "analytics_identifier": "D1380",
-            "organisation_crest": "single-identity",
-            "organisation_brand": "department-for-business-innovation-skills",
-            "child_organisations": [
-              "nuclear-decommissioning-authority",
-              "offshore-petroleum-regulator-for-environment-and-decommissioning",
-              "ofgem",
-              "civil-nuclear-police-authority",
-              "the-coal-authority",
-              "committee-on-climate-change",
-              "salix-finance-ltd",
-              "committee-on-fuel-poverty",
-              "committee-on-radioactive-waste-management",
-              "great-british-nuclear",
-              "north-sea-transition-authority",
-              "uk-atomic-energy-authority",
-              "national-nuclear-laboratory",
-              "low-carbon-contracts-company",
-              "electricity-settlements-company",
-              "office-for-zero-emission-vehicles",
-              "great-british-energy",
-              "national-energy-system-operator",
-              "mining-remediation-authority",
-              "great-british-energy-nuclear"
-            ],
-            "logo_formatted_title": "Department for\r\nEnergy Security\r\n& Net Zero",
-            "public_timestamp": "2024-08-07T11:45:27.000+01:00",
-            "slug": "department-for-energy-security-and-net-zero"
-          }
-        ],
-        "public_timestamp": "2025-11-21T14:45:30Z",
-        "title": "Dogger Bank Creyke Beck: Non-Material Change, Planning Act 2008",
-        "world_locations": [],
-        "topical_events": [],
-        "organisation_content_ids": [
-          "6315817c-ef11-4905-bb4d-b6dca8e9052c"
-        ],
-        "expanded_organisations": [
-          {
-            "organisation_type": "ministerial_department",
-            "organisation_state": "live",
-            "acronym": "DESNZ",
-            "content_id": "6315817c-ef11-4905-bb4d-b6dca8e9052c",
-            "link": "/government/organisations/department-for-energy-security-and-net-zero",
-            "superseded_organisations": [
-              "department-for-business-energy-and-industrial-strategy"
-            ],
-            "title": "Department for Energy Security and Net Zero",
-            "analytics_identifier": "D1380",
-            "organisation_crest": "single-identity",
-            "organisation_brand": "department-for-business-innovation-skills",
-            "child_organisations": [
-              "nuclear-decommissioning-authority",
-              "offshore-petroleum-regulator-for-environment-and-decommissioning",
-              "ofgem",
-              "civil-nuclear-police-authority",
-              "the-coal-authority",
-              "committee-on-climate-change",
-              "salix-finance-ltd",
-              "committee-on-fuel-poverty",
-              "committee-on-radioactive-waste-management",
-              "great-british-nuclear",
-              "north-sea-transition-authority",
-              "uk-atomic-energy-authority",
-              "national-nuclear-laboratory",
-              "low-carbon-contracts-company",
-              "electricity-settlements-company",
-              "office-for-zero-emission-vehicles",
-              "great-british-energy",
-              "national-energy-system-operator",
-              "mining-remediation-authority",
-              "great-british-energy-nuclear"
-            ],
-            "logo_formatted_title": "Department for\r\nEnergy Security\r\n& Net Zero",
-            "public_timestamp": "2024-08-07T11:45:27.000+01:00",
-            "slug": "department-for-energy-security-and-net-zero"
-          }
-        ],
-        "index": "govuk",
-        "es_score": null,
-        "_id": "/government/publications/dogger-bank-creyke-beck-non-material-change-planning-act-2008",
-        "elasticsearch_type": "edition",
-        "document_type": "edition"
-      },
-      {
-        "description": "Upper Tribunal Administrative Appeals Chamber decision by Judge Wikeley on 1 December 2023.",
-        "format": "utaac_decision",
-        "link": "/administrative-appeals-tribunal-decisions/cortes-v-information-commissioner-2023-ukut-313-aac",
-        "organisations": [
-          {
-            "organisation_type": "executive_agency",
-            "organisation_state": "live",
-            "acronym": "HMCTS",
-            "content_id": "6f757605-ab8f-4b62-84e4-99f79cf085c2",
-            "parent_organisations": [
-              "ministry-of-justice"
-            ],
-            "link": "/government/organisations/hm-courts-and-tribunals-service",
-            "superseded_organisations": [
-              "hm-court-service"
-            ],
-            "title": "HM Courts & Tribunals Service",
-            "analytics_identifier": "EA73",
-            "organisation_crest": "single-identity",
-            "organisation_brand": "ministry-of-justice",
-            "child_organisations": [
-              "insolvency-list",
-              "first-tier-tribunal-mental-health",
-              "first-tier-tribunal-general-regulatory-chamber",
-              "first-tier-tribunal-war-pensions-and-armed-forces-compensation",
-              "first-tier-tribunal-asylum-support",
-              "first-tier-tribunal-tax",
-              "gangmasters-licensing-appeals",
-              "first-tier-tribunal-criminal-injuries-compensation",
-              "first-tier-tribunal-care-standards",
-              "employment-tribunal",
-              "employment-appeal-tribunal",
-              "senior-courts-costs-office",
-              "first-tier-tribunal-social-security-and-child-support",
-              "court-of-protection",
-              "reserve-forces-appeal-tribunal",
-              "first-tier-tribunal-property-chamber",
-              "upper-tribunal-tax-and-chancery-chamber",
-              "upper-tribunal-lands-chamber",
-              "upper-tribunal-administrative-appeals-chamber",
-              "first-tier-tribunal-immigration-and-asylum",
-              "upper-tribunal-immigration-and-asylum-chamber",
-              "first-tier-tribunal-special-educational-needs-and-disability",
-              "admiralty-court",
-              "family-division-of-the-high-court",
-              "planning-court",
-              "technology-and-construction-court",
-              "commercial-circuit-court",
-              "commercial-court",
-              "companies-list",
-              "intellectual-property-enterprise-court",
-              "court-of-appeal-civil-division",
-              "patents-court",
-              "court-of-appeal-criminal-division",
-              "kings-bench-division-of-the-high-court",
-              "administrative-court",
-              "chancery-division-of-the-high-court",
-              "the-business-and-property-courts",
-              "the-property-trusts-and-probate-list",
-              "the-intellectual-property-list",
-              "the-financial-list",
-              "the-competition-list",
-              "the-business-list",
-              "the-revenue-list",
-              "financial-remedies-court"
-            ],
-            "logo_formatted_title": "HM Courts & \r\nTribunals Service",
-            "public_timestamp": "2024-03-06T12:02:32.000+00:00",
-            "slug": "hm-courts-and-tribunals-service"
-          },
-          {
-            "organisation_type": "tribunal",
-            "organisation_state": "live",
-            "organisation_crest": "no-identity",
-            "content_id": "4c2e325a-2d95-442b-856a-e7fb9f9e3cf8",
-            "parent_organisations": [
-              "hm-courts-and-tribunals-service"
-            ],
-            "link": "/courts-tribunals/upper-tribunal-administrative-appeals-chamber",
-            "title": "Upper Tribunal (Administrative Appeals Chamber)",
-            "analytics_identifier": "PB1142",
-            "logo_formatted_title": "Upper Tribunal (Administrative Appeals Chamber)",
-            "public_timestamp": "2019-09-12T11:19:22.000+01:00",
-            "slug": "upper-tribunal-administrative-appeals-chamber"
-          }
-        ],
-        "public_timestamp": "2025-11-21T14:06:32Z",
-        "title": "Cortes v Information Commissioner: [2023] UKUT 313 (AAC)   ",
-        "topical_events": [],
-        "organisation_content_ids": [
-          "6f757605-ab8f-4b62-84e4-99f79cf085c2",
-          "4c2e325a-2d95-442b-856a-e7fb9f9e3cf8"
-        ],
-        "expanded_organisations": [
-          {
-            "organisation_type": "executive_agency",
-            "organisation_state": "live",
-            "acronym": "HMCTS",
-            "content_id": "6f757605-ab8f-4b62-84e4-99f79cf085c2",
-            "parent_organisations": [
-              "ministry-of-justice"
-            ],
-            "link": "/government/organisations/hm-courts-and-tribunals-service",
-            "superseded_organisations": [
-              "hm-court-service"
-            ],
-            "title": "HM Courts & Tribunals Service",
-            "analytics_identifier": "EA73",
-            "organisation_crest": "single-identity",
-            "organisation_brand": "ministry-of-justice",
-            "child_organisations": [
-              "insolvency-list",
-              "first-tier-tribunal-mental-health",
-              "first-tier-tribunal-general-regulatory-chamber",
-              "first-tier-tribunal-war-pensions-and-armed-forces-compensation",
-              "first-tier-tribunal-asylum-support",
-              "first-tier-tribunal-tax",
-              "gangmasters-licensing-appeals",
-              "first-tier-tribunal-criminal-injuries-compensation",
-              "first-tier-tribunal-care-standards",
-              "employment-tribunal",
-              "employment-appeal-tribunal",
-              "senior-courts-costs-office",
-              "first-tier-tribunal-social-security-and-child-support",
-              "court-of-protection",
-              "reserve-forces-appeal-tribunal",
-              "first-tier-tribunal-property-chamber",
-              "upper-tribunal-tax-and-chancery-chamber",
-              "upper-tribunal-lands-chamber",
-              "upper-tribunal-administrative-appeals-chamber",
-              "first-tier-tribunal-immigration-and-asylum",
-              "upper-tribunal-immigration-and-asylum-chamber",
-              "first-tier-tribunal-special-educational-needs-and-disability",
-              "admiralty-court",
-              "family-division-of-the-high-court",
-              "planning-court",
-              "technology-and-construction-court",
-              "commercial-circuit-court",
-              "commercial-court",
-              "companies-list",
-              "intellectual-property-enterprise-court",
-              "court-of-appeal-civil-division",
-              "patents-court",
-              "court-of-appeal-criminal-division",
-              "kings-bench-division-of-the-high-court",
-              "administrative-court",
-              "chancery-division-of-the-high-court",
-              "the-business-and-property-courts",
-              "the-property-trusts-and-probate-list",
-              "the-intellectual-property-list",
-              "the-financial-list",
-              "the-competition-list",
-              "the-business-list",
-              "the-revenue-list",
-              "financial-remedies-court"
-            ],
-            "logo_formatted_title": "HM Courts & \r\nTribunals Service",
-            "public_timestamp": "2024-03-06T12:02:32.000+00:00",
-            "slug": "hm-courts-and-tribunals-service"
-          },
-          {
-            "organisation_type": "tribunal",
-            "organisation_state": "live",
-            "organisation_crest": "no-identity",
-            "content_id": "4c2e325a-2d95-442b-856a-e7fb9f9e3cf8",
-            "parent_organisations": [
-              "hm-courts-and-tribunals-service"
-            ],
-            "link": "/courts-tribunals/upper-tribunal-administrative-appeals-chamber",
-            "title": "Upper Tribunal (Administrative Appeals Chamber)",
-            "analytics_identifier": "PB1142",
-            "logo_formatted_title": "Upper Tribunal (Administrative Appeals Chamber)",
-            "public_timestamp": "2019-09-12T11:19:22.000+01:00",
-            "slug": "upper-tribunal-administrative-appeals-chamber"
-          }
-        ],
-        "index": "govuk",
-        "es_score": null,
-        "_id": "/administrative-appeals-tribunal-decisions/cortes-v-information-commissioner-2023-ukut-313-aac",
-        "elasticsearch_type": "utaac_decision",
-        "document_type": "utaac_decision"
       }
     ],
     "policies": [
+      {
+        "description": "The government's new strategy sets the UK\u2019s long-term ambition to ensure we have the critical minerals we need to drive economic growth and the clean energy transition.",
+        "display_type": "Policy paper",
+        "format": "policy_paper",
+        "link": "/government/publications/uk-critical-minerals-strategy",
+        "organisations": [
+          {
+            "organisation_type": "ministerial_department",
+            "organisation_state": "live",
+            "acronym": "DBT",
+            "content_id": "aa750cdf-7925-429d-a2b3-0d9fa47d2c48",
+            "link": "/government/organisations/department-for-business-and-trade",
+            "superseded_organisations": [
+              "department-for-international-trade",
+              "department-for-business-energy-and-industrial-strategy"
+            ],
+            "title": "Department for Business and Trade",
+            "analytics_identifier": "D1382",
+            "organisation_crest": "dbt",
+            "organisation_brand": "department-for-business-trade",
+            "child_organisations": [
+              "groceries-code-adjudicator",
+              "office-for-product-safety-and-standards",
+              "central-arbitration-committee",
+              "trade-remedies-authority",
+              "export-control-joint-unit",
+              "office-for-investment",
+              "uk-national-contact-point",
+              "uk-defence-and-security-exports",
+              "competition-and-markets-authority",
+              "acas",
+              "british-business-bank",
+              "financial-reporting-council",
+              "insolvency-service",
+              "competition-appeal-tribunal",
+              "low-pay-commission",
+              "pubs-code-adjudicator",
+              "companies-house",
+              "regulatory-policy-committee",
+              "certification-officer",
+              "small-business-commissioner",
+              "competition-service",
+              "british-hallmarking-council",
+              "post-office",
+              "centre-for-connected-and-autonomous-vehicles",
+              "employment-agency-standards-inspectorate",
+              "office-of-the-regulator-of-community-interest-companies",
+              "office-of-manpower-economics",
+              "office-of-trade-sanctions-implementation",
+              "office-for-the-pay-review-bodies",
+              "office-for-responsible-business-conduct",
+              "labour-market-evidence-group"
+            ],
+            "logo_formatted_title": "Department for\r\nBusiness & Trade",
+            "public_timestamp": "2024-05-01T14:49:20.000+01:00",
+            "slug": "department-for-business-and-trade"
+          }
+        ],
+        "public_timestamp": "2025-11-22T22:30:02Z",
+        "title": "UK Critical Minerals Strategy",
+        "world_locations": [],
+        "topical_events": [],
+        "organisation_content_ids": [
+          "aa750cdf-7925-429d-a2b3-0d9fa47d2c48"
+        ],
+        "expanded_organisations": [
+          {
+            "organisation_type": "ministerial_department",
+            "organisation_state": "live",
+            "acronym": "DBT",
+            "content_id": "aa750cdf-7925-429d-a2b3-0d9fa47d2c48",
+            "link": "/government/organisations/department-for-business-and-trade",
+            "superseded_organisations": [
+              "department-for-international-trade",
+              "department-for-business-energy-and-industrial-strategy"
+            ],
+            "title": "Department for Business and Trade",
+            "analytics_identifier": "D1382",
+            "organisation_crest": "dbt",
+            "organisation_brand": "department-for-business-trade",
+            "child_organisations": [
+              "groceries-code-adjudicator",
+              "office-for-product-safety-and-standards",
+              "central-arbitration-committee",
+              "trade-remedies-authority",
+              "export-control-joint-unit",
+              "office-for-investment",
+              "uk-national-contact-point",
+              "uk-defence-and-security-exports",
+              "competition-and-markets-authority",
+              "acas",
+              "british-business-bank",
+              "financial-reporting-council",
+              "insolvency-service",
+              "competition-appeal-tribunal",
+              "low-pay-commission",
+              "pubs-code-adjudicator",
+              "companies-house",
+              "regulatory-policy-committee",
+              "certification-officer",
+              "small-business-commissioner",
+              "competition-service",
+              "british-hallmarking-council",
+              "post-office",
+              "centre-for-connected-and-autonomous-vehicles",
+              "employment-agency-standards-inspectorate",
+              "office-of-the-regulator-of-community-interest-companies",
+              "office-of-manpower-economics",
+              "office-of-trade-sanctions-implementation",
+              "office-for-the-pay-review-bodies",
+              "office-for-responsible-business-conduct",
+              "labour-market-evidence-group"
+            ],
+            "logo_formatted_title": "Department for\r\nBusiness & Trade",
+            "public_timestamp": "2024-05-01T14:49:20.000+01:00",
+            "slug": "department-for-business-and-trade"
+          }
+        ],
+        "index": "govuk",
+        "es_score": null,
+        "_id": "/government/publications/uk-critical-minerals-strategy",
+        "elasticsearch_type": "edition",
+        "document_type": "edition"
+      },
       {
         "description": "This policy statement sets out significant reforms to the UK\u2019s asylum and returns policy.",
         "display_type": "Policy paper",
@@ -50524,129 +50528,6 @@
         "_id": "/government/consultations/capacity-market-new-technologies-2025",
         "elasticsearch_type": "edition",
         "document_type": "edition"
-      },
-      {
-        "description": "There\u2019s a new duty on employers to inform workers of their right to join a trade union. This consultation is about how it should work in practice.",
-        "format": "open_consultation",
-        "link": "/government/consultations/make-work-pay-duty-to-inform-workers-of-right-to-join-a-union",
-        "organisations": [
-          {
-            "organisation_type": "ministerial_department",
-            "organisation_state": "live",
-            "acronym": "DBT",
-            "content_id": "aa750cdf-7925-429d-a2b3-0d9fa47d2c48",
-            "link": "/government/organisations/department-for-business-and-trade",
-            "superseded_organisations": [
-              "department-for-international-trade",
-              "department-for-business-energy-and-industrial-strategy"
-            ],
-            "title": "Department for Business and Trade",
-            "analytics_identifier": "D1382",
-            "organisation_crest": "dbt",
-            "organisation_brand": "department-for-business-trade",
-            "child_organisations": [
-              "groceries-code-adjudicator",
-              "office-for-product-safety-and-standards",
-              "central-arbitration-committee",
-              "trade-remedies-authority",
-              "export-control-joint-unit",
-              "office-for-investment",
-              "uk-national-contact-point",
-              "uk-defence-and-security-exports",
-              "competition-and-markets-authority",
-              "acas",
-              "british-business-bank",
-              "financial-reporting-council",
-              "insolvency-service",
-              "competition-appeal-tribunal",
-              "low-pay-commission",
-              "pubs-code-adjudicator",
-              "companies-house",
-              "regulatory-policy-committee",
-              "certification-officer",
-              "small-business-commissioner",
-              "competition-service",
-              "british-hallmarking-council",
-              "post-office",
-              "centre-for-connected-and-autonomous-vehicles",
-              "employment-agency-standards-inspectorate",
-              "office-of-the-regulator-of-community-interest-companies",
-              "office-of-manpower-economics",
-              "office-of-trade-sanctions-implementation",
-              "office-for-the-pay-review-bodies",
-              "office-for-responsible-business-conduct",
-              "labour-market-evidence-group"
-            ],
-            "logo_formatted_title": "Department for\r\nBusiness & Trade",
-            "public_timestamp": "2024-05-01T14:49:20.000+01:00",
-            "slug": "department-for-business-and-trade"
-          }
-        ],
-        "public_timestamp": "2025-11-21T09:30:05Z",
-        "title": "Make Work Pay: duty to inform workers of right to join a union",
-        "world_locations": [],
-        "topical_events": [],
-        "organisation_content_ids": [
-          "aa750cdf-7925-429d-a2b3-0d9fa47d2c48"
-        ],
-        "expanded_organisations": [
-          {
-            "organisation_type": "ministerial_department",
-            "organisation_state": "live",
-            "acronym": "DBT",
-            "content_id": "aa750cdf-7925-429d-a2b3-0d9fa47d2c48",
-            "link": "/government/organisations/department-for-business-and-trade",
-            "superseded_organisations": [
-              "department-for-international-trade",
-              "department-for-business-energy-and-industrial-strategy"
-            ],
-            "title": "Department for Business and Trade",
-            "analytics_identifier": "D1382",
-            "organisation_crest": "dbt",
-            "organisation_brand": "department-for-business-trade",
-            "child_organisations": [
-              "groceries-code-adjudicator",
-              "office-for-product-safety-and-standards",
-              "central-arbitration-committee",
-              "trade-remedies-authority",
-              "export-control-joint-unit",
-              "office-for-investment",
-              "uk-national-contact-point",
-              "uk-defence-and-security-exports",
-              "competition-and-markets-authority",
-              "acas",
-              "british-business-bank",
-              "financial-reporting-council",
-              "insolvency-service",
-              "competition-appeal-tribunal",
-              "low-pay-commission",
-              "pubs-code-adjudicator",
-              "companies-house",
-              "regulatory-policy-committee",
-              "certification-officer",
-              "small-business-commissioner",
-              "competition-service",
-              "british-hallmarking-council",
-              "post-office",
-              "centre-for-connected-and-autonomous-vehicles",
-              "employment-agency-standards-inspectorate",
-              "office-of-the-regulator-of-community-interest-companies",
-              "office-of-manpower-economics",
-              "office-of-trade-sanctions-implementation",
-              "office-for-the-pay-review-bodies",
-              "office-for-responsible-business-conduct",
-              "labour-market-evidence-group"
-            ],
-            "logo_formatted_title": "Department for\r\nBusiness & Trade",
-            "public_timestamp": "2024-05-01T14:49:20.000+01:00",
-            "slug": "department-for-business-and-trade"
-          }
-        ],
-        "index": "govuk",
-        "es_score": null,
-        "_id": "/government/consultations/make-work-pay-duty-to-inform-workers-of-right-to-join-a-union",
-        "elasticsearch_type": "edition",
-        "document_type": "edition"
       }
     ],
     "statistics": [
@@ -51469,6 +51350,21 @@
   "news": {
     "bbc_politics": [
       {
+        "title": "<![CDATA[Rail fares to be frozen in England next year ]]>",
+        "link": "https://www.bbc.com/news/articles/cwygx71g3n7o?at_medium=RSS&amp;at_campaign=rss",
+        "date": "Sat, 22 Nov 2025 22:32:36 GMT"
+      },
+      {
+        "title": "<![CDATA[Fear and scepticism as Reeves prepares for her big Budget moment]]>",
+        "link": "https://www.bbc.com/news/articles/cyv8vglv9r5o?at_medium=RSS&amp;at_campaign=rss",
+        "date": "Sat, 22 Nov 2025 12:54:23 GMT"
+      },
+      {
+        "title": "<![CDATA[EV grant scheme boost worth \u00a31.3bn expected in Budget]]>",
+        "link": "https://www.bbc.com/news/articles/c39pk873wlwo?at_medium=RSS&amp;at_campaign=rss",
+        "date": "Sat, 22 Nov 2025 22:38:33 GMT"
+      },
+      {
         "title": "<![CDATA[Judge me at next election, Starmer tells doubters]]>",
         "link": "https://www.bbc.com/news/articles/cwyp4gvn1v4o?at_medium=RSS&amp;at_campaign=rss",
         "date": "Fri, 21 Nov 2025 18:00:21 GMT"
@@ -51479,16 +51375,6 @@
         "date": "Fri, 21 Nov 2025 21:53:17 GMT"
       },
       {
-        "title": "<![CDATA[Former Welsh Reform leader jailed for pro-Russia bribery]]>",
-        "link": "https://www.bbc.com/news/articles/c5yd878ejqko?at_medium=RSS&amp;at_campaign=rss",
-        "date": "Fri, 21 Nov 2025 18:25:59 GMT"
-      },
-      {
-        "title": "<![CDATA[Starmer and Zelensky discuss US peace plan for Ukraine]]>",
-        "link": "https://www.bbc.com/news/articles/cp9kry2vvrro?at_medium=RSS&amp;at_campaign=rss",
-        "date": "Fri, 21 Nov 2025 15:24:05 GMT"
-      },
-      {
         "title": "<![CDATA[UK expected to approve plans for Chinese mega embassy]]>",
         "link": "https://www.bbc.com/news/articles/cgexdjp0qj8o?at_medium=RSS&amp;at_campaign=rss",
         "date": "Fri, 21 Nov 2025 15:09:34 GMT"
@@ -51497,6 +51383,16 @@
         "title": "<![CDATA[Second MP quits new left-wing Your Party group]]>",
         "link": "https://www.bbc.com/news/articles/cdd57e924meo?at_medium=RSS&amp;at_campaign=rss",
         "date": "Fri, 21 Nov 2025 16:51:28 GMT"
+      },
+      {
+        "title": "<![CDATA[Starmer and Zelensky discuss US peace plan for Ukraine]]>",
+        "link": "https://www.bbc.com/news/articles/cp9kry2vvrro?at_medium=RSS&amp;at_campaign=rss",
+        "date": "Fri, 21 Nov 2025 15:24:05 GMT"
+      },
+      {
+        "title": "<![CDATA[Former Welsh Reform leader jailed for pro-Russia bribery]]>",
+        "link": "https://www.bbc.com/news/articles/c5yd878ejqko?at_medium=RSS&amp;at_campaign=rss",
+        "date": "Fri, 21 Nov 2025 18:25:59 GMT"
       },
       {
         "title": "<![CDATA[Gove apologises after Covid report alleges 'toxic' culture]]>",
@@ -51527,28 +51423,28 @@
         "title": "<![CDATA[Trump yet to speak to Starmer over BBC row]]>",
         "link": "https://www.bbc.com/news/articles/crl9rn9d63xo?at_medium=RSS&amp;at_campaign=rss",
         "date": "Fri, 21 Nov 2025 10:07:19 GMT"
-      },
-      {
-        "title": "<![CDATA[Starmer labels Farage 'spineless' over handling of racism claims]]>",
-        "link": "https://www.bbc.com/news/articles/cvgkgyr4515o?at_medium=RSS&amp;at_campaign=rss",
-        "date": "Fri, 21 Nov 2025 10:35:06 GMT"
-      },
-      {
-        "title": "<![CDATA[Some migrants to face 20 year wait for settled status]]>",
-        "link": "https://www.bbc.com/news/articles/c3w9wlney23o?at_medium=RSS&amp;at_campaign=rss",
-        "date": "Thu, 20 Nov 2025 17:36:36 GMT"
-      },
-      {
-        "title": "<![CDATA[Trans people could be barred from services based on appearance]]>",
-        "link": "https://www.bbc.com/news/articles/cy0y07959djo?at_medium=RSS&amp;at_campaign=rss",
-        "date": "Fri, 21 Nov 2025 10:44:53 GMT"
       }
     ],
     "bbc_uk": [
       {
+        "title": "<![CDATA[Rail fares to be frozen in England next year ]]>",
+        "link": "https://www.bbc.com/news/articles/cwygx71g3n7o?at_medium=RSS&amp;at_campaign=rss",
+        "date": "Sat, 22 Nov 2025 22:32:36 GMT"
+      },
+      {
         "title": "<![CDATA[Girl, 13, arrested on suspicion of murdering woman]]>",
         "link": "https://www.bbc.com/news/articles/c4g4vdrev2eo?at_medium=RSS&amp;at_campaign=rss",
         "date": "Sat, 22 Nov 2025 14:59:30 GMT"
+      },
+      {
+        "title": "<![CDATA[Titanic passenger's watch sells for record \u00a31.78m at auction]]>",
+        "link": "https://www.bbc.com/news/articles/c70930781r8o?at_medium=RSS&amp;at_campaign=rss",
+        "date": "Sat, 22 Nov 2025 22:36:49 GMT"
+      },
+      {
+        "title": "<![CDATA[EV grant scheme boost worth \u00a31.3bn expected in Budget]]>",
+        "link": "https://www.bbc.com/news/articles/c39pk873wlwo?at_medium=RSS&amp;at_campaign=rss",
+        "date": "Sat, 22 Nov 2025 22:38:33 GMT"
       },
       {
         "title": "<![CDATA[Daily Mail publisher agrees to buy Daily Telegraph for \u00a3500m]]>",
@@ -51561,19 +51457,14 @@
         "date": "Sat, 22 Nov 2025 19:40:15 GMT"
       },
       {
-        "title": "<![CDATA[Fraud victims 'are being failed' by justice system]]>",
-        "link": "https://www.bbc.com/news/articles/cy404wpvkq3o?at_medium=RSS&amp;at_campaign=rss",
-        "date": "Sat, 22 Nov 2025 03:23:50 GMT"
+        "title": "<![CDATA[La Voix drops out of Strictly after injury]]>",
+        "link": "https://www.bbc.com/news/articles/ce86183xwxko?at_medium=RSS&amp;at_campaign=rss",
+        "date": "Sat, 22 Nov 2025 21:48:56 GMT"
       },
       {
         "title": "<![CDATA[Castle wall 'ripped down' for use as stepping stones in puddle]]>",
         "link": "https://www.bbc.com/news/articles/c30j3ndg9glo?at_medium=RSS&amp;at_campaign=rss",
         "date": "Sat, 22 Nov 2025 18:35:52 GMT"
-      },
-      {
-        "title": "<![CDATA[La Voix drops out of Strictly after injury]]>",
-        "link": "https://www.bbc.com/news/articles/ce86183xwxko?at_medium=RSS&amp;at_campaign=rss",
-        "date": "Sat, 22 Nov 2025 21:48:56 GMT"
       },
       {
         "title": "<![CDATA[Scotland cannot rely on migrants to fill social care jobs - Sarwar]]>",
@@ -51591,37 +51482,37 @@
         "date": "Sat, 22 Nov 2025 14:55:03 GMT"
       },
       {
-        "title": "<![CDATA[BBC board member resigns and criticises 'governance issues' at top of corporation]]>",
-        "link": "https://www.bbc.com/news/articles/cly5n8x1vedo?at_medium=RSS&amp;at_campaign=rss",
-        "date": "Fri, 21 Nov 2025 18:09:18 GMT"
-      },
-      {
         "title": "<![CDATA[New puberty blockers trial to begin after UK ban]]>",
         "link": "https://www.bbc.com/news/articles/c2k4jg0wkj4o?at_medium=RSS&amp;at_campaign=rss",
         "date": "Sat, 22 Nov 2025 11:38:27 GMT"
       },
       {
-        "title": "<![CDATA[Tenants left with no loo for 58 days win rent back]]>",
-        "link": "https://www.bbc.com/news/articles/cddr111gp05o?at_medium=RSS&amp;at_campaign=rss",
-        "date": "Sat, 22 Nov 2025 08:01:38 GMT"
+        "title": "<![CDATA[Watch the moment Nathan Gill is sentenced]]>",
+        "link": "https://www.bbc.com/news/videos/c246p7ep180o?at_medium=RSS&amp;at_campaign=rss",
+        "date": "Fri, 21 Nov 2025 13:29:54 GMT"
       },
       {
-        "title": "<![CDATA[Murder arrest after man dies at student flats]]>",
-        "link": "https://www.bbc.com/news/articles/c5y98x6p4elo?at_medium=RSS&amp;at_campaign=rss",
-        "date": "Sat, 22 Nov 2025 11:37:20 GMT"
+        "title": "<![CDATA[Pope Leo impresses crowd with 'great catch']]>",
+        "link": "https://www.bbc.com/news/videos/c4g9zx2jnn5o?at_medium=RSS&amp;at_campaign=rss",
+        "date": "Fri, 21 Nov 2025 13:45:22 GMT"
       },
       {
-        "title": "<![CDATA[Child rape suspect to face extradition hearing]]>",
-        "link": "https://www.bbc.com/news/articles/c2084y4j77po?at_medium=RSS&amp;at_campaign=rss",
-        "date": "Sat, 22 Nov 2025 11:20:52 GMT"
-      },
-      {
-        "title": "<![CDATA[Scotland fans shook the earth in win over Denmark]]>",
-        "link": "https://www.bbc.com/news/articles/ckgd2nywde4o?at_medium=RSS&amp;at_campaign=rss",
-        "date": "Sat, 22 Nov 2025 08:19:19 GMT"
+        "title": "<![CDATA['I don't know what the future holds': Burnham refuses to rule out Starmer challenge]]>",
+        "link": "https://www.bbc.com/news/videos/cj414qprxkvo?at_medium=RSS&amp;at_campaign=rss",
+        "date": "Thu, 20 Nov 2025 10:59:07 GMT"
       }
     ],
     "guardian_politics": [
+      {
+        "title": "Four top Labour figures could beat Starmer in a leadership race, poll finds",
+        "link": "https://www.theguardian.com/uk-news/2025/nov/22/four-top-labour-figures-could-beat-starmer-in-a-leadership-race-poll-finds",
+        "date": "Sat, 22 Nov 2025 22:30:52 GMT"
+      },
+      {
+        "title": "Relief for rail passengers as fare freeze in England announced for 2026",
+        "link": "https://www.theguardian.com/money/2025/nov/22/rail-passengers-freeze-fares-england-2026-budget",
+        "date": "Sat, 22 Nov 2025 22:30:51 GMT"
+      },
       {
         "title": "Reeves to announce \u00a31.5bn boost in EV subsidies amid pay-per-mile concerns",
         "link": "https://www.theguardian.com/uk-news/2025/nov/22/reeves-ev-subsidies-chargers-budget-boost-pay-per-mile-tax",
@@ -51646,16 +51537,6 @@
         "title": "Voters could abandon centrist parties if budget fails, warns former cabinet secretary",
         "link": "https://www.theguardian.com/uk-news/2025/nov/21/budget-2025-centrists-uk-economy-civil-service-warning",
         "date": "Fri, 21 Nov 2025 22:30:21 GMT"
-      },
-      {
-        "title": "Iqbal Mohamed becomes second MP to quit Your Party",
-        "link": "https://www.theguardian.com/politics/2025/nov/21/iqbal-mohamed-second-mp-quit-your-party-jeremy-corbyn",
-        "date": "Fri, 21 Nov 2025 18:56:57 GMT"
-      },
-      {
-        "title": "Nigel Farage urged to root out Reform links to Russia after jailing of Nathan Gill",
-        "link": "https://www.theguardian.com/politics/2025/nov/21/nigel-farage-urged-to-root-out-reform-links-to-russia-after-jailing-of-nathan-gill",
-        "date": "Fri, 21 Nov 2025 18:15:08 GMT"
       },
       {
         "title": "The \u2018Danish model\u2019 is the darling of centre-left parties like Labour. The problem is, it doesn\u2019t even work in Denmark | Cas Mudde",
@@ -53284,7 +53165,7 @@
       "source": "Met Office"
     }
   },
-  "analysis": "Here's an analysis of the provided UK democracy data:\n\nParliament is currently active with 20 bills under consideration and 20 recent votes, with key legislation focusing on road safety, business rates, and abortion. News headlines highlight political tensions surrounding assisted dying legislation and controversies involving former political figures, including a pro-Russia scandal. The government is prioritizing international relations, evidenced by discussions with Ukrainian and Indonesian leaders, as well as addressing immigration issues by expanding visa fraud campaigns in India. These activities could impact public discourse on sensitive social issues, influence international perceptions of the UK, and affect immigration policies. Human review recommended.\n",
+  "analysis": "Here's a brief analysis of the provided UK democracy data:\n\nParliament is currently processing 20 active bills and has recently conducted 20 votes, with key legislation including the A34 Slip Road Safety bill, a bill focusing on abolishing business rates, and an Abortion Bill. Recent news headlines highlight economic concerns such as rail fares, upcoming budget expectations, and skepticism surrounding financial policies, along with political positioning and debates on sensitive topics like assisted dying. The government is emphasizing cost-of-living relief measures like freezing rail fares, promoting growth through international collaboration (G summit), and aiming to reduce reliance on imported goods. These actions and debates can impact citizens through transportation costs, social policies, and the national economy. Human review recommended.\n",
   "stats": {
     "total_bills": 20,
     "total_votes": 30,
@@ -53299,5 +53180,5 @@
     "total_weather_warnings": 5,
     "total_econ_datasets": 10
   },
-  "sha_hash": "d2db0cf5a8a90f71357797295ab04ade"
+  "sha_hash": "9a5f9404dffe6ce62594191475e680fb"
 }
